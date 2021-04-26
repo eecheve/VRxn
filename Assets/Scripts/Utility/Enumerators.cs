@@ -131,4 +131,10 @@ public class Enumerators
         y,
         z,
     }
+
+    public enum ControllerRef
+    {
+        right,
+        left,
+    }
 }
