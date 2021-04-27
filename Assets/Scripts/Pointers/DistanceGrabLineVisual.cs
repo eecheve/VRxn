@@ -5,50 +5,59 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
 
-[RequireComponent(typeof(XRInteractorLineVisual))]
+[RequireComponent(typeof(LineRenderer))]
 public class DistanceGrabLineVisual : MonoBehaviour
 {
+    [SerializeField] private ActionBasedSnapTurnProvider snapTurnProvider = null;
     [SerializeField] private Gradient grabAllowedGradient = null;
     [SerializeField] private Gradient grabbedGradient = null;
     [SerializeField] private LayerMask grabLayerMask = 0;
     [SerializeField] private InputActionReference triggerAction = null;
     [SerializeField] private InputActionReference dGrabAction = null;
 
-    private XRInteractorLineVisual lineVisual;
-    private Gradient initialGradient;
-
+    private LineRenderer lineRenderer;
     private bool raycastDetected = false;
     private bool distanceGrabbed = false;
 
     private void Awake()
     {
-        lineVisual = GetComponent<XRInteractorLineVisual>();
-        initialGradient = lineVisual.invalidColorGradient;
+        lineRenderer = GetComponent<LineRenderer>();
+        lineRenderer.colorGradient = grabAllowedGradient;
+        lineRenderer.enabled = false;
     }
 
-    /*private void OnEnable()
+    private void OnEnable()
     {
-        dGrabAction.action.performed += UpdateTransformFromInput;
+        //dGrabAction.action.performed += UpdateTransformFromInput;
         triggerAction.action.performed += DistanceGrab;
-    }*/
+    }
 
     private void DistanceGrab(InputAction.CallbackContext obj)
     {
         if (raycastDetected == true && obj.ReadValue<float>() > 0)
         {
             Debug.Log("DistanceGrabbedLineVisual: trigger held");
+            if (snapTurnProvider.enabled == true)
+                snapTurnProvider.enabled = false;
             
             if(obj.ReadValue<float>() > 0.5f && distanceGrabbed == false)
             {
                 Debug.Log("DistanceGrabbedLineVisual: should change visual color");
+                if(lineRenderer.colorGradient != grabbedGradient)
+                    lineRenderer.colorGradient = grabbedGradient;
+
                 distanceGrabbed = true;
-                lineVisual.invalidColorGradient = grabbedGradient;
             }
             else if(obj.ReadValue<float>() < 0.1f && distanceGrabbed == true)
             {
                 Debug.Log("DistanceGrabbedLineVisual: should revert to original color");
+                if (lineRenderer.colorGradient != grabAllowedGradient)
+                    lineRenderer.colorGradient = grabAllowedGradient;
+
+                if (snapTurnProvider.enabled == false)
+                    snapTurnProvider.enabled = true;
+
                 distanceGrabbed = false;
-                lineVisual.invalidColorGradient = grabAllowedGradient;
             }
         }
     }
@@ -74,25 +83,38 @@ public class DistanceGrabLineVisual : MonoBehaviour
             Vector3 refVector = hit.transform.position - transform.position;
             float sqrMagnitude = refVector.sqrMagnitude;
 
-            if(lineVisual.invalidColorGradient != grabAllowedGradient && sqrMagnitude > 1.0f)
+            if (sqrMagnitude > 1.0f)
             {
-                lineVisual.invalidColorGradient = grabAllowedGradient;
+                if (lineRenderer.enabled == false)
+                {
+                    lineRenderer.enabled = true;
+                }
+
                 raycastDetected = true;
+                lineRenderer.SetPosition(0, transform.position);
+                lineRenderer.SetPosition(1, hit.transform.position);
+            }
+            else
+            {
+                if (lineRenderer.enabled == true)
+                {
+                    lineRenderer.enabled = false;
+                }
             }
         }
         else
         {
-            if (lineVisual.invalidColorGradient != initialGradient)
+            if (lineRenderer.enabled == true)
             {
-                lineVisual.invalidColorGradient = initialGradient;
+                lineRenderer.enabled = false;
                 raycastDetected = false;
             }
         }
     }
 
-    /*private void OnDisable()
+    private void OnDisable()
     {
-        dGrabAction.action.performed -= UpdateTransformFromInput;
+        //dGrabAction.action.performed -= UpdateTransformFromInput;
         triggerAction.action.performed -= DistanceGrab;
-    }*/
+    }
 }
