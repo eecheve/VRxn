@@ -7,17 +7,26 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 [RequireComponent(typeof(LineRenderer))]
 public class DistanceGrabLineVisual : MonoBehaviour
-{
-    [SerializeField] private ActionBasedSnapTurnProvider snapTurnProvider = null;
+{ 
+    [Header("Player Attributes")]
+    [SerializeField] private DataManager dataManager = null;
+    [SerializeField] private float attractionSpeed = 2.0f;
+
+    [Header("Color Attributes")]
+    [SerializeField] private Material outlinedMat = null;
     [SerializeField] private Gradient grabAllowedGradient = null;
     [SerializeField] private Gradient grabbedGradient = null;
+
+    [Header("Action Attributes")]
     [SerializeField] private LayerMask grabLayerMask = 0;
     [SerializeField] private InputActionReference triggerAction = null;
     [SerializeField] private InputActionReference dGrabAction = null;
 
     private LineRenderer lineRenderer;
+    private RaycastHit hit;
     private bool raycastDetected = false;
     private bool distanceGrabbed = false;
+    
 
     private void Awake()
     {
@@ -28,45 +37,65 @@ public class DistanceGrabLineVisual : MonoBehaviour
 
     private void OnEnable()
     {
-        //dGrabAction.action.performed += UpdateTransformFromInput;
         triggerAction.action.performed += DistanceGrab;
+        dGrabAction.action.performed += UpdateTransformFromInput;
     }
 
     private void DistanceGrab(InputAction.CallbackContext obj)
     {
         if (raycastDetected == true && obj.ReadValue<float>() > 0)
-        {
-            Debug.Log("DistanceGrabbedLineVisual: trigger held");
-            if (snapTurnProvider.enabled == true)
-                snapTurnProvider.enabled = false;
-            
-            if(obj.ReadValue<float>() > 0.5f && distanceGrabbed == false)
+        {           
+            if(obj.ReadValue<float>() > 0.6f)
             {
-                Debug.Log("DistanceGrabbedLineVisual: should change visual color");
-                if(lineRenderer.colorGradient != grabbedGradient)
+                if (lineRenderer.colorGradient != grabbedGradient)
+                {
                     lineRenderer.colorGradient = grabbedGradient;
-
-                distanceGrabbed = true;
+                    hit.collider.gameObject.GetComponent<MeshRenderer>().material = outlinedMat;
+                    distanceGrabbed = true;
+                }
             }
-            else if(obj.ReadValue<float>() < 0.1f && distanceGrabbed == true)
+            else
             {
-                Debug.Log("DistanceGrabbedLineVisual: should revert to original color");
                 if (lineRenderer.colorGradient != grabAllowedGradient)
+                {
                     lineRenderer.colorGradient = grabAllowedGradient;
 
-                if (snapTurnProvider.enabled == false)
-                    snapTurnProvider.enabled = true;
+                    string objName = hit.collider.gameObject.name;
+                    string elem = objName.RemoveDigits();
+                    elem = elem.RemoveSpecialChars();
 
-                distanceGrabbed = false;
+                    foreach (var entry in dataManager.MaterialsDict)
+                    {
+                        if (elem.Equals(entry.Key))
+                        {
+                            Debug.Log("DistanceGrabLineVisual_DistanceGrab: found material with same name");
+                            hit.collider.gameObject.GetComponent<MeshRenderer>().material = entry.Value;
+                            break;
+                        }
+                    }
+                    distanceGrabbed = false;
+                }
             }
         }
     }
 
     private void UpdateTransformFromInput(InputAction.CallbackContext obj)
     {
-        if(raycastDetected == true)
+        if(raycastDetected == true && distanceGrabbed == true)
         {
-            Debug.Log(obj.ReadValue<Vector2>().y.ToString());
+            GameObject objectHit = hit.collider.gameObject;
+
+            if(objectHit != null)
+            {
+                Vector2 input = obj.ReadValue<Vector2>();
+                if(input.y < -0.8f)
+                {
+                    objectHit.transform.position -= (transform.forward * attractionSpeed * Time.deltaTime);
+                }
+            }
+            
+            string yValue = obj.ReadValue<Vector2>().y.ToString();
+            Debug.Log("DistanceGrabLineVisual_DistanceGrab: yValue is " + yValue);
         }
     }
 
@@ -78,7 +107,7 @@ public class DistanceGrabLineVisual : MonoBehaviour
     private void ManageColorLine()
     {
         Ray ray = new Ray(transform.position, transform.forward);
-        if(Physics.Raycast(ray, out RaycastHit hit, 100f, grabLayerMask))
+        if(Physics.Raycast(ray, out hit, 100f, grabLayerMask))
         {
             Vector3 refVector = hit.transform.position - transform.position;
             float sqrMagnitude = refVector.sqrMagnitude;
@@ -99,6 +128,7 @@ public class DistanceGrabLineVisual : MonoBehaviour
                 if (lineRenderer.enabled == true)
                 {
                     lineRenderer.enabled = false;
+                    raycastDetected = false;
                 }
             }
         }
@@ -114,7 +144,7 @@ public class DistanceGrabLineVisual : MonoBehaviour
 
     private void OnDisable()
     {
-        //dGrabAction.action.performed -= UpdateTransformFromInput;
         triggerAction.action.performed -= DistanceGrab;
+        dGrabAction.action.performed -= UpdateTransformFromInput;
     }
 }
