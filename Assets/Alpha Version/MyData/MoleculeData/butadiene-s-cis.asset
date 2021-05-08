@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488ceea979a1ae7479393339bccc49e5, type: 3}
+  m_Name: butadiene-s-cis
+  m_EditorClassIdentifier: 
+  moleculeName: butadiene-s-cis
+  moleculeSprite: {fileID: 21300000, guid: 243841566b26d85439fb9504ee8b6479, type: 3}
+  rotatable: 1
+  rotationBarrier:
+  - 6.36
+  - 0.79
+  orbitalEnergies:
+  - orbital: 3
+    energy: 0.14
+  - orbital: 2
+    energy: -7.21
+  orbitalCoeffs:
+  - orbital: 4
+    coefficients:
+    - 0.371
+    - -0.6
+    - 0.6
+    - -0.371
+  - orbital: 3
+    coefficients:
+    - 0.6
+    - -0.371
+    - -0.371
+    - 0.6
+  - orbital: 2
+    coefficients:
+    - 0.6
+    - 0.371
+    - -0.371
+    - -0.6
+  - orbital: 1
+    coefficients:
+    - 0.371
+    - 0.6
+    - 0.6
+    - 0.371
+  orbitalDepictions:
+  - orbital: 4
+    image: {fileID: 21300000, guid: 8686c1d5e216c7a478d037a9535310cc, type: 3}
+  - orbital: 3
+    image: {fileID: 21300000, guid: 6550cec0838e6924dbb1ec5a85d6ed80, type: 3}
+  - orbital: 2
+    image: {fileID: 21300000, guid: 69ba5b3a60c9fad43bb2b599f0b98a09, type: 3}
+  - orbital: 1
+    image: {fileID: 21300000, guid: 2055003b528f5034183489d2a397b2a9, type: 3}

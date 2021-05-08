@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286009d635a3ce442a4e150086990e9a, type: 3}
+  m_Name: Question5
+  m_EditorClassIdentifier: 
+  goal: 0
+  title: Question 5
+  description: 'The following hexagonal prism has two edges with different colors.
+    Among the following options, which transition state approach can be mapped onto
+    the hexagonal prism without any rotations so that the highlighted bonds are on
+    top of the colored edges?
+
+'
+  prompt: {fileID: 21300000, guid: bab550b69a19f714292bff6eff28a5b8, type: 3}
+  options:
+  - feedback: Incorrect.
+    sprite: {fileID: 21300000, guid: 01ddf1179dcfce243a062612045c37b4, type: 3}
+    isCorrect: 0
+  - feedback: Incorrect
+    sprite: {fileID: 21300000, guid: c13fd09725ec985468a88f58690d0e0c, type: 3}
+    isCorrect: 0
+  - feedback: Correct!
+    sprite: {fileID: 21300000, guid: af7618276cf1cb443ae226877615182d, type: 3}
+    isCorrect: 1
+  - feedback: Incorrect
+    sprite: {fileID: 21300000, guid: 0267070a1f252ca4b8796188bf920967, type: 3}
+    isCorrect: 0

@@ -1,0 +1,1186 @@
+fileFormatVersion: 2
+guid: 6eebe1823a9561140a7b3e6ad11ace92
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -495566822512924967
+    second: EE-hexatriene-ethene-spritesheet_0
+  - first:
+      213: -7649288716564866581
+    second: EE-hexatriene-ethene-spritesheet_1
+  - first:
+      213: 703756942396697727
+    second: EE-hexatriene-ethene-spritesheet_2
+  - first:
+      213: -6177545182858088608
+    second: EE-hexatriene-ethene-spritesheet_3
+  - first:
+      213: -2290418933473192583
+    second: EE-hexatriene-ethene-spritesheet_4
+  - first:
+      213: 8551945922460781318
+    second: EE-hexatriene-ethene-spritesheet_5
+  - first:
+      213: -3292307815443312501
+    second: EE-hexatriene-ethene-spritesheet_6
+  - first:
+      213: 3471878797240592577
+    second: EE-hexatriene-ethene-spritesheet_7
+  - first:
+      213: -8714685396596945476
+    second: EE-hexatriene-ethene-spritesheet_8
+  - first:
+      213: -2531416942752736798
+    second: EE-hexatriene-ethene-spritesheet_9
+  - first:
+      213: 500473923209760490
+    second: EE-hexatriene-ethene-spritesheet_10
+  - first:
+      213: 1796986002680158830
+    second: EE-hexatriene-ethene-spritesheet_11
+  - first:
+      213: -64658119259372281
+    second: EE-hexatriene-ethene-spritesheet_12
+  - first:
+      213: -7080025464372318658
+    second: EE-hexatriene-ethene-spritesheet_13
+  - first:
+      213: 2341545570815226627
+    second: EE-hexatriene-ethene-spritesheet_14
+  - first:
+      213: -2201719045029555250
+    second: EE-hexatriene-ethene-spritesheet_15
+  - first:
+      213: 7103024240290404055
+    second: EE-hexatriene-ethene-spritesheet_16
+  - first:
+      213: 7862489593730818990
+    second: EE-hexatriene-ethene-spritesheet_17
+  - first:
+      213: 4870243152042044154
+    second: EE-hexatriene-ethene-spritesheet_18
+  - first:
+      213: -760896643183472335
+    second: EE-hexatriene-ethene-spritesheet_19
+  - first:
+      213: 4489402653720436830
+    second: EE-hexatriene-ethene-spritesheet_20
+  - first:
+      213: -7402080299225711709
+    second: EE-hexatriene-ethene-spritesheet_21
+  - first:
+      213: -6916580848345618353
+    second: EE-hexatriene-ethene-spritesheet_22
+  - first:
+      213: 6484177609563691057
+    second: EE-hexatriene-ethene-spritesheet_23
+  - first:
+      213: 2516385602914366475
+    second: EE-hexatriene-ethene-spritesheet_24
+  - first:
+      213: -8706274376559803780
+    second: EE-hexatriene-ethene-spritesheet_25
+  - first:
+      213: 3304022694560425944
+    second: EE-hexatriene-ethene-spritesheet_26
+  - first:
+      213: 4418877740076965966
+    second: EE-hexatriene-ethene-spritesheet_27
+  - first:
+      213: 7247230662168804195
+    second: EE-hexatriene-ethene-spritesheet_28
+  - first:
+      213: 7325875551230540395
+    second: EE-hexatriene-ethene-spritesheet_29
+  - first:
+      213: 8864059053349897877
+    second: EE-hexatriene-ethene-spritesheet_30
+  - first:
+      213: -6557802984713247676
+    second: EE-hexatriene-ethene-spritesheet_31
+  - first:
+      213: -7807272372110045586
+    second: EE-hexatriene-ethene-spritesheet_32
+  - first:
+      213: 8906628523028494525
+    second: EE-hexatriene-ethene-spritesheet_33
+  - first:
+      213: 8629320512856034118
+    second: EE-hexatriene-ethene-spritesheet_34
+  - first:
+      213: 3222016295471346753
+    second: EE-hexatriene-ethene-spritesheet_35
+  - first:
+      213: -3154636138779335030
+    second: EE-hexatriene-ethene-spritesheet_36
+  - first:
+      213: 76390389666793567
+    second: EE-hexatriene-ethene-spritesheet_37
+  - first:
+      213: -3721218082084232419
+    second: EE-hexatriene-ethene-spritesheet_38
+  - first:
+      213: 77365669992764057
+    second: EE-hexatriene-ethene-spritesheet_39
+  - first:
+      213: 4818178323456960762
+    second: EE-hexatriene-ethene-spritesheet_40
+  - first:
+      213: 395887791798713735
+    second: EE-hexatriene-ethene-spritesheet_41
+  - first:
+      213: -7558200494026531515
+    second: EE-hexatriene-ethene-spritesheet_42
+  - first:
+      213: 2069132211957863921
+    second: EE-hexatriene-ethene-spritesheet_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5790
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6e5adb9946f19f0800000000000000
+      internalID: -495566822512924967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 5790
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be95fb0a07448d590800000000000000
+      internalID: -7649288716564866581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 5790
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c25cfd53f34c900800000000000000
+      internalID: 703756942396697727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 5790
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f61dfd263f44aa0800000000000000
+      internalID: -6177545182858088608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 5790
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975508b7d1cc630e0800000000000000
+      internalID: -2290418933473192583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 5790
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b00ae918d9ea670800000000000000
+      internalID: 8551945922460781318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 7692
+        y: 5790
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8052493c7f5f42d0800000000000000
+      internalID: -3292307815443312501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4825
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c86cbc0f579e2030800000000000000
+      internalID: 3471878797240592577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 4825
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd0e8eddc73f0780800000000000000
+      internalID: -8714685396596945476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 4825
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e951dcd3b99edcd0800000000000000
+      internalID: -2531416942752736798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 4825
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee834ca16a02f600800000000000000
+      internalID: 500473923209760490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 4825
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a9914af3d20f810800000000000000
+      internalID: 1796986002680158830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 4825
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70543b978c94a1ff0800000000000000
+      internalID: -64658119259372281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 7692
+        y: 4825
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e2e5b0a52bebd90800000000000000
+      internalID: -7080025464372318658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3860
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303b4d56a47de7020800000000000000
+      internalID: 2341545570815226627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 3860
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec31dc9913ce171e0800000000000000
+      internalID: -2201719045029555250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 3860
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d69f71c9e2039260800000000000000
+      internalID: 7103024240290404055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 3860
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3e784d0ac2d1d60800000000000000
+      internalID: 7862489593730818990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 3860
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaae37d754969340800000000000000
+      internalID: 4870243152042044154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 3860
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1311340d880c075f0800000000000000
+      internalID: -760896643183472335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 7692
+        y: 3860
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50e3bc7def8d4e30800000000000000
+      internalID: 4489402653720436830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2895
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abfbbd8f27864990800000000000000
+      internalID: -7402080299225711709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 2895
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48e6123d5e5300a0800000000000000
+      internalID: -6916580848345618353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 2895
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138d5966e2d6cf950800000000000000
+      internalID: 6484177609563691057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 2895
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b043e9b9f5ffbe220800000000000000
+      internalID: 2516385602914366475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 2895
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72411415991d2780800000000000000
+      internalID: -8706274376559803780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 2895
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d76a1f922f3add20800000000000000
+      internalID: 3304022694560425944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 7692
+        y: 2895
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e402b2374e1035d30800000000000000
+      internalID: 4418877740076965966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1930
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bf3e7c3e5539460800000000000000
+      internalID: 7247230662168804195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1930
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ab0dbeffcbaa560800000000000000
+      internalID: 7325875551230540395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 1930
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5968107ceb6730b70800000000000000
+      internalID: 8864059053349897877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 1930
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444ab2d1ee00ef4a0800000000000000
+      internalID: -6557802984713247676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 1930
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ec8ab642ff6a390800000000000000
+      internalID: -7807272372110045586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 1930
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8b97dc373ba9b70800000000000000
+      internalID: 8906628523028494525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 7692
+        y: 1930
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b86cd494181c770800000000000000
+      internalID: 8629320512856034118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 965
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144f610ffb6e6bc20800000000000000
+      internalID: 3222016295471346753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 965
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86a270552b7834d0800000000000000
+      internalID: -3154636138779335030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 965
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58c75897a46f0100800000000000000
+      internalID: 76390389666793567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 965
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13eb95ced39b5cc0800000000000000
+      internalID: -3721218082084232419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 965
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9929abdbaabd21100800000000000000
+      internalID: 77365669992764057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 965
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8a32a48ab9dd240800000000000000
+      internalID: 4818178323456960762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 7692
+        y: 965
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d731169d97e7500800000000000000
+      internalID: 395887791798713735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ddd5c12b0eb1790800000000000000
+      internalID: -7558200494026531515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE-hexatriene-ethene-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 0
+        width: 1282
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f51117b8c807bc10800000000000000
+      internalID: 2069132211957863921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c88ecacc320cea94e98e3a13155c37ef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

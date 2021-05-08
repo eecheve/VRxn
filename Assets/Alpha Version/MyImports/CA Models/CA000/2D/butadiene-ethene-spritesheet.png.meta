@@ -1,0 +1,970 @@
+fileFormatVersion: 2
+guid: bbf9aadcf194c294e9009d7e3c60c6b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5362821404371731498
+    second: butadiene-ethene-spritesheet_0
+  - first:
+      213: 7889228832657334
+    second: butadiene-ethene-spritesheet_1
+  - first:
+      213: -8505184789468886170
+    second: butadiene-ethene-spritesheet_2
+  - first:
+      213: -4993207103266135390
+    second: butadiene-ethene-spritesheet_3
+  - first:
+      213: -8957238916516640670
+    second: butadiene-ethene-spritesheet_4
+  - first:
+      213: -5984982701801532803
+    second: butadiene-ethene-spritesheet_5
+  - first:
+      213: -8311967901976920412
+    second: butadiene-ethene-spritesheet_6
+  - first:
+      213: 2497574757813418186
+    second: butadiene-ethene-spritesheet_7
+  - first:
+      213: -1444163887482103371
+    second: butadiene-ethene-spritesheet_8
+  - first:
+      213: 3933006184198720375
+    second: butadiene-ethene-spritesheet_9
+  - first:
+      213: 2752170195782511871
+    second: butadiene-ethene-spritesheet_10
+  - first:
+      213: 5390485456826123651
+    second: butadiene-ethene-spritesheet_11
+  - first:
+      213: -2441032941759467156
+    second: butadiene-ethene-spritesheet_12
+  - first:
+      213: -599971415339779272
+    second: butadiene-ethene-spritesheet_13
+  - first:
+      213: 7862586828021365339
+    second: butadiene-ethene-spritesheet_14
+  - first:
+      213: 1504342657528156127
+    second: butadiene-ethene-spritesheet_15
+  - first:
+      213: -3124913836501348747
+    second: butadiene-ethene-spritesheet_16
+  - first:
+      213: -5116142158153983727
+    second: butadiene-ethene-spritesheet_17
+  - first:
+      213: -215443855458942707
+    second: butadiene-ethene-spritesheet_18
+  - first:
+      213: 2434923336002577708
+    second: butadiene-ethene-spritesheet_19
+  - first:
+      213: -1960659032735976273
+    second: butadiene-ethene-spritesheet_20
+  - first:
+      213: 4782026821832285113
+    second: butadiene-ethene-spritesheet_21
+  - first:
+      213: 748954821148843104
+    second: butadiene-ethene-spritesheet_22
+  - first:
+      213: -5926930467270535583
+    second: butadiene-ethene-spritesheet_23
+  - first:
+      213: -8340802873664320408
+    second: butadiene-ethene-spritesheet_24
+  - first:
+      213: -6351495743794883331
+    second: butadiene-ethene-spritesheet_25
+  - first:
+      213: -3823871568666334043
+    second: butadiene-ethene-spritesheet_26
+  - first:
+      213: -9195980444551761180
+    second: butadiene-ethene-spritesheet_27
+  - first:
+      213: -594504999996511468
+    second: butadiene-ethene-spritesheet_28
+  - first:
+      213: -2020650724059741280
+    second: butadiene-ethene-spritesheet_29
+  - first:
+      213: 7552787527647106977
+    second: butadiene-ethene-spritesheet_30
+  - first:
+      213: -4377364783058101915
+    second: butadiene-ethene-spritesheet_31
+  - first:
+      213: -4474832930283470106
+    second: butadiene-ethene-spritesheet_32
+  - first:
+      213: 1915244212923714359
+    second: butadiene-ethene-spritesheet_33
+  - first:
+      213: -3630823545245173904
+    second: butadiene-ethene-spritesheet_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6000
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbbf8e985e6395b0800000000000000
+      internalID: -5362821404371731498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6000
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf4f1a36370c1000800000000000000
+      internalID: 7889228832657334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6000
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bc6a21f7387f980800000000000000
+      internalID: -8505184789468886170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 6000
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a26ddf389094bab0800000000000000
+      internalID: -4993207103266135390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 6000
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26888b4b9ae71b380800000000000000
+      internalID: -8957238916516640670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6000
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72134841f111fca0800000000000000
+      internalID: -5984982701801532803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae773a5b35f5ac80800000000000000
+      internalID: -8311967901976920412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8737f620b29a220800000000000000
+      internalID: 2497574757813418186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b99e29889c45fbe0800000000000000
+      internalID: -1444163887482103371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b449c5948d49630800000000000000
+      internalID: 3933006184198720375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffca801263ca13620800000000000000
+      internalID: 2752170195782511871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385c70586f9deca40800000000000000
+      internalID: 5390485456826123651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61766df875bf1ed0800000000000000
+      internalID: -2441032941759467156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bb8413d297ca7f0800000000000000
+      internalID: -599971415339779272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5af0e3ff058d1d60800000000000000
+      internalID: 7862586828021365339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfce6a3daf70e410800000000000000
+      internalID: 1504342657528156127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e42a51c6312a4d0800000000000000
+      internalID: -3124913836501348747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119d4da40dfcff8b0800000000000000
+      internalID: -5116142158153983727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01445674f6920df0800000000000000
+      internalID: -215443855458942707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c252eb19fd59ac120800000000000000
+      internalID: 2434923336002577708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa47c1c6ff65ac4e0800000000000000
+      internalID: -1960659032735976273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb14b5ee0c2d5240800000000000000
+      internalID: 4782026821832285113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c94631172d46a00800000000000000
+      internalID: 748954821148843104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16656e964205fbda0800000000000000
+      internalID: -5926930467270535583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c4ea55af38f3c80800000000000000
+      internalID: -8340802873664320408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df453bec544fad7a0800000000000000
+      internalID: -6351495743794883331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac6dea6111eeeac0800000000000000
+      internalID: -3823871568666334043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2bd011280516080800000000000000
+      internalID: -9195980444551761180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ba3023ad4efb7f0800000000000000
+      internalID: -594504999996511468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a388415fd435f3e0800000000000000
+      internalID: -2020650724059741280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a718617d34e0d860800000000000000
+      internalID: 7552787527647106977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569548d0ce97043c0800000000000000
+      internalID: -4377364783058101915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2cb39982336e1c0800000000000000
+      internalID: -4474832930283470106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bc079d670549a10800000000000000
+      internalID: 1915244212923714359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butadiene-ethene-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0777987f839bc9dc0800000000000000
+      internalID: -3630823545245173904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 43e00c6a904fa2046a0c1085c24789e2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

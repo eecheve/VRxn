@@ -1,0 +1,1042 @@
+fileFormatVersion: 2
+guid: 4a813acb9e97d104798abae24b0feca8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4239802981634502623
+    second: cyclopentadiene-ethene-spritesheet_0
+  - first:
+      213: 1952071306528006959
+    second: cyclopentadiene-ethene-spritesheet_1
+  - first:
+      213: 6616688963102889149
+    second: cyclopentadiene-ethene-spritesheet_2
+  - first:
+      213: 1389726212673073615
+    second: cyclopentadiene-ethene-spritesheet_3
+  - first:
+      213: 7557326882994084466
+    second: cyclopentadiene-ethene-spritesheet_4
+  - first:
+      213: -3792064846217369179
+    second: cyclopentadiene-ethene-spritesheet_5
+  - first:
+      213: 8692726783012678332
+    second: cyclopentadiene-ethene-spritesheet_6
+  - first:
+      213: -1131041626005583566
+    second: cyclopentadiene-ethene-spritesheet_7
+  - first:
+      213: -6395737101222778344
+    second: cyclopentadiene-ethene-spritesheet_8
+  - first:
+      213: 5276584317128550060
+    second: cyclopentadiene-ethene-spritesheet_9
+  - first:
+      213: 96825235596143414
+    second: cyclopentadiene-ethene-spritesheet_10
+  - first:
+      213: 8295290863066093523
+    second: cyclopentadiene-ethene-spritesheet_11
+  - first:
+      213: -4627208219113733271
+    second: cyclopentadiene-ethene-spritesheet_12
+  - first:
+      213: -1308296506142455690
+    second: cyclopentadiene-ethene-spritesheet_13
+  - first:
+      213: -1000707889141492238
+    second: cyclopentadiene-ethene-spritesheet_14
+  - first:
+      213: 2146200604030995354
+    second: cyclopentadiene-ethene-spritesheet_15
+  - first:
+      213: -4853491813566207777
+    second: cyclopentadiene-ethene-spritesheet_16
+  - first:
+      213: -5109928583305340067
+    second: cyclopentadiene-ethene-spritesheet_17
+  - first:
+      213: 511270716182225
+    second: cyclopentadiene-ethene-spritesheet_18
+  - first:
+      213: 1352716453159967003
+    second: cyclopentadiene-ethene-spritesheet_19
+  - first:
+      213: 3436052565806441471
+    second: cyclopentadiene-ethene-spritesheet_20
+  - first:
+      213: 700469060335840179
+    second: cyclopentadiene-ethene-spritesheet_21
+  - first:
+      213: 1168765272718667309
+    second: cyclopentadiene-ethene-spritesheet_22
+  - first:
+      213: -3513409668270054374
+    second: cyclopentadiene-ethene-spritesheet_23
+  - first:
+      213: -1855242303977334074
+    second: cyclopentadiene-ethene-spritesheet_24
+  - first:
+      213: -9122043147218321424
+    second: cyclopentadiene-ethene-spritesheet_25
+  - first:
+      213: 6248627113988364845
+    second: cyclopentadiene-ethene-spritesheet_26
+  - first:
+      213: -686690564604310437
+    second: cyclopentadiene-ethene-spritesheet_27
+  - first:
+      213: -883049985689396138
+    second: cyclopentadiene-ethene-spritesheet_28
+  - first:
+      213: 1255890305774956630
+    second: cyclopentadiene-ethene-spritesheet_29
+  - first:
+      213: -5976703159661320781
+    second: cyclopentadiene-ethene-spritesheet_30
+  - first:
+      213: -9218308695593780751
+    second: cyclopentadiene-ethene-spritesheet_31
+  - first:
+      213: -5449993074316743261
+    second: cyclopentadiene-ethene-spritesheet_32
+  - first:
+      213: 6208971142246714777
+    second: cyclopentadiene-ethene-spritesheet_33
+  - first:
+      213: 5519177262370852638
+    second: cyclopentadiene-ethene-spritesheet_34
+  - first:
+      213: -7905836028557462100
+    second: cyclopentadiene-ethene-spritesheet_35
+  - first:
+      213: 3272472658723820964
+    second: cyclopentadiene-ethene-spritesheet_36
+  - first:
+      213: -6740471755451880951
+    second: cyclopentadiene-ethene-spritesheet_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5520
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf67fd295ec6da30800000000000000
+      internalID: 4239802981634502623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 5520
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23a5d1c286271b10800000000000000
+      internalID: 1952071306528006959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 5520
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4def22e8333db50800000000000000
+      internalID: 6616688963102889149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 5520
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc17d6990ac494310800000000000000
+      internalID: 1389726212673073615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 5520
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a5f5872c401e860800000000000000
+      internalID: 7557326882994084466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 5165
+        y: 5520
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9a7f31d11ef5bc0800000000000000
+      internalID: -3792064846217369179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 6198
+        y: 5520
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaaefef3f4c2a870800000000000000
+      internalID: 8692726783012678332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4600
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239c1c732abbd40f0800000000000000
+      internalID: -1131041626005583566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 4600
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a64d41ef6cd37a0800000000000000
+      internalID: -6395737101222778344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 4600
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca628d9da713a3940800000000000000
+      internalID: 5276584317128550060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 4600
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b600de90ef75100800000000000000
+      internalID: 96825235596143414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 4600
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d71991f61bce1370800000000000000
+      internalID: 8295290863066093523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 5165
+        y: 4600
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96345f504aad8cfb0800000000000000
+      internalID: -4627208219113733271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 6198
+        y: 4600
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6788e72624ff7dde0800000000000000
+      internalID: -1308296506142455690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3680
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f55acf0a75cc12f0800000000000000
+      internalID: -1000707889141492238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 3680
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b0ffb0416d8cd10800000000000000
+      internalID: 2146200604030995354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 3680
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8ae1419eee4acb0800000000000000
+      internalID: -4853491813566207777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 3680
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b587ce603e519b0800000000000000
+      internalID: -5109928583305340067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 3680
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de0c6d7ff0d10000800000000000000
+      internalID: 511270716182225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 5165
+        y: 3680
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b191d687270d5c210800000000000000
+      internalID: 1352716453159967003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 6198
+        y: 3680
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff366768a9f4faf20800000000000000
+      internalID: 3436052565806441471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2760
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb287d26e098b900800000000000000
+      internalID: 700469060335840179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2760
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e653ab2d9483010800000000000000
+      internalID: 1168765272718667309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 2760
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a142754858cdd3fc0800000000000000
+      internalID: -3513409668270054374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 2760
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca572b34fad046e0800000000000000
+      internalID: -1855242303977334074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 2760
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fff348961ef76180800000000000000
+      internalID: -9122043147218321424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 5165
+        y: 2760
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a9627e04597b650800000000000000
+      internalID: 6248627113988364845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 6198
+        y: 2760
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cc52ad1926876f0800000000000000
+      internalID: -686690564604310437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1840
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cd11477b6ceb3f0800000000000000
+      internalID: -883049985689396138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1840
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650b2904491dd6110800000000000000
+      internalID: 1255890305774956630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 1840
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5ae68642c7e0da0800000000000000
+      internalID: -5976703159661320781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 1840
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9fc31051df11080800000000000000
+      internalID: -9218308695593780751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 1840
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ade2099c2cbd54b0800000000000000
+      internalID: -5449993074316743261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 5165
+        y: 1840
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d444a7b52ba2650800000000000000
+      internalID: 6208971142246714777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 6198
+        y: 1840
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f07007a7e089c40800000000000000
+      internalID: 5519177262370852638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5f859d404d84290800000000000000
+      internalID: -7905836028557462100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 920
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a559687b882a6d20800000000000000
+      internalID: 3272472658723820964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclopentadiene-ethene-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1033
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90aacb5a6a80572a0800000000000000
+      internalID: -6740471755451880951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3b90ac0605c698f4eb51cb4305722b97
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

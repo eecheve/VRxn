@@ -50,7 +50,7 @@ public class DistanceGrabLineVisual : MonoBehaviour
                 if (lineRenderer.colorGradient != grabbedGradient)
                 {
                     lineRenderer.colorGradient = grabbedGradient;
-                    hit.collider.gameObject.GetComponent<MeshRenderer>().material = outlinedMat;
+                    //hit.collider.gameObject.GetComponent<MeshRenderer>().material = outlinedMat;
                     distanceGrabbed = true;
                 }
             }
@@ -69,7 +69,7 @@ public class DistanceGrabLineVisual : MonoBehaviour
                         if (elem.Equals(entry.Key))
                         {
                             Debug.Log("DistanceGrabLineVisual_DistanceGrab: found material with same name");
-                            hit.collider.gameObject.GetComponent<MeshRenderer>().material = entry.Value;
+                            //hit.collider.gameObject.GetComponent<MeshRenderer>().material = entry.Value;
                             break;
                         }
                     }

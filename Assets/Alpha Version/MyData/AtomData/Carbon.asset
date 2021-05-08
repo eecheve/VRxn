@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7351dc9fe18e61a40970fcceb2a22d4d, type: 3}
+  m_Name: Carbon
+  m_EditorClassIdentifier: 
+  atom: 2
+  symbol: 2
+  bondType:
+  - C-C
+  - C-N
+  - C-O
+  - C-F
+  - C-Cl
+  - C-Br
+  - C-I
+  - C=C
+  - C=N
+  - C=O
+  - C#C
+  - C#N
+  - C#O
+  bondLength:
+  - 1.54
+  - 1.47
+  - 1.43
+  - 1.35
+  - 1.77
+  - 1.94
+  - 2.14
+  - 1.34
+  - 1.38
+  - 1.2
+  - 1.2
+  - 1.16
+  - 1.13
+  atomicMass: 12.01
