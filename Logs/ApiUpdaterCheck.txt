@@ -35,3 +35,60 @@ C# parse time         : 227ms
 candidates check time : 42ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 5/9/2021 2:41:32 PM : Starting C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 2400.2381ms
+moved types parse time: 270ms
+candidates parse time : 4ms
+C# parse time         : 1072ms
+candidates check time : 215ms
+console write time    : 530ms
+
+[api-updater (non-obsolete-error-filter)] 5/9/2021 2:43:12 PM : Starting C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 355.0773ms
+moved types parse time: 325ms
+candidates parse time : 5ms
+C# parse time         : 981ms
+candidates check time : 227ms
+console write time    : 213ms
+
+[api-updater (non-obsolete-error-filter)] 5/9/2021 3:05:17 PM : Starting C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 756.9208ms
+moved types parse time: 472ms
+candidates parse time : 5ms
+C# parse time         : 1405ms
+candidates check time : 267ms
+console write time    : 248ms
+
+[api-updater (non-obsolete-error-filter)] 5/9/2021 3:18:05 PM : Starting C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 285.1581ms
+moved types parse time: 193ms
+candidates parse time : 4ms
+C# parse time         : 664ms
+candidates check time : 171ms
+console write time    : 144ms
+
+[api-updater (non-obsolete-error-filter)] 5/9/2021 3:27:01 PM : Starting C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from C:\Users\eecheve\Documents\UnityProjects\VRxn Repo\VRxn\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <68bff7873e0e4aa69a14dfc30bebbe3e>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 543.177ms
+moved types parse time: 261ms
+candidates parse time : 5ms
+C# parse time         : 1161ms
+candidates check time : 235ms
+console write time    : 182ms
+

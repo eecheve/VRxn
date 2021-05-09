@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hands
+  - Whiteboard
+  - Ink
+  - Bond2D
+  - Rotatable
+  - Element2D
+  - DryInk
   layers:
   - Default
   - TransparentFX
@@ -17,7 +23,7 @@ TagManager:
   - Floor
   - Whiteboard Boundary
   - Drawing
-  - 
+  - Icon
   - 
   - 
   - 

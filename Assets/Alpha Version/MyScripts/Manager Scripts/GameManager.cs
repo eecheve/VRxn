@@ -69,22 +69,22 @@ public class GameManager : MonoSingleton<GameManager>
     {
         LeftGrabbedChildren = new List<Transform>();
 
-        rightDirectController.onSelectEnter.AddListener(RightGrabbedObject);
-        rightDirectController.onSelectExit.AddListener(RightDropedObject);
+        rightDirectController.onSelectEntered.AddListener(RightGrabbedObject);
+        rightDirectController.onSelectExited.AddListener(RightDropedObject);
 
-        leftDirectController.onSelectEnter.AddListener(LeftGrabbedObject);
-        leftDirectController.onSelectExit.AddListener(LeftDropedObject);
+        leftDirectController.onSelectEntered.AddListener(LeftGrabbedObject);
+        leftDirectController.onSelectExited.AddListener(LeftDropedObject);
     }
 
     private void OnDisable()
     {
         LeftGrabbedChildren.Clear();
         
-        rightDirectController.onSelectEnter.RemoveListener(RightGrabbedObject);
-        rightDirectController.onSelectExit.RemoveListener(RightDropedObject);
+        rightDirectController.onSelectEntered.RemoveListener(RightGrabbedObject);
+        rightDirectController.onSelectExited.RemoveListener(RightDropedObject);
 
-        leftDirectController.onSelectEnter.RemoveListener(LeftGrabbedObject);
-        leftDirectController.onSelectExit.RemoveListener(LeftDropedObject);
+        leftDirectController.onSelectEntered.RemoveListener(LeftGrabbedObject);
+        leftDirectController.onSelectExited.RemoveListener(LeftDropedObject);
     }
 
     public void RightGrabbedObject(XRBaseInteractable interactable)
