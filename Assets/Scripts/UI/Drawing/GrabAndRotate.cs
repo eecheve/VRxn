@@ -10,6 +10,7 @@ public class GrabAndRotate : MonoBehaviour
 {
     [SerializeField] private InputActionReference selectAction = null;
     [SerializeField] private InputActionReference grabAction = null;
+    [SerializeField] private SelectElement selector = null;
 
     private ActionBasedController m_controller;
     private Vector3 m_contrLocalEuler;
@@ -17,7 +18,7 @@ public class GrabAndRotate : MonoBehaviour
     private Transform object2D;
     private Vector3 obj2DLocalEuler;
 
-    public bool RotationEnabled { get; set; }
+    public bool RotationEnabled { get; set; } = false;
     public bool RaycastingToSprite { get; set; }
 
     public delegate void SpriteRotated();
@@ -36,8 +37,11 @@ public class GrabAndRotate : MonoBehaviour
 
     private void SelectSprite(InputAction.CallbackContext obj)
     {
+        object2D = selector.CurrentSelected.transform;
+        
         if(object2D != null)
         {
+            Debug.Log("GrabAndRotate: object has been detected for grabing");
             m_contrLocalEuler = m_controller.transform.localEulerAngles;
             obj2DLocalEuler = object2D.localEulerAngles;
         }

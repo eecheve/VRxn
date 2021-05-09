@@ -10,8 +10,8 @@ public class LineHolder : MonoBehaviour
     private Transform m_end;
     private LineRenderer m_line;
 
-    private MoveAndRotate2D leftRotate;
-    private MoveAndRotate2D rightRotate;
+    private GrabAndRotate leftRotate;
+    private GrabAndRotate rightRotate;
 
     public BondType BondType { get; set; }
 
@@ -22,8 +22,8 @@ public class LineHolder : MonoBehaviour
 
     private void OnEnable()
     {
-        leftRotate = GameManager.Instance.LeftUIController.GetComponent<MoveAndRotate2D>();
-        rightRotate = GameManager.Instance.RightUIController.GetComponent<MoveAndRotate2D>();
+        leftRotate = ControllerReferences.Instance.LUIController.GetComponent<GrabAndRotate>();
+        rightRotate = ControllerReferences.Instance.RUIController.GetComponent<GrabAndRotate>();
 
         leftRotate.OnSpriteRotated += RefreshLinePoints;
         rightRotate.OnSpriteRotated += RefreshLinePoints;
