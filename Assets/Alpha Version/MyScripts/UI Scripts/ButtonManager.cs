@@ -13,7 +13,7 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] private Color colorIfOn = Color.white;
     [SerializeField] private Color colorIfOff = Color.white;
 
-    private bool propertyOn = true;
+    private bool propertyOff = true;
 
     private void OnEnable()
     {
@@ -22,34 +22,41 @@ public class ButtonManager : MonoBehaviour
 
     public void ManageButton()
     {
-        if(propertyOn == true)
+        if(propertyOff == true)
         {
             button.targetGraphic.color = colorIfOn;
             actionIfOn.Invoke();
-            propertyOn = false;
+            propertyOff = false;
         }
         else
         {
             button.targetGraphic.color = colorIfOff;
             actionIfOff.Invoke();
-            propertyOn = true;
+            propertyOff = true;
         }
     }
 
     public void ManageInvertedButton()
     {
-        if (propertyOn == true)
+        if (propertyOff == true)
         {
-            button.targetGraphic.color = Color.red;
+            button.targetGraphic.color = colorIfOff;
             actionIfOn.Invoke();
-            propertyOn = false;
+            propertyOff = false;
         }
         else
         {
-            button.targetGraphic.color = Color.green;
+            button.targetGraphic.color = colorIfOn;
             actionIfOff.Invoke();
-            propertyOn = true;
+            propertyOff = true;
         }
+    }
+
+    public void ResetButton()
+    {
+        button.targetGraphic.color = colorIfOff;
+        actionIfOff?.Invoke();
+        propertyOff = true;
     }
 
     private void OnDisable()

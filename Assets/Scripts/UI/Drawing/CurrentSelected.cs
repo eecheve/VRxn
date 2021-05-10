@@ -22,6 +22,7 @@ public class CurrentSelected : MonoBehaviour
     private void OnEnable()
     {
         selectElement.OnElementSelected += UpdateCurrent;
+        selectElement.OnElementDeselected += ResetImages;
 
         emptySprite = currentElement.sprite;
         emptyColor = currentElement.color;
@@ -65,6 +66,7 @@ public class CurrentSelected : MonoBehaviour
     private void OnDisable()
     {
         selectElement.OnElementSelected -= UpdateCurrent;
+        selectElement.OnElementDeselected -= ResetImages;
     }
 
     public void ResetImages()

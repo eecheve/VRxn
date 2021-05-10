@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4106867807544521690}
   - component: {fileID: 8775887349036653874}
   - component: {fileID: 5776652306602524694}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: HydrogenIcon
   m_TagString: Element2D
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 9127218477351897234}
   - component: {fileID: 3224242596107800202}
   - component: {fileID: 6850389139195776584}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

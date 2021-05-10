@@ -15,16 +15,13 @@ public class ButtonsPanel : MonoBehaviour
     }
 
     [Header("Player Attributes")]
-    [SerializeField] private LayerMask drawLayerMask = 0;
-    [SerializeField] private LayerMask moveLayerMask = 0;
     [SerializeField] private ColorRayLine leftDrawer = null;
     [SerializeField] private ColorRayLine rightDrawer = null;
 
     [Header("UI Attributes")]
     [SerializeField] private Icon[] iconsInPanel = null;
     [SerializeField] private GameObject[] rotatableSprites = null;
-    //[SerializeField] private DrawLine drawSystem = null; //<--- ORIGINAL ONE, WAS WORKING
-    [SerializeField] private Draw drawSystem = null;
+    [SerializeField] private DrawElement drawSystem = null;
 
     private void OnEnable() //https://answers.unity.com/questions/1288510/buttononclickaddlistener-how-to-pass-parameter-or.html
     {
@@ -32,6 +29,7 @@ public class ButtonsPanel : MonoBehaviour
         {
             icon.button.onClick.AddListener(() => { SetElementIcon(icon.icon); });
             icon.button.onClick.AddListener(() => { SetLinesColor(icon.htmlColor); });
+            icon.button.onClick.AddListener(() => { DeactivateOtherButtons(icon); });
         }
     }
 
@@ -43,66 +41,9 @@ public class ButtonsPanel : MonoBehaviour
         }
     }
 
-    public void UpdateRotatablesLayerMask(bool state)
-    {
-        if(state == true) //rotation is enabled
-        {
-            foreach (var rotatable in rotatableSprites)
-            {
-                if(rotatable.activeSelf == true)
-                {
-                    foreach (Transform child in rotatable.transform)
-                    {
-                        if (child.gameObject.layer != moveLayerMask)
-                            child.gameObject.layer = moveLayerMask;
-                    }
-                }
-                else
-                {
-                    rotatable.SetActive(true);
-
-                    foreach (Transform child in rotatable.transform)
-                    {
-                        if (child.gameObject.layer != moveLayerMask)
-                            child.gameObject.layer = moveLayerMask;
-                    }
-
-                    rotatable.SetActive(false);
-                }
-            }
-        }
-        else //rotation is disabled
-        {
-            foreach (var rotatable in rotatableSprites)
-            {
-                if(rotatable.activeSelf == true)
-                {
-                    foreach (Transform child in rotatable.transform)
-                    {
-                        if (child.gameObject.layer != drawLayerMask)
-                            child.gameObject.layer = drawLayerMask;
-                    }
-                }
-                else
-                {
-                    rotatable.SetActive(true);
-
-                    foreach (Transform child in rotatable.transform)
-                    {
-                        if (child.gameObject.layer != drawLayerMask)
-                            child.gameObject.layer = drawLayerMask;
-                    }
-
-                    rotatable.SetActive(false);
-                }
-                
-            }
-        }
-    }
-
     private void SetElementIcon(GameObject icon)
     {
-        Debug.Log("Setting element icon " + icon.name);
+        Debug.Log("ButtonsPanel: Setting element icon " + icon.name);
         //leftDrawer.SetElement(icon);
         //rightDrawer.SetElement(icon);
         drawSystem.SetElement(icon);
@@ -123,15 +64,6 @@ public class ButtonsPanel : MonoBehaviour
         }
     }
 
-    private void OnDisable()
-    {
-        foreach (var icon in iconsInPanel)
-        {
-            icon.button.onClick.RemoveListener(() => { SetElementIcon(icon.icon); });
-            icon.button.onClick.RemoveListener(() => { SetLinesColor(icon.htmlColor); });
-        }
-    }
-
     public void ToggleRotatableRenderer(bool state)
     {
         foreach (var rotatable in rotatableSprites)
@@ -140,9 +72,38 @@ public class ButtonsPanel : MonoBehaviour
         }
     }
 
+    private void DeactivateOtherButtons(Icon icon)
+    {
+        foreach (var other in iconsInPanel)
+        {
+            if (other.button == icon.button)
+                continue;
+            else
+            {
+                ButtonManager bManager = other.button.GetComponent<ButtonManager>();
+                if (bManager != null)
+                {
+                    Debug.Log("ButtonsPanel - getting ButtonManager for " + other.button.name);
+                    bManager.ResetButton();
+                }
+                
+            }
+        }
+    }
+
     public void ReactantOnProductOff(bool value)
     {
         rotatableSprites[0].gameObject.SetActive(value);
         rotatableSprites[1].gameObject.SetActive(!value);
+    }
+
+    private void OnDisable()
+    {
+        foreach (var icon in iconsInPanel)
+        {
+            icon.button.onClick.RemoveListener(() => { SetElementIcon(icon.icon); });
+            icon.button.onClick.RemoveListener(() => { SetLinesColor(icon.htmlColor); });
+            icon.button.onClick.RemoveListener(() => { DeactivateOtherButtons(icon); });
+        }
     }
 }

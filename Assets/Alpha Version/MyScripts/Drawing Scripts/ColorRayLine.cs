@@ -11,8 +11,8 @@ public class ColorRayLine : MonoBehaviour
     [SerializeField] private LayerMask drawLayerMask = 0;
     [SerializeField] private LayerMask grabLayerMask = 0;
 
-    public bool CanDraw { get; private set; } = false;
-    public bool CanGrab { get; private set; } = false;
+    //public bool CanDraw { get; private set; } = false;
+    //public bool CanGrab { get; private set; } = false;
 
     private XRInteractorLineVisual lineVisual;
     private Gradient defaultGradient;
@@ -56,35 +56,49 @@ public class ColorRayLine : MonoBehaviour
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, 100f, drawLayerMask))
+        if (moveRotate.RotationEnabled == false)
         {
-            if(lineVisual.validColorGradient != drawingGradient)
-                lineVisual.validColorGradient = drawingGradient;
-        }
-        
-        if (Physics.Raycast(ray, out hit, 100f, grabLayerMask))//<-- two different types of Physics.Raycast
-        {
-            if (lineVisual.validColorGradient != grabbingGradient)
+            if (Physics.Raycast(ray, 100f, drawLayerMask))
             {
-                lineVisual.validColorGradient = grabbingGradient;
+                if (lineVisual.validColorGradient != drawingGradient)
+                    lineVisual.validColorGradient = drawingGradient;
             }
 
-            if(moveRotate.RotationEnabled == true)
+            if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, out hit, 100f, grabLayerMask))
             {
+                if (lineVisual.validColorGradient != defaultGradient)
+                {
+                    lineVisual.validColorGradient = defaultGradient;
+                }
+                if (moveRotate.RaycastingToSprite != false)
+                {
+                    moveRotate.RaycastingToSprite = false;
+                }
+            }
+        }
+        else
+        {
+            if (Physics.Raycast(ray, out hit, 100f, grabLayerMask))//<-- two different types of Physics.Raycast
+            {
+                if (lineVisual.validColorGradient != grabbingGradient)
+                {
+                    lineVisual.validColorGradient = grabbingGradient;
+                }
+
                 moveRotate.SelectSprite(hit.transform);
                 moveRotate.RaycastingToSprite = true;
             }
-        }
-        
-        if(!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, out hit, 100f, grabLayerMask))
-        {
-            if (lineVisual.validColorGradient != defaultGradient)
+            
+            if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, out hit, 100f, grabLayerMask))
             {
-                lineVisual.validColorGradient = defaultGradient;
-            }
-            if(moveRotate.RaycastingToSprite != false)
-            {
-                moveRotate.RaycastingToSprite = false;
+                if (lineVisual.validColorGradient != defaultGradient)
+                {
+                    lineVisual.validColorGradient = defaultGradient;
+                }
+                if (moveRotate.RaycastingToSprite != false)
+                {
+                    moveRotate.RaycastingToSprite = false;
+                }
             }
         }
     }

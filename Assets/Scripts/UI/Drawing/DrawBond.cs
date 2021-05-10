@@ -31,20 +31,23 @@ public class DrawBond : MonoBehaviour
 
         if(obj1 != null && obj2 != null)
         {
+            Debug.Log("DrawBond: the two objects to connect are detected");
+            Debug.Log("DrawBond: current is " + obj1.name);
+            Debug.Log("DrawBond: last is " + obj2.name);
             Vector3 refVector = obj2.transform.position - obj1.transform.position;
             Vector3 rotVector = Vector3.Cross(refVector, obj1.transform.forward);
-            //Vector3 rotVector = new Vector3(refVector.y, -refVector.x, refVector.z);
             Vector3 dir = rotVector.normalized; //perpendicular direction from refVector
 
-            var single1 = bondList.Where(obj => obj.name == (obj1.name + "-" + obj2.name)).FirstOrDefault();
-            var single2 = bondList.Where(obj => obj.name == (obj2.name + "-" + obj1.name)).FirstOrDefault();
-            var double1 = bondList.Where(obj => obj.name == (obj1.name + "=" + obj2.name)).FirstOrDefault();
-            var double2 = bondList.Where(obj => obj.name == (obj2.name + "=" + obj1.name)).FirstOrDefault();
-            var triple1 = bondList.Where(obj => obj.name == (obj1.name + "#" + obj2.name)).FirstOrDefault();
-            var triple2 = bondList.Where(obj => obj.name == (obj2.name + "#" + obj1.name)).FirstOrDefault();
+            var single1 = bondList.Where(obj => obj.name.Contains(obj1.name + "-" + obj2.name)).FirstOrDefault();
+            var single2 = bondList.Where(obj => obj.name.Contains(obj2.name + "-" + obj1.name)).FirstOrDefault();
+            var double1 = bondList.Where(obj => obj.name.Contains(obj1.name + "=" + obj2.name)).FirstOrDefault();
+            var double2 = bondList.Where(obj => obj.name.Contains(obj2.name + "=" + obj1.name)).FirstOrDefault();
+            var triple1 = bondList.Where(obj => obj.name.Contains(obj1.name + "#" + obj2.name)).FirstOrDefault();
+            var triple2 = bondList.Where(obj => obj.name.Contains(obj2.name + "#" + obj1.name)).FirstOrDefault();
 
             if (single1 != null || single2 != null)
             {
+                Debug.Log("DrawBond: there was a single bond here");
                 SearchAndDestroy(single1);
                 SearchAndDestroy(single2);
 
@@ -53,6 +56,7 @@ public class DrawBond : MonoBehaviour
             }
             else if (double1 != null || double2 != null)
             {
+                Debug.Log("DrawBond: there was a double bond here");
                 SearchAndDestroy(double1);
                 SearchAndDestroy(double2);
 
@@ -67,7 +71,7 @@ public class DrawBond : MonoBehaviour
             }
             else if (triple1 != null || triple2 != null)
             {
-                //return;
+                Debug.Log("DrawBond: there was a triple bond here");
                 SearchAndDestroy(triple1);
                 SearchAndDestroy(triple2);
 
@@ -85,7 +89,20 @@ public class DrawBond : MonoBehaviour
             }
             else
             {
+                Debug.Log("DrawBond: There were no bonds between the elements");
                 CreateLine(obj1.transform, obj2.transform, "-");
+            }
+        }
+        else
+        {
+            Debug.Log("DrawBond: Function called when one or two of the objects is deleted");
+            if(obj1 == null)
+            {
+                Debug.Log("DrawBond: The problem is the current selected");
+            }
+            else if(obj2 == null)
+            {
+                Debug.Log("DrawBond: The problem is the last selected");
             }
         }
     }

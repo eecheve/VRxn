@@ -110,6 +110,7 @@ public class Enumerators
         [StringValue("#FA8072")] Salmon,
         [StringValue("#FFFFFF")] White,
         [StringValue("#FFFF00")] Yellow,
+        [StringValue("#F7F7F7")] LightGray,
     }
 
     public enum VertexPlacement
