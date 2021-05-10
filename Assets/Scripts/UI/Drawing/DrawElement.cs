@@ -18,6 +18,7 @@ public class DrawElement : MonoBehaviour
     [Header("Drawing Attributes")]
     [SerializeField] private LayerMask layerMask = 0;
     [SerializeField] private SelectElement selector = null;
+    [SerializeField] private DrawBond drawBond = null;
 
     private GameObject elementIcon = null; //icon to instantiate, modified externally by pressing buttons
     private int iconCount = 0;
@@ -83,7 +84,12 @@ public class DrawElement : MonoBehaviour
                 for (int i = 0; i < go.transform.childCount; i++)
                 {
                     GameObject child = go.transform.GetChild(i).gameObject;
-                    SearchAndDestroy(child);
+                    if(child != null)
+                    {
+                        Debug.Log("DrawElement: object to erase has children");
+                        drawBond.SearchAndDestroy(child);
+                        SearchAndDestroy(child);
+                    }
                 }
             }
             SearchAndDestroy(go);

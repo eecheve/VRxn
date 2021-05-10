@@ -211,10 +211,11 @@ public class DrawBond : MonoBehaviour
         lineRend.colorGradient = lineGradient;
     }
 
-    private void SearchAndDestroy(GameObject item)
+    public void SearchAndDestroy(GameObject item)
     {
         if (item != null)
         {
+            Debug.Log("DrawBond: " + item.name + " is found");
             RemoveItemFromList(item, bondList);
             Destroy(item);
         }
@@ -233,5 +234,4 @@ public class DrawBond : MonoBehaviour
     {
         button.onClick.RemoveListener(DrawTheBond);
     }
-
 }
