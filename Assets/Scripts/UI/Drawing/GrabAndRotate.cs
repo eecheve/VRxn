@@ -12,6 +12,7 @@ public class GrabAndRotate : MonoBehaviour
     [SerializeField] private InputActionReference grabAction = null;
     [SerializeField] private SelectElement selector = null;
     [SerializeField] private LayerMask grabLayerMask = 0;
+    [SerializeField] private LayerMask whiteboardLayer = 0;
 
     private ActionBasedController m_controller;
     private Vector3 m_contrLocalEuler;
@@ -57,14 +58,18 @@ public class GrabAndRotate : MonoBehaviour
             object2D.localEulerAngles = new Vector3(obj2DLocalEuler.x, obj2DLocalEuler.y, (deltaAngle + obj2DLocalEuler.z) * -1);
 
             //translating the sprite on the left controller
-            Vector3 refVector = object2D.position - m_controller.transform.position;
+            /*Vector3 refVector = object2D.position - m_controller.transform.position;
             float spriteDistance = refVector.magnitude;
             Vector3 lineEnd = m_controller.transform.position + (m_controller.transform.forward * spriteDistance);
             Vector3 corrected = new Vector3(lineEnd.x, lineEnd.y, 0);
 
-            object2D.transform.position = corrected;
-
-            OnSpriteRotated?.Invoke();
+            object2D.transform.position = corrected;*/
+            Ray ray = new Ray(transform.position, transform.forward);
+            if(Physics.Raycast(ray, out RaycastHit hit, 100f, whiteboardLayer))
+            {
+                object2D.position = hit.point;
+                OnSpriteRotated?.Invoke();
+            }
         }
     }
 

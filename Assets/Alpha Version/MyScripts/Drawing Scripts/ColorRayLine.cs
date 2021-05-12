@@ -56,7 +56,7 @@ public class ColorRayLine : MonoBehaviour
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
 
-        if (moveRotate.RotationEnabled == false)
+        if (moveRotate.GrabIconEnabled == false)
         {
             if (Physics.Raycast(ray, 100f, drawLayerMask))
             {
@@ -67,13 +67,7 @@ public class ColorRayLine : MonoBehaviour
             if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, out hit, 100f, grabLayerMask))
             {
                 if (lineVisual.validColorGradient != defaultGradient)
-                {
                     lineVisual.validColorGradient = defaultGradient;
-                }
-                if (moveRotate.RaycastingToSprite != false)
-                {
-                    moveRotate.RaycastingToSprite = false;
-                }
             }
         }
         else
@@ -81,24 +75,13 @@ public class ColorRayLine : MonoBehaviour
             if (Physics.Raycast(ray, out hit, 100f, grabLayerMask))//<-- two different types of Physics.Raycast
             {
                 if (lineVisual.validColorGradient != grabbingGradient)
-                {
                     lineVisual.validColorGradient = grabbingGradient;
-                }
-
-                moveRotate.SelectSprite(hit.transform);
-                moveRotate.RaycastingToSprite = true;
             }
             
             if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, out hit, 100f, grabLayerMask))
             {
                 if (lineVisual.validColorGradient != defaultGradient)
-                {
                     lineVisual.validColorGradient = defaultGradient;
-                }
-                if (moveRotate.RaycastingToSprite != false)
-                {
-                    moveRotate.RaycastingToSprite = false;
-                }
             }
         }
     }

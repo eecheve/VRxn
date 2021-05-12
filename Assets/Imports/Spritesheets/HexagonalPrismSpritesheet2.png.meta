@@ -1,0 +1,1056 @@
+fileFormatVersion: 2
+guid: 78523076d792f4546bb34568fd329f19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5950875951781757293
+    second: HexagonalPrismSpritesheet2_0
+  - first:
+      213: -7788784648140951149
+    second: HexagonalPrismSpritesheet2_1
+  - first:
+      213: 5642925120150050447
+    second: HexagonalPrismSpritesheet2_2
+  - first:
+      213: -7632049413992521192
+    second: HexagonalPrismSpritesheet2_3
+  - first:
+      213: 7896560256741995651
+    second: HexagonalPrismSpritesheet2_4
+  - first:
+      213: -4057574364002311308
+    second: HexagonalPrismSpritesheet2_5
+  - first:
+      213: 3252672888326284600
+    second: HexagonalPrismSpritesheet2_6
+  - first:
+      213: 9202929367744024559
+    second: HexagonalPrismSpritesheet2_7
+  - first:
+      213: 5411623826677260801
+    second: HexagonalPrismSpritesheet2_8
+  - first:
+      213: -5876796898860538134
+    second: HexagonalPrismSpritesheet2_9
+  - first:
+      213: 6862916586654566717
+    second: HexagonalPrismSpritesheet2_10
+  - first:
+      213: 5478873854216334295
+    second: HexagonalPrismSpritesheet2_11
+  - first:
+      213: -2726225265497956672
+    second: HexagonalPrismSpritesheet2_12
+  - first:
+      213: 6176844167547470897
+    second: HexagonalPrismSpritesheet2_13
+  - first:
+      213: 8010884246415339210
+    second: HexagonalPrismSpritesheet2_14
+  - first:
+      213: -7615055961321021515
+    second: HexagonalPrismSpritesheet2_15
+  - first:
+      213: 4192104072973517675
+    second: HexagonalPrismSpritesheet2_16
+  - first:
+      213: 9169057492689272360
+    second: HexagonalPrismSpritesheet2_17
+  - first:
+      213: 1579455998853013661
+    second: HexagonalPrismSpritesheet2_18
+  - first:
+      213: -2030548741248626274
+    second: HexagonalPrismSpritesheet2_19
+  - first:
+      213: -5139049611949180739
+    second: HexagonalPrismSpritesheet2_20
+  - first:
+      213: -3552464569913126237
+    second: HexagonalPrismSpritesheet2_21
+  - first:
+      213: 5441932327858751510
+    second: HexagonalPrismSpritesheet2_22
+  - first:
+      213: -2598524803184356810
+    second: HexagonalPrismSpritesheet2_23
+  - first:
+      213: 5722448669295282894
+    second: HexagonalPrismSpritesheet2_24
+  - first:
+      213: 961909233566798583
+    second: HexagonalPrismSpritesheet2_25
+  - first:
+      213: -1471384402068760297
+    second: HexagonalPrismSpritesheet2_26
+  - first:
+      213: 4949071573664135748
+    second: HexagonalPrismSpritesheet2_27
+  - first:
+      213: -1373518579452012306
+    second: HexagonalPrismSpritesheet2_28
+  - first:
+      213: -6049983131870277351
+    second: HexagonalPrismSpritesheet2_29
+  - first:
+      213: -6796521802166166701
+    second: HexagonalPrismSpritesheet2_30
+  - first:
+      213: 5643581603658553732
+    second: HexagonalPrismSpritesheet2_31
+  - first:
+      213: -7826349564401603309
+    second: HexagonalPrismSpritesheet2_32
+  - first:
+      213: 1761440996169343465
+    second: HexagonalPrismSpritesheet2_33
+  - first:
+      213: 1494673493716706480
+    second: HexagonalPrismSpritesheet2_34
+  - first:
+      213: 6494187608373512614
+    second: HexagonalPrismSpritesheet2_35
+  - first:
+      213: 3900611617944127642
+    second: HexagonalPrismSpritesheet2_36
+  - first:
+      213: -4356271510367696972
+    second: HexagonalPrismSpritesheet2_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3618
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e32a7d9dd3a6da0800000000000000
+      internalID: -5950875951781757293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_1
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 3618
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391fa8711ada8e390800000000000000
+      internalID: -7788784648140951149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_2
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3618
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f861ca0df72bf4e40800000000000000
+      internalID: 5642925120150050447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_3
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 3618
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8126fba8e73851690800000000000000
+      internalID: -7632049413992521192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_4
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 3618
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384f29a37b7369d60800000000000000
+      internalID: 7896560256741995651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_5
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 3618
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47329e72d9990b7c0800000000000000
+      internalID: -4057574364002311308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_6
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 3618
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8356b3f22c0d32d20800000000000000
+      internalID: 3252672888326284600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3015
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef8461308f57bf70800000000000000
+      internalID: 9202929367744024559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_8
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 3015
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1026327c233f91b40800000000000000
+      internalID: 5411623826677260801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_9
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3015
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6ec4a6b5c617ea0800000000000000
+      internalID: -5876796898860538134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_10
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 3015
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d398ea6364afd3f50800000000000000
+      internalID: 6862916586654566717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_11
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 3015
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db6db9fdbed80c40800000000000000
+      internalID: 5478873854216334295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_12
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 3015
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce9c40b0908a2ad0800000000000000
+      internalID: -2726225265497956672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_13
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 3015
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1344c974b0f88b550800000000000000
+      internalID: 6176844167547470897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2412
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aceeb5457c06c2f60800000000000000
+      internalID: 8010884246415339210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_15
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2412
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf5db013f2e15690800000000000000
+      internalID: -7615055961321021515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_16
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 2412
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b630e0391785d2a30800000000000000
+      internalID: 4192104072973517675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_17
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 2412
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eb0e8b5390f3f70800000000000000
+      internalID: 9169057492689272360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_18
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2412
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d906ef5dcda5be510800000000000000
+      internalID: 1579455998853013661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_19
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 2412
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9152ca9daa02d3e0800000000000000
+      internalID: -2030548741248626274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_20
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 2412
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8f8a41b9d6ea8b0800000000000000
+      internalID: -5139049611949180739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1809
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2da21ab4c13bec0800000000000000
+      internalID: -3552464569913126237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_22
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1809
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6184cbd9e90a58b40800000000000000
+      internalID: 5441932327858751510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_23
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1809
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6329726857f20fbd0800000000000000
+      internalID: -2598524803184356810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_24
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 1809
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca80c2feb83a6f40800000000000000
+      internalID: 5722448669295282894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_25
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1809
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2daecf953695d00800000000000000
+      internalID: 961909233566798583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_26
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 1809
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71914aa9ea7949be0800000000000000
+      internalID: -1471384402068760297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_27
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 1809
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44afb3cff52aea440800000000000000
+      internalID: 4949071573664135748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1206
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee81d53112840fce0800000000000000
+      internalID: -1373518579452012306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_29
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1206
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91154cf45642a0ca0800000000000000
+      internalID: -6049983131870277351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_30
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1206
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b10b13e67eda1a0800000000000000
+      internalID: -6796521802166166701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_31
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 1206
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4895ffa4197025e40800000000000000
+      internalID: 5643581603658553732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_32
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1206
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d2fc57988336390800000000000000
+      internalID: -7826349564401603309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_33
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 1206
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1eb75e045e17810800000000000000
+      internalID: 1761440996169343465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_34
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 1206
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b42d289f952eb410800000000000000
+      internalID: 1494673493716706480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 603
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9c8ddd83dff1a50800000000000000
+      internalID: 6494187608373512614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_36
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 603
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a984256a991c12630800000000000000
+      internalID: 3900611617944127642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HexagonalPrismSpritesheet2_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 561
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7016f442a6b83c0800000000000000
+      internalID: -4356271510367696972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9dc4b6bd28723434cb6e92d3038ebeb4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

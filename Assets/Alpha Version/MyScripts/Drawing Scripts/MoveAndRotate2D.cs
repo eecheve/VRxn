@@ -9,70 +9,93 @@ public class MoveAndRotate2D : MonoBehaviour
 {
     [SerializeField] private InputActionReference selectAction = null;
     [SerializeField] private InputActionReference grabAction = null;
+    [SerializeField] private LayerMask whiteboardLayer = 0;
+    [SerializeField] private LayerMask backgroundLayer = 0;
+    [SerializeField] private SelectElement selector = null;
 
     private Vector3 m_contrLocalEuler;
 
     private Transform object2D;
     private Vector3 obj2DLocalEuler;
-    public bool RotationEnabled { get; set; }
-    public bool RaycastingToSprite { get; set; }
+    public bool GrabIconEnabled { get; set; }
+    public bool GrabScaffoldingEnabled { get; set; }
 
     public delegate void SpriteRotated();
     public SpriteRotated OnSpriteRotated;
+    public SpriteRotated OnSpriteNotAssigned;
 
     private void OnEnable()
     {
         selectAction.action.performed += AssignObject2D;
         grabAction.action.performed += RotateSpriteIfExists;
         
-        RotationEnabled = false;
-        RaycastingToSprite = false;
+        GrabIconEnabled = false;
     }
 
     private void AssignObject2D(InputAction.CallbackContext obj)
     {
-        if (object2D != null)
+        GameObject go = selector.CurrentSelected;
+        
+        if (go != null)
         {
+            Debug.Log("MoveAndRotate2D: 2D object is assigned");
+            object2D = selector.CurrentSelected.transform;
             m_contrLocalEuler = transform.localEulerAngles;
             obj2DLocalEuler = object2D.localEulerAngles;
+        }
+        else
+        {
+            OnSpriteNotAssigned?.Invoke();
         }
     }
 
     private void RotateSpriteIfExists(InputAction.CallbackContext obj)
     {
-        if (obj.ReadValue<float>() > 0.1f && RotationEnabled && object2D != null)
+        if (obj.ReadValue<float>() > 0.1f && object2D != null)
         {
-            Debug.Log("MoveAndRotate2D: Button is held & object to rotate is detected in raycast");
-            float deltaAngle = m_contrLocalEuler.z - transform.localEulerAngles.z;
-            object2D.localEulerAngles = new Vector3(obj2DLocalEuler.x, obj2DLocalEuler.y, (deltaAngle + obj2DLocalEuler.z) * -1);
+            if (object2D.CompareTag("Whiteboard") && GrabScaffoldingEnabled)
+            {
+                Debug.Log("MoveAndRotate2D: moving and rotating the scaffolding");
+                RotateObjectWithMaths();
+                MoveWithRaycastAgainstLayer(backgroundLayer);
+            }
+            else if (object2D.CompareTag("Element2D") && GrabIconEnabled)
+            {
+                Debug.Log("MoveAndRotate2D: moving and rotating one icon");
+                MoveWithRaycastAgainstLayer(whiteboardLayer);
+            }
+            
+        }
+    }
 
-            //translating the sprite on the left controller
-            Vector3 refVector = object2D.position - transform.position;
-            float spriteDistance = refVector.magnitude;
-            Vector3 lineEnd = transform.position + (transform.forward * spriteDistance);
-            Vector3 corrected = new Vector3(lineEnd.x, lineEnd.y, object2D.position.z);
+    private void RotateObjectWithMaths()
+    {
+        float deltaAngle = m_contrLocalEuler.z - transform.localEulerAngles.z;
+        object2D.localEulerAngles = new Vector3(obj2DLocalEuler.x, obj2DLocalEuler.y, (deltaAngle + obj2DLocalEuler.z) * -1);
+    }
 
-            object2D.transform.position = corrected;
-
+    private void MoveWithRaycastAgainstLayer(LayerMask layer)
+    {
+        Ray ray = new Ray(transform.position, transform.forward);
+        if (Physics.Raycast(ray, out RaycastHit hit, 100f, layer))
+        {
+            Debug.Log("MoveAndRotate: raycast is detecting something and we can move");
+            Vector3 pos = hit.point + (hit.transform.forward * 0.01f);
+            object2D.position = pos;
             OnSpriteRotated?.Invoke();
         }
     }
-    
-    public void SelectSprite(Transform selection)
+
+    public void EnableGrabIcons(bool state)
     {
-        if (object2D != selection)
-            object2D = selection;
+        GrabIconEnabled = state;
+        Debug.Log("MoveAndRotate: grabIconEnabled is " + state.ToString());
     }
 
-    private void EmptySprite()
+    public void EnableGrabScaffolding(bool state)
     {
-        object2D = null;
-    }
-
-    public void ToggleMoveAndRotate(bool state)
-    {
-        RotationEnabled = state;
-        Debug.Log("MoveAndRotate: RotationEnabled is " + state.ToString());
+        GrabScaffoldingEnabled = state;
+        Debug.Log("MoveAndRotate: grabScaffoldingEnabled is " + state.ToString());
     }
 
     private void OnDisable()

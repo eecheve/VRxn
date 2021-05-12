@@ -68,7 +68,6 @@ public class Timer : MonoBehaviour
 
     private void OnDisable()
     {
-        if (OnTimeRanOut != null)
-            OnTimeRanOut();
+        OnTimeRanOut?.Invoke();
     }
 }
