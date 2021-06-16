@@ -9,7 +9,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class DistanceGrabLineVisual : MonoBehaviour
 { 
     [Header("Player Attributes")]
-    [SerializeField] private DataManager dataManager = null;
     [SerializeField] private float attractionSpeed = 2.0f;
 
     [Header("Color Attributes")]
@@ -64,15 +63,6 @@ public class DistanceGrabLineVisual : MonoBehaviour
                     string elem = objName.RemoveDigits();
                     elem = elem.RemoveSpecialChars();
 
-                    foreach (var entry in dataManager.MaterialsDict)
-                    {
-                        if (elem.Equals(entry.Key))
-                        {
-                            Debug.Log("DistanceGrabLineVisual_DistanceGrab: found material with same name");
-                            //hit.collider.gameObject.GetComponent<MeshRenderer>().material = entry.Value;
-                            break;
-                        }
-                    }
                     distanceGrabbed = false;
                 }
             }

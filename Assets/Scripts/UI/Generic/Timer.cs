@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Events;
 
 public class Timer : MonoBehaviour
 {
@@ -11,8 +12,10 @@ public class Timer : MonoBehaviour
     private float remainingTime;
     private bool isRunning = true;
 
-    public delegate void TimerFunction();
-    public event TimerFunction OnTimeRanOut;
+    public delegate void TimerEvent();
+    public TimerEvent OnTimeRanOut;
+    
+    public UnityEvent TimeRanOut;
 
     private void OnEnable()
     {
@@ -69,5 +72,6 @@ public class Timer : MonoBehaviour
     private void OnDisable()
     {
         OnTimeRanOut?.Invoke();
+        TimeRanOut?.Invoke();
     }
 }

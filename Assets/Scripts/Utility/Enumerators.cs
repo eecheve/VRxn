@@ -135,7 +135,18 @@ public class Enumerators
 
     public enum ControllerRef
     {
-        right,
-        left,
+        Right,
+        Left,
+    }
+
+    public enum ActionOutput
+    {
+        Bool,
+        Float,
+        AxisHorizontalRight,
+        AxisHorizontalLeft,
+        AxisVerticalUp,
+        AxisVerticalDown,
+        Vector2,
     }
 }

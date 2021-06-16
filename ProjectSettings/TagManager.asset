@@ -11,6 +11,8 @@ TagManager:
   - Rotatable
   - Element2D
   - DryInk
+  - HexagonalPrism
+  - ControllerModel
   layers:
   - Default
   - TransparentFX
@@ -26,7 +28,7 @@ TagManager:
   - Icon
   - Whiteboard
   - Whiteboard Background
-  - 
+  - Tutorial Observable
   - 
   - 
   - 

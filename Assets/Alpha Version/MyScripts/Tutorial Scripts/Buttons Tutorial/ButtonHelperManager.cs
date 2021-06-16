@@ -172,6 +172,23 @@ public class ButtonHelperManager : MonoSingleton<ButtonHelperManager>
         }
     }
 
+    public void ActivateHelperFromObject(GameObject helperObject)
+    {
+        Button3DHelper helper = helperObject.GetComponent<Button3DHelper>();
+        if(helper != null)
+        {
+            helper.ToggleButtonHelper(true);
+        }
+    }
+
+    public void DeactivateHelperFromObject(GameObject helperObject)
+    {
+        Button3DHelper helper = helperObject.GetComponent<Button3DHelper>();
+        if (helper != null)
+        {
+            helper.ToggleButtonHelper(false);
+        }
+    }
     private void OnDisable()
     {
         toggleHelpAction.action.performed -= ToggleHelpOneByOne;

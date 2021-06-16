@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: e40b8e7b816e1da41adbbec97e7f0c1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9058207420860725796
+    second: dev_lookLeft_controller_0
+  - first:
+      213: -822656598697286991
+    second: dev_lookLeft_controller_1
+  - first:
+      213: -5092263026976776070
+    second: dev_lookLeft_controller_2
+  - first:
+      213: -3707661639373948232
+    second: dev_lookLeft_controller_3
+  - first:
+      213: -4502516427091519030
+    second: dev_lookLeft_controller_4
+  - first:
+      213: 4446180480939976994
+    second: dev_lookLeft_controller_5
+  - first:
+      213: 531065932980048593
+    second: dev_lookLeft_controller_6
+  - first:
+      213: 1042290242300915861
+    second: dev_lookLeft_controller_7
+  - first:
+      213: -3120114158105205363
+    second: dev_lookLeft_controller_8
+  - first:
+      213: 7582584710779981284
+    second: dev_lookLeft_controller_9
+  - first:
+      213: 3192302910069067777
+    second: dev_lookLeft_controller_10
+  - first:
+      213: 3428255671166728525
+    second: dev_lookLeft_controller_11
+  - first:
+      213: 2145071676533815620
+    second: dev_lookLeft_controller_12
+  - first:
+      213: 4620533768108869866
+    second: dev_lookLeft_controller_13
+  - first:
+      213: 902066555873537855
+    second: dev_lookLeft_controller_14
+  - first:
+      213: 100213182651681022
+    second: dev_lookLeft_controller_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2094.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd50ac9d758ca4280800000000000000
+      internalID: -9058207420860725796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_1
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 2094.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2648e9e265594f0800000000000000
+      internalID: -822656598697286991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_2
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 2094.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70a136c1c5a459b0800000000000000
+      internalID: -5092263026976776070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_3
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 2094.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baf5cd026dbb8cc0800000000000000
+      internalID: -3707661639373948232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_4
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 2094.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac959d73a29d381c0800000000000000
+      internalID: -4502516427091519030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1396.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229e3bd279104bd30800000000000000
+      internalID: 4446180480939976994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_6
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1396.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2569ff6a9be5700800000000000000
+      internalID: 531065932980048593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_7
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1396.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590b33df375f67e00800000000000000
+      internalID: 1042290242300915861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_8
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 1396.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85e87b44b023b4d0800000000000000
+      internalID: -3120114158105205363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_9
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 1396.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed4955ce90ca3960800000000000000
+      internalID: 7582584710779981284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 698.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100dc1a45965d4c20800000000000000
+      internalID: 3192302910069067777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_11
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 698.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d497c178e5c939f20800000000000000
+      internalID: 3428255671166728525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_12
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 698.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449bc812353d4cd10800000000000000
+      internalID: 2145071676533815620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_13
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 698.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae883d04bfe6f1040800000000000000
+      internalID: 4620533768108869866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_14
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 698.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f2a92d0c8c48c00800000000000000
+      internalID: 902066555873537855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dev_lookLeft_controller_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.75
+        width: 771.2
+        height: 698.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8c3c1db57046100800000000000000
+      internalID: 100213182651681022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5d0cdb9aa24f6b54387a9bf7aafcf3c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

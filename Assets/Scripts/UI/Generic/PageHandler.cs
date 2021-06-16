@@ -28,6 +28,15 @@ public class PageHandler : MonoBehaviour
         }
     }
 
+    public void MoveToPage(int index)
+    {
+        if (pages.Count > 0 && index < pages.Count - 1)
+        {
+            PagesOff();
+            pages[index].gameObject.SetActive(true);
+        }
+    }
+
     private void PagesOff()
     {
         foreach (var page in pages)

@@ -14,8 +14,8 @@ public abstract class ButtonWatcher : MonoBehaviour
 
     protected virtual void OnEnable()
     {
-        leftDevice = GameManager.Instance.LeftControllerRef.inputDevice;
-        rightDevice = GameManager.Instance.RightControllerRef.inputDevice;
+        //leftDevice = GameManager.Instance.LeftControllerRef.inputDevice;
+        //rightDevice = GameManager.Instance.RightControllerRef.inputDevice;
     }
 
     protected virtual void ManageSustainedPress(InputDevice device, 

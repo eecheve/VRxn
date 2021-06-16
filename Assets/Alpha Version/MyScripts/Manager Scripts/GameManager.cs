@@ -1,22 +1,21 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class GameManager : MonoSingleton<GameManager>
 {
     [Header("Controller References")]
     [SerializeField] private Camera mainCamera = null;
-    [SerializeField] private XRController rightControllerRef = null;
-    [SerializeField] private XRController leftControllerRef = null;
 
     [Header("Direct Interactors")]
     [SerializeField] private XRDirectInteractor rightDirectController = null;
     [SerializeField] private XRDirectInteractor leftDirectController = null;
+
+    [Header("Distance Interactors")]
+    [SerializeField] private XRRayInteractor rightDistanceController = null;
+    [SerializeField] private XRRayInteractor leftDistanceController = null;
 
     [Header("UI Interactors")]
     [SerializeField] private XRRayInteractor rightUIController = null;
@@ -55,8 +54,6 @@ public class GameManager : MonoSingleton<GameManager>
     
 
     public Camera MainCamera { get { return mainCamera; } private set { mainCamera = value; } }
-    public XRController LeftControllerRef { get { return leftControllerRef; } private set { leftControllerRef = value; } }
-    public XRController RightControllerRef { get { return rightControllerRef; } private set { rightControllerRef = value; } }
     public XRDirectInteractor RightDirectController { get { return rightDirectController; } private set { rightDirectController = value; } }
     public XRDirectInteractor LeftDirectController { get { return LeftDirectController; } private set { LeftDirectController = value; } }
     public XRRayInteractor RightUIController { get { return rightUIController; } private set { rightUIController = value; } }
@@ -74,6 +71,12 @@ public class GameManager : MonoSingleton<GameManager>
 
         leftDirectController.onSelectEntered.AddListener(LeftGrabbedObject);
         leftDirectController.onSelectExited.AddListener(LeftDropedObject);
+
+        rightDistanceController.onSelectEntered.AddListener(RightGrabbedObject);
+        rightDistanceController.onSelectExited.AddListener(RightDropedObject);
+
+        leftDistanceController.onSelectEntered.AddListener(LeftGrabbedObject);
+        leftDistanceController.onSelectExited.AddListener(LeftDropedObject);
     }
 
     private void OnDisable()
@@ -85,10 +88,17 @@ public class GameManager : MonoSingleton<GameManager>
 
         leftDirectController.onSelectEntered.RemoveListener(LeftGrabbedObject);
         leftDirectController.onSelectExited.RemoveListener(LeftDropedObject);
+
+        rightDistanceController.onSelectEntered.RemoveListener(RightGrabbedObject);
+        rightDistanceController.onSelectExited.RemoveListener(RightDropedObject);
+
+        leftDistanceController.onSelectEntered.RemoveListener(LeftGrabbedObject);
+        leftDistanceController.onSelectExited.RemoveListener(LeftDropedObject);
     }
 
     public void RightGrabbedObject(XRBaseInteractable interactable)
     {
+        Debug.Log("GameManager: rightHand is being listened to");
         if (interactable != null)
         {
             RightGrabbed = interactable.transform;
@@ -96,21 +106,17 @@ public class GameManager : MonoSingleton<GameManager>
             if(previousRightGrabbed == null)
             {
                 previousRightGrabbed = RightGrabbed;
-                if (OnRightFirstGrab != null)
-                {
-                    OnRightFirstGrab();
-                }
+                Debug.Log("GameManager: right hand has grabbed " + RightGrabbed.name);
+                Debug.Log("GameManager: it is the first time something is grabbed");
+                OnRightFirstGrab?.Invoke();
             }
             else if(previousRightGrabbed != RightGrabbed)
             {
                 previousRightGrabbed = RightGrabbed;
-                if (OnRightHasSwapped != null)
-                {
-                    OnRightHasSwapped();
-                }
+                Debug.Log("GameManager: right hand has grabbed " + RightGrabbed.name);
+                OnRightHasSwapped?.Invoke();
             }
         }
-        Debug.Log("GameManager: right hand has grabbed " + RightGrabbed.name);
     }
 
     public void RightDropedObject(XRBaseInteractable interactable)
@@ -119,12 +125,12 @@ public class GameManager : MonoSingleton<GameManager>
         RightGrabbedParent = null;
         Debug.Log("GameManager: right hand has released something");
 
-        if (OnRightHasDropped != null)
-            OnRightHasDropped();
+        OnRightHasDropped?.Invoke();
     }
 
     public void LeftGrabbedObject(XRBaseInteractable interactable)
     {
+        Debug.Log("GameManager: Left hand is being listened to");
         if (interactable != null)
         {
             LeftGrabbed = interactable.transform;
@@ -133,20 +139,12 @@ public class GameManager : MonoSingleton<GameManager>
             if (previousLeftGrabbed == null)
             {
                 previousLeftGrabbed = LeftGrabbed;
-                if(OnLeftFirstGrab != null)
-                {
-                    OnLeftFirstGrab();
-                    Debug.Log("GameManager: first left grab");
-                }
+                OnLeftFirstGrab?.Invoke();
             }
             else if (previousLeftGrabbed != LeftGrabbed)
             {
                 previousLeftGrabbed = LeftGrabbed;
-                if (OnLeftHasSwapped != null)
-                {
-                    OnLeftHasSwapped();
-                    Debug.Log("GameManager: left has swapped");
-                }
+                OnLeftHasSwapped?.Invoke();
             }
         }
         Debug.Log("GameManager: left hand has grabbed " + LeftGrabbed.name);
@@ -172,8 +170,7 @@ public class GameManager : MonoSingleton<GameManager>
         LeftGrabbedParent = null;
         ClearLeftParentChildren();
 
-        if (OnLeftHasDropped != null)
-            OnLeftHasDropped();
+        OnLeftHasDropped?.Invoke();
     }
 
     private void ClearLeftParentChildren()
@@ -195,10 +192,9 @@ public class GameManager : MonoSingleton<GameManager>
         }
         else
         { 
-            SameParentGrab = false; 
-            
-            if(OnOneParentRelease != null)
-                OnOneParentRelease();
+            SameParentGrab = false;
+
+            OnOneParentRelease?.Invoke();
         }
     }
 
@@ -207,8 +203,7 @@ public class GameManager : MonoSingleton<GameManager>
         if (obj1 == obj2 && obj1.name.Equals(obj2.name))
         {
             SameParentGrab = true;
-            if (OnTwoHandParentGrab != null)
-                OnTwoHandParentGrab();
+            OnTwoHandParentGrab?.Invoke();
         }
         else
             SameParentGrab = false;

@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: 8a65ee2995b921a41a46569c1e0d9966
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7041578263352089379
+    second: thumbstick2D_up_down_0
+  - first:
+      213: 4419608605888714521
+    second: thumbstick2D_up_down_1
+  - first:
+      213: -940904851522409819
+    second: thumbstick2D_up_down_2
+  - first:
+      213: -6668334567622617318
+    second: thumbstick2D_up_down_3
+  - first:
+      213: 3850504903502110247
+    second: thumbstick2D_up_down_4
+  - first:
+      213: 5565078874117482785
+    second: thumbstick2D_up_down_5
+  - first:
+      213: -7858907297999048191
+    second: thumbstick2D_up_down_6
+  - first:
+      213: 2584783556484355685
+    second: thumbstick2D_up_down_7
+  - first:
+      213: -387889774742849405
+    second: thumbstick2D_up_down_8
+  - first:
+      213: -6112234672954379620
+    second: thumbstick2D_up_down_9
+  - first:
+      213: 3822861913209469678
+    second: thumbstick2D_up_down_10
+  - first:
+      213: -2367554875292238660
+    second: thumbstick2D_up_down_11
+  - first:
+      213: -337962756978642392
+    second: thumbstick2D_up_down_12
+  - first:
+      213: -5458975337303094429
+    second: thumbstick2D_up_down_13
+  - first:
+      213: 1161485868080212637
+    second: thumbstick2D_up_down_14
+  - first:
+      213: -1098999315476759356
+    second: thumbstick2D_up_down_15
+  - first:
+      213: -5484208417365720507
+    second: thumbstick2D_up_down_16
+  - first:
+      213: -5026848703929343394
+    second: thumbstick2D_up_down_17
+  - first:
+      213: 2408916108214290021
+    second: thumbstick2D_up_down_18
+  - first:
+      213: 8089480098334386319
+    second: thumbstick2D_up_down_19
+  - first:
+      213: 4270424376391146601
+    second: thumbstick2D_up_down_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 593.3333
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd469ca90e9474e90800000000000000
+      internalID: -7041578263352089379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 593.3333
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91791486c9a955d30800000000000000
+      internalID: 4419608605888714521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 593.3333
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaa09dc50c31f2f0800000000000000
+      internalID: -940904851522409819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_3
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 593.3333
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1755658a015573a0800000000000000
+      internalID: -6668334567622617318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 475.33334
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e94231fcdbf6530800000000000000
+      internalID: 3850504903502110247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 475.33334
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129adce30c12b3d40800000000000000
+      internalID: 5565078874117482785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 475.33334
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102ba04637d8fe290800000000000000
+      internalID: -7858907297999048191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_7
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 475.33334
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566558923fefed320800000000000000
+      internalID: 2584783556484355685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357.33334
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38832741e40fd9af0800000000000000
+      internalID: -387889774742849405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 357.33334
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c927abee2fafc2ba0800000000000000
+      internalID: -6112234672954379620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 357.33334
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea783ad7a88d0530800000000000000
+      internalID: 3822861913209469678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 357.33334
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc36ff7261c42fd0800000000000000
+      internalID: -2367554875292238660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239.33334
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822f9f2c9a05f4bf0800000000000000
+      internalID: -337962756978642392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 239.33334
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b4e668ad2dd34b0800000000000000
+      internalID: -5458975337303094429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_14
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 239.33334
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9aae824e3d6e1010800000000000000
+      internalID: 1161485868080212637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_15
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 239.33334
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc3c9002f19fb0f0800000000000000
+      internalID: -1098999315476759356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121.333336
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54285b0408d24e3b0800000000000000
+      internalID: -5484208417365720507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 121.333336
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52a8a6bcbb0d3ab0800000000000000
+      internalID: -5026848703929343394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_18
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 121.333336
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56644dbff603e6120800000000000000
+      internalID: 2408916108214290021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 121.333336
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8820de1a4b934070800000000000000
+      internalID: 8089480098334386319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumbstick2D_up_down_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.3333359
+        width: 114.75
+        height: 118.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c96fa3858934b30800000000000000
+      internalID: 4270424376391146601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8c728fbc78b7e894b9e8f6b6fa350e25
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
