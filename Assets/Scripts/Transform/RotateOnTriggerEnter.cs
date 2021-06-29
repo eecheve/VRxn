@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,7 @@ using static Enumerators;
 
 public class RotateOnTriggerEnter : MonoBehaviour
 {
-    [SerializeField] private Transform objectToRotate = null;
+    [SerializeField] private Transform[] objectsToRotate = null;
     
     [Tooltip("Object's local axis to rotate")]
     [SerializeField] private CartesianAxis rotateAxis = CartesianAxis.x;
@@ -27,35 +28,74 @@ public class RotateOnTriggerEnter : MonoBehaviour
                 if (referenceAxis == CartesianAxis.x)
                 {
                     if (rotateAxis == CartesianAxis.x)
-                        objectToRotate.right = transform.right;
-
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].right = transform.right;
+                        }
+                    }
                     else if (rotateAxis == CartesianAxis.y)
-                        objectToRotate.up = transform.right;
-
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].up = transform.right;
+                        }
+                    }
                     else
-                        objectToRotate.forward = transform.right;
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].forward = transform.right;
+                        }
+                    }
                 }
                 else if (referenceAxis == CartesianAxis.y)
                 {
                     if (rotateAxis == CartesianAxis.x)
-                        objectToRotate.right = transform.up;
-
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].right = transform.up;
+                        }
+                    }
                     else if (rotateAxis == CartesianAxis.y)
-                        objectToRotate.up = transform.up;
-
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].up = transform.up;
+                        }
+                    }
                     else
-                        objectToRotate.forward = transform.up;
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].forward = transform.up;
+                        }
+                    }
                 }
                 else
                 {
                     if (rotateAxis == CartesianAxis.x)
-                        objectToRotate.right = transform.forward;
-
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].right = transform.forward;
+                        }
+                    }
                     else if (rotateAxis == CartesianAxis.y)
-                        objectToRotate.up = transform.forward;
-
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].up = transform.forward;
+                        }
+                    }
                     else
-                        objectToRotate.forward = transform.forward;
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].forward = transform.forward;
+                        }
+                    }
                 }
             }
             else
@@ -63,38 +103,76 @@ public class RotateOnTriggerEnter : MonoBehaviour
                 if (referenceAxis == CartesianAxis.x)
                 {
                     if (rotateAxis == CartesianAxis.x)
-                        objectToRotate.right = -transform.right;
-
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].right = -transform.right;
+                        }
+                    }
                     else if (rotateAxis == CartesianAxis.y)
-                        objectToRotate.up = -transform.right;
-
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].up = -transform.right;
+                        }
+                    }
                     else
-                        objectToRotate.forward = -transform.right;
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].forward = -transform.right;
+                        }
+                    }
                 }
                 else if (referenceAxis == CartesianAxis.y)
                 {
                     if (rotateAxis == CartesianAxis.x)
-                        objectToRotate.right = -transform.up;
-
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].right = -transform.up;
+                        }
+                    }
                     else if (rotateAxis == CartesianAxis.y)
-                        objectToRotate.up = -transform.up;
-
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].up = -transform.up;
+                        }
+                    }
                     else
-                        objectToRotate.forward = -transform.up;
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].forward = -transform.up;
+                        }
+                    }
                 }
                 else
                 {
                     if (rotateAxis == CartesianAxis.x)
-                        objectToRotate.right = -transform.forward;
-
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].right = -transform.forward;
+                        }
+                    }
                     else if (rotateAxis == CartesianAxis.y)
-                        objectToRotate.up = -transform.forward;
-
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].up = -transform.forward;
+                        }
+                    }
                     else
-                        objectToRotate.forward = -transform.forward;
+                    {
+                        for (int i = 0; i < objectsToRotate.Length; i++)
+                        {
+                            objectsToRotate[i].forward = -transform.forward;
+                        }
+                    }
                 }
             }
         }
     }
-    
 }

@@ -13,11 +13,12 @@ TagManager:
   - DryInk
   - HexagonalPrism
   - ControllerModel
+  - Molecule
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - Grabbable
@@ -29,7 +30,7 @@ TagManager:
   - Whiteboard
   - Whiteboard Background
   - Tutorial Observable
-  - 
+  - Teleport Zone
   - 
   - 
   - 

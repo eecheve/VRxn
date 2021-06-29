@@ -22,6 +22,8 @@ public class ActionTutorial : Tutorial
 
     private void OnEnable()
     {
+        Debug.Log(name + " ActionTutorial is enabled");
+        
         foreach (var action in actions)
         {
             action.action.performed += CheckForButtonPressed;
@@ -90,17 +92,20 @@ public class ActionTutorial : Tutorial
 
     public override void CheckIfHappening()
     {
+        Debug.Log("ActionTutorial happening");
         if (performed == true)
         {
             TutorialManager.Instance.CompletedTutorial();
             Debug.Log("ActionTutorial: an action tutorial was completed");
 
             OnAnyActionPerformed?.Invoke();
+            this.enabled = false;
         }
     }
 
     private void OnDisable()
     {
+        Debug.Log(name + "ActionTutorial: tutorial disabled");
         foreach (var action in actions)
         {
             action.action.performed -= CheckForButtonPressed;

@@ -22,47 +22,54 @@ public class TutorialManager : MonoBehaviour
     private static TutorialManager instance;
 
     [SerializeField] private List<Tutorial> tutorials = null;
+    [SerializeField] private int beginFromIndex = 0;
     public List<Tutorial> Tutorials { get { return tutorials; } set { tutorials = value; } }
 
-    private Tutorial currentTutorial;
+    public Tutorial CurrentTutorial { get; private set; }
 
-    public delegate void TutorialCompleted();
-    public event TutorialCompleted OnTutorialCompleted;
+    public delegate void SectionCompleted();
+    public event SectionCompleted OnSectionCompleted;
+    public event SectionCompleted OnTutorialCompleted;
 
     private void Start()
     {
-        SetNextTutorial(0);
+        SetNextTutorial(beginFromIndex);
     }
 
     private void Update()
     {
-        if (currentTutorial)
+        if (CurrentTutorial)
         {
-            Debug.Log("TutorialManager: current tutorial is: " + currentTutorial.name);
-            currentTutorial.CheckIfHappening();
+            Debug.Log("TutorialManager: current tutorial is: " + CurrentTutorial.name);
+            CurrentTutorial.CheckIfHappening();
         }
     }
 
     public void CompletedTutorial()
     {
         Debug.Log("TutorialManager: one tutorial was completed");
-        SetNextTutorial(currentTutorial.Order + 1);
+        SetNextTutorial(CurrentTutorial.Order + 1);
         OnTutorialCompleted?.Invoke();
     }
 
     public void CompletedAllTutorials()
     {
+        OnTutorialCompleted?.Invoke();
         //load scene
     }
     
     public void SetNextTutorial(int currentOrder)
     {
-        currentTutorial = GetTutorialByOrder(currentOrder);
+        CurrentTutorial = GetTutorialByOrder(currentOrder);
 
-        if (!currentTutorial)
+        if (!CurrentTutorial)
         {
             CompletedAllTutorials();
             return;
+        }
+        else
+        {
+            OnSectionCompleted?.Invoke();
         }
     }
     

@@ -38,7 +38,6 @@ public class GrabMoleculeTutorial : MonoBehaviour
             {
                 if (element.name.Equals(GameManager.Instance.LeftGrabbed.name))
                 {
-                    Debug.Log(name + "GrabMoleculeTutorial: We grabbed the molecule we wanted");
                     condition.FulfillCondition();
                     this.enabled = false;
                 }
@@ -52,10 +51,8 @@ public class GrabMoleculeTutorial : MonoBehaviour
         {
             foreach (var element in elements)
             {
-                Debug.Log("GrabMoleculeTutorial: comparing " + element.name + " & " + GameManager.Instance.RightGrabbed.name);
                 if (element.name.Equals(GameManager.Instance.RightGrabbed.name))
                 {
-                    Debug.Log(name + "GrabMoleculeTutorial: We grabbed the molecule we wanted");
                     condition.FulfillCondition();
                     this.enabled = false;
                 }
@@ -66,7 +63,6 @@ public class GrabMoleculeTutorial : MonoBehaviour
 
     private void OnDisable()
     {
-        //grabAction.action.performed -= CheckForMoleculeGrabbed;
         GameManager.OnLeftFirstGrab -= LeftMoleculeGrabbed;
         GameManager.OnRightFirstGrab -= RightMoleculeGrabbed;
 

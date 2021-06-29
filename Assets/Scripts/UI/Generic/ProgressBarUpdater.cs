@@ -43,10 +43,8 @@ public class ProgressBarUpdater : MonoBehaviour
     private void UpdateShaderFill()
     {
         float current = barMaterial.GetFloat("_FillRate");
-        Debug.Log("ProgressBarupdater: current fill rate is " + current.ToString());
         current += barIncrement;
 
-        Debug.Log("ProgressBarupdater: after increment fill rate is " + current.ToString());
 
         if (current <= maxValue)
             barMaterial.SetFloat("_FillRate", current);

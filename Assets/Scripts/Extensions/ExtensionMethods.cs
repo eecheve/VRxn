@@ -111,4 +111,9 @@ public static class ExtensionMethods
     {
         return Regex.Replace(key, @"[^\w]", "");
     }
+
+    public static bool AsBool(this float value)
+    {
+        return Mathf.Approximately(Math.Min(value, 1), 1);
+    }
 }

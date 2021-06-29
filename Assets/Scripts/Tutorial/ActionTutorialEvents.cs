@@ -16,6 +16,7 @@ public class ActionTutorialEvents : MonoBehaviour
 
     private void ConditionCompleted()
     {
+        Debug.Log(name + " ActionTutorialEvent: condition completed");
         ActionEvents?.Invoke();
         this.enabled = false;
     }

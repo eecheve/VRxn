@@ -202,6 +202,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Thumbstick Move",
+                    "type": "Value",
+                    "id": "cd881a50-4033-498c-b665-46a526c8f945",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -433,6 +441,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Thumbstick Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "95dc8d9c-69fc-41d9-a661-8dcd760c4ca1",
+                    "path": "<XRController>{LeftHand}/primary2DAxis",
+                    "interactions": "Sector(directions=4),Sector(directions=8),Sector(directions=1),Sector(directions=2)",
+                    "processors": "",
+                    "groups": "Noncontinuous Move",
+                    "action": "Thumbstick Move",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -813,6 +832,109 @@
                     "processors": "",
                     "groups": "",
                     "action": "Thumbstick Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Keyboard",
+            "id": "7c627dc2-0ffe-427a-a7cf-936a2a662427",
+            "actions": [
+                {
+                    "name": "Keyboard Test",
+                    "type": "Button",
+                    "id": "db16ab0c-e03f-4a04-b082-88e69b282f3d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Arrow Up",
+                    "type": "Button",
+                    "id": "ac03f8fc-6803-4b57-94c6-21a0a7d21fc5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Arrow Down",
+                    "type": "Button",
+                    "id": "b9130abe-19fa-41f4-899b-78ad2a3cb7fb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Arrow Left",
+                    "type": "Button",
+                    "id": "78af5f02-37d4-47fc-b883-329386f30cf0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Arrow Right",
+                    "type": "Button",
+                    "id": "ae577933-7758-42fb-944e-f387f82f1b30",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "73233414-dda5-4fd2-b527-9b657ad60d13",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Keyboard Test",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42431206-7710-4e26-a41e-f5e431d40540",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Arrow Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "57330363-1819-40d3-bf75-dd5184ade64d",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Arrow Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5649aec8-932e-476a-b6f3-cc09e08c710c",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Arrow Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c2c84aa-960b-4ee2-91f0-01fb34d4e666",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Arrow Right",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

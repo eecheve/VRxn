@@ -22475,7 +22475,6 @@ MonoBehaviour:
   panels:
   - {fileID: 632467128}
   - {fileID: 1396745245}
-  timer: {fileID: 632467133}
 --- !u!114 &510352442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26763,6 +26762,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   counter: 5
   tMesh: {fileID: 774482687}
+  TimeRanOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &633228767
 GameObject:
   m_ObjectHideFlags: 0

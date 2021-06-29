@@ -12,13 +12,11 @@ public class Button3DHelper : MonoBehaviour
     [SerializeField] private MeshRenderer arrowPointer = null;
     [SerializeField] private MeshRenderer spriteHolder = null;
     [SerializeField] private SpriteRenderer spriteText = null;
-
-    //private Color originalColor;
-
-    //private void Awake()
-    //{
-    //    originalColor = buttonMesh.material.color;
-    //}
+    
+    [Header("Button Attributes")]
+    [SerializeField] private MeshRenderer buttonMesh = null;
+    [SerializeField] private Material initialMat = null;
+    [SerializeField] private Material highlightMat = null;
 
     public void ToggleButtonHelper(bool state)
     {
@@ -26,13 +24,13 @@ public class Button3DHelper : MonoBehaviour
         spriteHolder.enabled = state;
         spriteText.enabled = state;
 
-        //if(state == true)
-        //{
-        //    buttonMesh.material.color = highlightColor;
-        //}
-        //else
-        //{
-        //    buttonMesh.material.color = originalColor;
-        //}
+        if(state == true)
+        {
+            buttonMesh.material = highlightMat;
+        }
+        else
+        {
+            buttonMesh.material = initialMat;
+        }
     }
 }

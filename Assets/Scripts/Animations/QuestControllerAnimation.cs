@@ -24,28 +24,52 @@ public class QuestControllerAnimation : MonoBehaviour
 
     private void AnimateThumbstick(InputAction.CallbackContext obj)
     {
-        m_animator.SetFloat("thumbstick_horizontal", obj.ReadValue<Vector2>().x);
-        m_animator.SetFloat("thumbstick_vertical", obj.ReadValue<Vector2>().y);
+        Debug.Log(name + " Animating thumbstick");
+
+        SetAnimatorFloat("thumbstick_horizontal", obj.ReadValue<Vector2>().x);
+        SetAnimatorFloat("thumbstick_vertical", obj.ReadValue<Vector2>().y);
+
     }
 
     private void AnimateSecondaryButton(InputAction.CallbackContext obj)
     {
-        m_animator.SetFloat("secondaryButton", obj.ReadValue<float>());
+        Debug.Log(name + " Animating secondary button");
+
+        SetAnimatorFloat("secondaryButton", obj.ReadValue<float>());
     }
 
     private void AnimatePrimaryButton(InputAction.CallbackContext obj)
     {
-        m_animator.SetFloat("primaryButton", obj.ReadValue<float>());
+        Debug.Log(name + " Animating primary button");
+
+        SetAnimatorFloat("primaryButton", obj.ReadValue<float>());
     }
 
     private void AnimateGrip(InputAction.CallbackContext obj)
     {
-        m_animator.SetFloat("sideTrigger", obj.ReadValue<float>());
+        Debug.Log(name + " Animating grip button");
+
+        SetAnimatorFloat("primaryButton", obj.ReadValue<float>());
     }
 
     private void AnimateTrigger(InputAction.CallbackContext obj)
     {
-        m_animator.SetFloat("indexTrigger", obj.ReadValue<float>());
+        Debug.Log(name + " Animating trigger button");
+        try
+        {
+            SetAnimatorFloat("indexTrigger", obj.ReadValue<float>());
+        }
+        catch (System.Exception)
+        {
+            Debug.Log("QuestControllerAnimation: index trigger parameter not found");
+            throw;
+        }
+    }
+
+    private void SetAnimatorFloat(string parameter, float value)
+    {
+        if(value > 0.1f)
+            m_animator.SetFloat(parameter, value);
     }
 
     private void OnDisable()
