@@ -54,31 +54,41 @@ public class ColorRayLine : MonoBehaviour
     private void RaycastLogic()
     {
         Ray ray = new Ray(transform.position, transform.forward);
-        RaycastHit hit;
+        //RaycastHit hit;
 
         if (moveRotate.GrabIconEnabled == false)
         {
             if (Physics.Raycast(ray, 100f, drawLayerMask))
             {
+                //Debug.Log("ColorRayLine: drawing is enabled");
+
                 if (lineVisual.validColorGradient != drawingGradient)
+                {
+                    //Debug.Log("ColorRayLine: changing the valid color gradient");
                     lineVisual.validColorGradient = drawingGradient;
+                }
             }
 
-            if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, out hit, 100f, grabLayerMask))
+            //if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, out hit, 100f, grabLayerMask))
+            if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, 100f, grabLayerMask))
             {
+                //Debug.Log("ColorRayLine: reverting back to original line renderer");
+                
                 if (lineVisual.validColorGradient != defaultGradient)
                     lineVisual.validColorGradient = defaultGradient;
             }
         }
         else
         {
-            if (Physics.Raycast(ray, out hit, 100f, grabLayerMask))//<-- two different types of Physics.Raycast
+            //if (Physics.Raycast(ray, out hit, 100f, grabLayerMask))//<-- two different types of Physics.Raycast
+            if (Physics.Raycast(ray, 100f, grabLayerMask))
             {
                 if (lineVisual.validColorGradient != grabbingGradient)
                     lineVisual.validColorGradient = grabbingGradient;
             }
-            
-            if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, out hit, 100f, grabLayerMask))
+
+            //if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, out hit, 100f, grabLayerMask))
+            else if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, 100f, grabLayerMask))
             {
                 if (lineVisual.validColorGradient != defaultGradient)
                     lineVisual.validColorGradient = defaultGradient;
@@ -113,7 +123,7 @@ public class ColorRayLine : MonoBehaviour
         }
         else
         {
-            Debug.LogError("ColorRayLine_ChangeLineColor(): invalid color name");
+            //Debug.LogError("ColorRayLine_ChangeLineColor(): invalid color name");
         }
     }
 

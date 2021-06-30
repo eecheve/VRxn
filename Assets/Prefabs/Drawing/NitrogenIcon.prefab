@@ -150,6 +150,7 @@ GameObject:
   - component: {fileID: 5558991831478790895}
   - component: {fileID: 5738069410533120555}
   - component: {fileID: 5626340842481327120}
+  - component: {fileID: 7098150416225938881}
   m_Layer: 11
   m_Name: NitrogenIcon
   m_TagString: Element2D
@@ -197,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: c1cea2f88568f494a9acdc298beae42d, type: 2}
   m_Color: {r: 0, g: 0.11372549, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -256,3 +257,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &7098150416225938881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568004088309519219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4e6bf99a31744489c028f4f022ef27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

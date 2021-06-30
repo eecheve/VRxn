@@ -43,7 +43,7 @@ public class ButtonsPanel : MonoBehaviour
 
     private void SetElementIcon(GameObject icon)
     {
-        Debug.Log("ButtonsPanel: Setting element icon " + icon.name);
+        //Debug.Log("ButtonsPanel: Setting element icon " + icon.name);
         //leftDrawer.SetElement(icon);
         //rightDrawer.SetElement(icon);
         drawSystem.SetElement(icon);
@@ -83,7 +83,7 @@ public class ButtonsPanel : MonoBehaviour
                 ButtonManager bManager = other.button.GetComponent<ButtonManager>();
                 if (bManager != null)
                 {
-                    Debug.Log("ButtonsPanel - getting ButtonManager for " + other.button.name);
+                    //Debug.Log("ButtonsPanel - getting ButtonManager for " + other.button.name);
                     bManager.ResetButton();
                 }
                 

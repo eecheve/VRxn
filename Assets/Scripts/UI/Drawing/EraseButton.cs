@@ -19,7 +19,6 @@ public class EraseButton : MonoBehaviour
     {
         if(selectElement.CurrentSelected != null)
         {
-            //GameObject.DestroyImmediate(selectElement.CurrentSelected);
             currentSelected.ResetImages();
             selectElement.ResetSelected();
         }

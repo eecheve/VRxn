@@ -61,9 +61,9 @@ public class DrawElement : MonoBehaviour
         if (elementIcon != null)
         {
             Debug.Log("DrawElement: element icon is " + elementIcon.name);
-            var go = Instantiate(elementIcon, hit.point + (hit.transform.forward * -0.075f), hit.transform.rotation, hit.transform);
-            //go.name = go.name.Replace("_icon_w", ""); //<--- this could be a source of bugs if I ever change the name of the icons!!!
-            go.transform.localScale = new Vector3(0.7f, 0.5f, 0.7f);//new Vector3(0.065f, 0.065f, 0.065f);
+            //var go = Instantiate(elementIcon, hit.point + (hit.transform.forward * -0.01f), hit.transform.rotation, hit.transform);
+            var go = Instantiate(elementIcon, hit.point, hit.transform.rotation, hit.transform);
+            go.transform.localScale = new Vector3(0.7f, 0.5f, 0.7f);
             iconCount++;
             go.name += iconCount.ToString(); //names necessary because from this it depends the draw bond function.
             drawnElements.Add(go);
@@ -77,7 +77,7 @@ public class DrawElement : MonoBehaviour
     public void Erase()
     {
         GameObject go = selector.CurrentSelected;
-        if (go != null)
+        if (go != null && !go.CompareTag("Whiteboard"))
         {
             if (go.transform.childCount > 0)
             {
@@ -93,6 +93,27 @@ public class DrawElement : MonoBehaviour
                 }
             }
             SearchAndDestroy(go);
+        }
+    }
+
+    public void Clear()
+    {
+        foreach (var element in drawnElements)
+        {
+            if (element.transform.childCount > 0)
+            {
+                for (int i = 0; i < element.transform.childCount; i++)
+                {
+                    GameObject child = element.transform.GetChild(i).gameObject;
+                    if (child != null)
+                    {
+                        Debug.Log("DrawElement: object to erase has children");
+                        drawBond.SearchAndDestroy(child);
+                        SearchAndDestroy(child);
+                    }
+                }
+            }
+            SearchAndDestroy(element);
         }
     }
 

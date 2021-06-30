@@ -23,7 +23,7 @@ public class ButtonPressedTutorial : MonoBehaviour
         button.onClick.AddListener(FulfillCondition);
         
         if(animator != null)
-            animator.SetTrigger("Start");
+            animator.enabled = true;
     }
 
     private void FulfillCondition()
@@ -36,7 +36,7 @@ public class ButtonPressedTutorial : MonoBehaviour
     {
         button.onClick.RemoveListener(FulfillCondition);
         
-        if(animator != null)
-            animator.SetTrigger("Stop");
+        if (animator != null)
+            animator.enabled = false;
     }
 }

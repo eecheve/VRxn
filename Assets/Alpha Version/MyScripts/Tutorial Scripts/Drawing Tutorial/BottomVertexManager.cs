@@ -171,6 +171,7 @@ public class BottomVertexManager : MonoBehaviour
     {
         ///<summary>
         ///Checks if two icons are connected in any way
+        ///returns: value between 0 (no bond) and 3 (triple bond)
         ///</summary>
         int value = 0;
 

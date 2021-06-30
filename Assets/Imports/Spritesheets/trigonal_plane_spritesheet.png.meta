@@ -1,0 +1,1056 @@
+fileFormatVersion: 2
+guid: 80e90987df4eef444a7224afe215637f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7234318240174343351
+    second: trigonal_plane_spritesheet_0
+  - first:
+      213: -1546038766335302128
+    second: trigonal_plane_spritesheet_1
+  - first:
+      213: 45584202327839392
+    second: trigonal_plane_spritesheet_2
+  - first:
+      213: 9083084774993306932
+    second: trigonal_plane_spritesheet_3
+  - first:
+      213: 2052074972746392457
+    second: trigonal_plane_spritesheet_4
+  - first:
+      213: 2838040196111453454
+    second: trigonal_plane_spritesheet_5
+  - first:
+      213: -6366063341988118991
+    second: trigonal_plane_spritesheet_6
+  - first:
+      213: 2251846312063009553
+    second: trigonal_plane_spritesheet_7
+  - first:
+      213: -2075889816021674592
+    second: trigonal_plane_spritesheet_8
+  - first:
+      213: -5389061764198389091
+    second: trigonal_plane_spritesheet_9
+  - first:
+      213: -3111746525789378040
+    second: trigonal_plane_spritesheet_10
+  - first:
+      213: 4863841727148656802
+    second: trigonal_plane_spritesheet_11
+  - first:
+      213: -2101097383710764968
+    second: trigonal_plane_spritesheet_12
+  - first:
+      213: 5067134172932972722
+    second: trigonal_plane_spritesheet_13
+  - first:
+      213: -3905961241611631730
+    second: trigonal_plane_spritesheet_14
+  - first:
+      213: -8645410183318940508
+    second: trigonal_plane_spritesheet_15
+  - first:
+      213: -5901178464717306552
+    second: trigonal_plane_spritesheet_16
+  - first:
+      213: 4593424380119870509
+    second: trigonal_plane_spritesheet_17
+  - first:
+      213: -6398062411345943849
+    second: trigonal_plane_spritesheet_18
+  - first:
+      213: -4677078790406205098
+    second: trigonal_plane_spritesheet_19
+  - first:
+      213: -8475986435778751146
+    second: trigonal_plane_spritesheet_20
+  - first:
+      213: -1309310154002852086
+    second: trigonal_plane_spritesheet_21
+  - first:
+      213: -7823988035016733518
+    second: trigonal_plane_spritesheet_22
+  - first:
+      213: 8253164694145661197
+    second: trigonal_plane_spritesheet_23
+  - first:
+      213: -5608214629871322841
+    second: trigonal_plane_spritesheet_24
+  - first:
+      213: -8771228137641622684
+    second: trigonal_plane_spritesheet_25
+  - first:
+      213: -4935118894059538024
+    second: trigonal_plane_spritesheet_26
+  - first:
+      213: -1572809534669239384
+    second: trigonal_plane_spritesheet_27
+  - first:
+      213: 4978343305941423672
+    second: trigonal_plane_spritesheet_28
+  - first:
+      213: -1251121166768408192
+    second: trigonal_plane_spritesheet_29
+  - first:
+      213: -3003690049266291890
+    second: trigonal_plane_spritesheet_30
+  - first:
+      213: 6785437910869551844
+    second: trigonal_plane_spritesheet_31
+  - first:
+      213: -2881235559718837494
+    second: trigonal_plane_spritesheet_32
+  - first:
+      213: 6387320637503501886
+    second: trigonal_plane_spritesheet_33
+  - first:
+      213: -8200175759243328579
+    second: trigonal_plane_spritesheet_34
+  - first:
+      213: -19351465973672367
+    second: trigonal_plane_spritesheet_35
+  - first:
+      213: 8817084942326163421
+    second: trigonal_plane_spritesheet_36
+  - first:
+      213: 5099968226500678448
+    second: trigonal_plane_spritesheet_42
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2940
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b488b14c16756460800000000000000
+      internalID: 7234318240174343351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2940
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016e99beeed5b8ae0800000000000000
+      internalID: -1546038766335302128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2940
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2de1b2792f1a000800000000000000
+      internalID: 45584202327839392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 4254
+        y: 2940
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4352c368a799d0e70800000000000000
+      internalID: 9083084774993306932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 5672
+        y: 2940
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983a40bb05f6a7c10800000000000000
+      internalID: 2052074972746392457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 7090
+        y: 2940
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dc083958eb26720800000000000000
+      internalID: 2838040196111453454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 8508
+        y: 2940
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e792b8e1337a7a0800000000000000
+      internalID: -6366063341988118991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2450
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1130a4f3a4a204f10800000000000000
+      internalID: 2251846312063009553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2450
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a55d2bf535f033e0800000000000000
+      internalID: -2075889816021674592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2450
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9aa050c0e43635b0800000000000000
+      internalID: -5389061764198389091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 4254
+        y: 2450
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80aa443850bd0d4d0800000000000000
+      internalID: -3111746525789378040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 5672
+        y: 2450
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a80b66f746df7340800000000000000
+      internalID: 4863841727148656802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 7090
+        y: 2450
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850da65cf0767d2e0800000000000000
+      internalID: -2101097383710764968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 8508
+        y: 2450
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0a9e6fea3125640800000000000000
+      internalID: 5067134172932972722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1960
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e838b4702fc3bc9c0800000000000000
+      internalID: -3905961241611631730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1960
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4dabd5e35550880800000000000000
+      internalID: -8645410183318940508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 1960
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845075eb37dca1ea0800000000000000
+      internalID: -5901178464717306552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 4254
+        y: 1960
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ce9aff22f1fbf30800000000000000
+      internalID: 4593424380119870509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 5672
+        y: 1960
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d222f0a2248537a0800000000000000
+      internalID: -6398062411345943849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 7090
+        y: 1960
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651135fce9da71fb0800000000000000
+      internalID: -4677078790406205098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 8508
+        y: 1960
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655d06e8e3f3f5a80800000000000000
+      internalID: -8475986435778751146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1470
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0719d91a5564dde0800000000000000
+      internalID: -1309310154002852086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1470
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bccbedd55c9b6390800000000000000
+      internalID: -7823988035016733518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 1470
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09f85bef81298270800000000000000
+      internalID: 8253164694145661197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 4254
+        y: 1470
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729fe5af18e9b22b0800000000000000
+      internalID: -5608214629871322841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 5672
+        y: 1470
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463c5f31b76564680800000000000000
+      internalID: -8771228137641622684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 7090
+        y: 1470
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8993343638fe28bb0800000000000000
+      internalID: -4935118894059538024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 8508
+        y: 1470
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab41b2bf024c2ae0800000000000000
+      internalID: -1572809534669239384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 980
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83615904cd0a61540800000000000000
+      internalID: 4978343305941423672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 980
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089fbc37def13aee0800000000000000
+      internalID: -1251121166768408192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 980
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b6b1e70dfb056d0800000000000000
+      internalID: -3003690049266291890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 4254
+        y: 980
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea29d244d7ba2e50800000000000000
+      internalID: 6785437910869551844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 5672
+        y: 980
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a032cbc168bc308d0800000000000000
+      internalID: -2881235559718837494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 7090
+        y: 980
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36fae0474254a850800000000000000
+      internalID: 6387320637503501886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 8508
+        y: 980
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db34886e79f133e80800000000000000
+      internalID: -8200175759243328579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 490
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15691c8b1ff3bbff0800000000000000
+      internalID: -19351465973672367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 490
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7ebc54a049c5a70800000000000000
+      internalID: 8817084942326163421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trigonal_plane_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0331a5ac41ab6c640800000000000000
+      internalID: 5099968226500678448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0ad99497f968287498665b9b1ea7684b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

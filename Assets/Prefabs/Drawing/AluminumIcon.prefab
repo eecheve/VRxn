@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: 4141972923435635855}
   - component: {fileID: 7576761390983393956}
   - component: {fileID: 1809712237360173745}
+  - component: {fileID: -4758521323795674777}
   m_Layer: 11
   m_Name: AluminumIcon
   m_TagString: Element2D
@@ -195,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: c1cea2f88568f494a9acdc298beae42d, type: 2}
   m_Color: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -254,3 +255,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &-4758521323795674777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7389788257172132823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4e6bf99a31744489c028f4f022ef27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

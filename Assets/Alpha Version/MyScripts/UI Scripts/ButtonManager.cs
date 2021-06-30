@@ -24,31 +24,17 @@ public class ButtonManager : MonoBehaviour
     {
         if(propertyOff == true)
         {
+            Debug.Log(name + " ButtonManager: activating button");
             button.targetGraphic.color = colorIfOn;
-            actionIfOn.Invoke();
             propertyOff = false;
+            actionIfOn?.Invoke();
         }
         else
         {
+            Debug.Log(name + " ButtonManager: deactivating button");
             button.targetGraphic.color = colorIfOff;
-            actionIfOff.Invoke();
             propertyOff = true;
-        }
-    }
-
-    public void ManageInvertedButton()
-    {
-        if (propertyOff == true)
-        {
-            button.targetGraphic.color = colorIfOff;
-            actionIfOn.Invoke();
-            propertyOff = false;
-        }
-        else
-        {
-            button.targetGraphic.color = colorIfOn;
-            actionIfOff.Invoke();
-            propertyOff = true;
+            actionIfOff?.Invoke();
         }
     }
 
