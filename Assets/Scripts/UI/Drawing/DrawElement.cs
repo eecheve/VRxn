@@ -19,6 +19,7 @@ public class DrawElement : MonoBehaviour
     [SerializeField] private LayerMask layerMask = 0;
     [SerializeField] private SelectElement selector = null;
     [SerializeField] private DrawBond drawBond = null;
+    [SerializeField] private Vector3 iconLocalScale = Vector3.one;
 
     private GameObject elementIcon = null; //icon to instantiate, modified externally by pressing buttons
     private int iconCount = 0;
@@ -63,7 +64,7 @@ public class DrawElement : MonoBehaviour
             Debug.Log("DrawElement: element icon is " + elementIcon.name);
             //var go = Instantiate(elementIcon, hit.point + (hit.transform.forward * -0.01f), hit.transform.rotation, hit.transform);
             var go = Instantiate(elementIcon, hit.point, hit.transform.rotation, hit.transform);
-            go.transform.localScale = new Vector3(0.7f, 0.5f, 0.7f);
+            go.transform.localScale = iconLocalScale;
             iconCount++;
             go.name += iconCount.ToString(); //names necessary because from this it depends the draw bond function.
             drawnElements.Add(go);
@@ -105,12 +106,8 @@ public class DrawElement : MonoBehaviour
                 for (int i = 0; i < element.transform.childCount; i++)
                 {
                     GameObject child = element.transform.GetChild(i).gameObject;
-                    if (child != null)
-                    {
-                        Debug.Log("DrawElement: object to erase has children");
-                        drawBond.SearchAndDestroy(child);
-                        SearchAndDestroy(child);
-                    }
+                    drawBond.SearchAndDestroy(child);
+                    SearchAndDestroy(child);
                 }
             }
             SearchAndDestroy(element);
@@ -139,6 +136,21 @@ public class DrawElement : MonoBehaviour
     {
         Debug.Log("DrawElement: setting element to " + element.name);
         elementIcon = element;
+    }
+
+    public void RefreshLineAngles()
+    {
+        for (int i = 0; i < drawnElements.Count; i++)
+        {
+            if(drawnElements[i].GetComponentInChildren<LineHolder>() != null)
+            {
+                LineHolder[] lines = drawnElements[i].GetComponentsInChildren<LineHolder>();
+                foreach (var line in lines)
+                {
+                    line.RefreshLinePoints();
+                }
+            }
+        }
     }
 
     private void OnDisable()

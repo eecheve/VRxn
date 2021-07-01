@@ -15,12 +15,16 @@ public abstract class Vertex : MonoBehaviour
 
     public delegate void VertexOccupied();
 
+    protected FixedJoint fj;
+
     protected virtual void Awake()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
         Collider = GetComponent<Collider>();
 
         InitialColor = SpriteRenderer.color;
+
+        fj = GetComponent<FixedJoint>();
     }
-    
+
 }

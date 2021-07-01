@@ -34,5 +34,6 @@ public class AnimateSpriteWithSlider : MonoBehaviour
     public void ResetAnimation()
     {
         animator.Play(clip.name, -1, 0);
+        slider.value = 0;
     }
 }

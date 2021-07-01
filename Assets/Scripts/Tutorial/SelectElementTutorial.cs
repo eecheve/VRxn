@@ -34,7 +34,7 @@ public class SelectElementTutorial : MonoBehaviour
             if (selector.CurrentSelected.name.Contains(icon.name))
             {
                 Debug.Log("SelectElementTutorial: element in vertex has been selected");
-                tutorial.FulfillCondition();
+                this.enabled = false;
             }
         }
     }
@@ -42,7 +42,8 @@ public class SelectElementTutorial : MonoBehaviour
     private void OnDisable()
     {
         selector.OnElementSelected -= CheckForElementSelected;
-
         arrow.enabled = false;
+        
+        tutorial.FulfillCondition();
     }
 }

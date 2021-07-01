@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
@@ -12,6 +13,11 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] private Button button = null;
     [SerializeField] private Color colorIfOn = Color.white;
     [SerializeField] private Color colorIfOff = Color.white;
+
+    [Header("Optional: Text Attributes")]
+    [SerializeField] private TextMeshProUGUI tmesh = null;
+    [SerializeField] private string onText = "";
+    [SerializeField] private string offText = "";
 
     private bool propertyOff = true;
 
@@ -27,6 +33,10 @@ public class ButtonManager : MonoBehaviour
             Debug.Log(name + " ButtonManager: activating button");
             button.targetGraphic.color = colorIfOn;
             propertyOff = false;
+
+            if(tmesh != null)
+                tmesh.text = onText;
+
             actionIfOn?.Invoke();
         }
         else
@@ -34,6 +44,10 @@ public class ButtonManager : MonoBehaviour
             Debug.Log(name + " ButtonManager: deactivating button");
             button.targetGraphic.color = colorIfOff;
             propertyOff = true;
+
+            if (tmesh != null)
+                tmesh.text = offText;
+
             actionIfOff?.Invoke();
         }
     }

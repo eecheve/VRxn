@@ -18,7 +18,7 @@ public class TrigonalVertex : Vertex
             Icon.Vertex = this;
             Icon.VertexManager = vertexManager;
             IsOccupied = true;
-         
+
             OnTrigVertOccupied?.Invoke();
         }
     }

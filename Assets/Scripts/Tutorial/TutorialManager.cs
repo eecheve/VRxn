@@ -72,6 +72,12 @@ public class TutorialManager : MonoBehaviour
             OnSectionCompleted?.Invoke();
         }
     }
+
+    public void SetTutorialByForce(int index)
+    {
+        if(index < tutorials.Count)
+            CurrentTutorial = GetTutorialByOrder(index);
+    }
     
     public Tutorial GetTutorialByOrder(int order)
     {

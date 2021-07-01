@@ -8,6 +8,7 @@ using UnityEngine;
 public class ObjectivesList : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI tmesh = null;
+    [SerializeField] private TextMeshProUGUI tmesh2 = null;
     [SerializeField] [TextArea] private string[] objectives = null;
 
     private TutorialManager manager;
@@ -27,7 +28,10 @@ public class ObjectivesList : MonoBehaviour
         int index = manager.CurrentTutorial.Order;
 
         if (index < objectives.Length)
+        {
             tmesh.text = objectives[index];
+            tmesh2.text = objectives[index];
+        }
     }
 
     private void OnDisable()
