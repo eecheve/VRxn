@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 0244db88d9cb0714f8f6f37816208135, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 62aae77058274e74db3db02451edd789, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0034404998, g: 0.00016708214, b: 0.09830496, a: 1}
+  m_IndirectSpecularColor: {r: 0.0024593973, g: 0.0083065815, b: 0.011361773, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1227,11 +1227,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 761902872201959733, guid: 962d610e85009cb43b57f42c77fedb0d, type: 3}
   m_PrefabInstance: {fileID: 30224685}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &30224687 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 133139917638386575, guid: 962d610e85009cb43b57f42c77fedb0d, type: 3}
-  m_PrefabInstance: {fileID: 30224685}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &31055907
 GameObject:
   m_ObjectHideFlags: 0
@@ -1487,7 +1482,7 @@ Transform:
   - {fileID: 290618268}
   - {fileID: 4187211464451535997}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &41716836
 GameObject:
@@ -2339,7 +2334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2549dc1069fd149a46a48d7f28f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToRotate: {fileID: 1313593452}
+  objectsToRotate: []
   rotateAxis: 2
   referenceAxis: 2
   inverted: 0
@@ -3779,6 +3774,9 @@ MonoBehaviour:
   button: {fileID: 103447033}
   colorIfOn: {r: 1, g: 0, b: 0, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &103447033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3997,6 +3995,9 @@ MonoBehaviour:
   button: {fileID: 109747177}
   colorIfOn: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &109747177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4174,7 +4175,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 112313761}
-  - component: {fileID: 112313762}
   - component: {fileID: 112313763}
   m_Layer: 0
   m_Name: Scene Handler
@@ -4197,27 +4197,6 @@ Transform:
   m_Father: {fileID: 628232481}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &112313762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112313760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a281ab37936b67a49a43da857feb4754, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arrowUp: {fileID: 495537300}
-  arrowDown: {fileID: 30224687}
-  arrowLeft: {fileID: 1851044548}
-  arrowRight: {fileID: 264391109}
-  controllersLayer:
-    serializedVersion: 2
-    m_Bits: 128
-  mainCamera: {fileID: 460889740}
-  welcomeScreen: {fileID: 510352441}
 --- !u!114 &112313763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11369,11 +11348,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 761902872201959733, guid: 962d610e85009cb43b57f42c77fedb0d, type: 3}
   m_PrefabInstance: {fileID: 264391107}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &264391109 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 133139917638386575, guid: 962d610e85009cb43b57f42c77fedb0d, type: 3}
-  m_PrefabInstance: {fileID: 264391107}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &269679989
 GameObject:
   m_ObjectHideFlags: 0
@@ -12467,7 +12441,7 @@ Transform:
   m_Children:
   - {fileID: 1352097712}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -75.719, z: 0}
 --- !u!136 &300607459
 CapsuleCollider:
@@ -13213,6 +13187,9 @@ MonoBehaviour:
   button: {fileID: 312533586}
   colorIfOn: {r: 0, g: 1, b: 0.2393508, a: 1}
   colorIfOff: {r: 1, g: 1, b: 1, a: 1}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!1 &313567082
 GameObject:
   m_ObjectHideFlags: 0
@@ -17340,6 +17317,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1219277507}
     m_Modifications:
+    - target: {fileID: 405650388, guid: ad5887bf1dd46fc409f839e22a64e1bc, type: 3}
+      propertyPath: grip
+      value: 
+      objectReference: {fileID: -7704974226817770252, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 405650388, guid: ad5887bf1dd46fc409f839e22a64e1bc, type: 3}
+      propertyPath: trigger
+      value: 
+      objectReference: {fileID: 6454425045118764060, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 405650388, guid: ad5887bf1dd46fc409f839e22a64e1bc, type: 3}
+      propertyPath: thumbstick
+      value: 
+      objectReference: {fileID: 8624065222238836542, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 405650388, guid: ad5887bf1dd46fc409f839e22a64e1bc, type: 3}
+      propertyPath: primaryButton
+      value: 
+      objectReference: {fileID: -4407152892650963082, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 405650388, guid: ad5887bf1dd46fc409f839e22a64e1bc, type: 3}
+      propertyPath: secondaryButton
+      value: 
+      objectReference: {fileID: 2441376417245099388, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     - target: {fileID: 2483478691462587378, guid: ad5887bf1dd46fc409f839e22a64e1bc, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -17401,6 +17398,11 @@ PrefabInstance:
 --- !u!4 &405650385 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2483478691462587378, guid: ad5887bf1dd46fc409f839e22a64e1bc, type: 3}
+  m_PrefabInstance: {fileID: 405650384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &405650386 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2045502925571905136, guid: ad5887bf1dd46fc409f839e22a64e1bc, type: 3}
   m_PrefabInstance: {fileID: 405650384}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &410953911
@@ -19515,6 +19517,9 @@ MonoBehaviour:
   button: {fileID: 454323865}
   colorIfOn: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &454323865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19810,6 +19815,9 @@ MonoBehaviour:
   button: {fileID: 458308236}
   colorIfOn: {r: 1, g: 0.8107188, b: 0, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &458308236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21587,11 +21595,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 761902872201959733, guid: 962d610e85009cb43b57f42c77fedb0d, type: 3}
   m_PrefabInstance: {fileID: 495537298}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &495537300 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 133139917638386575, guid: 962d610e85009cb43b57f42c77fedb0d, type: 3}
-  m_PrefabInstance: {fileID: 495537298}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &497750031
 GameObject:
   m_ObjectHideFlags: 0
@@ -21846,6 +21849,9 @@ MonoBehaviour:
   button: {fileID: 502628543}
   colorIfOn: {r: 0, g: 1, b: 0.7342434, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &502628543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22615,6 +22621,9 @@ MonoBehaviour:
   button: {fileID: 510978950}
   colorIfOn: {r: 0, g: 1, b: 0.5078263, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &510978950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25955,7 +25964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2549dc1069fd149a46a48d7f28f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToRotate: {fileID: 1313593452}
+  objectsToRotate: []
   rotateAxis: 2
   referenceAxis: 2
   inverted: 0
@@ -32861,6 +32870,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2bc72d06b29c50489486c5e2cb2ac02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &755488342 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1288740156508169402, guid: a59953f67e11c4c47809a5dd674e1c91, type: 3}
+  m_PrefabInstance: {fileID: 755488338}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &755488343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755488342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b25a74f26c41c24aa5bec80e677638a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_animator: {fileID: 405650386}
+  trigger: {fileID: 4500697981796244845, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  grip: {fileID: -7272938365132297159, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  primaryButton: {fileID: 2836877403447825426, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  secondaryButton: {fileID: 946540080064826382, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  thumbstick: {fileID: 486951110610314901, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &758517802
 GameObject:
   m_ObjectHideFlags: 0
@@ -34040,6 +34072,9 @@ MonoBehaviour:
   button: {fileID: 773105619}
   colorIfOn: {r: 0, g: 0.11449838, b: 1, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &773105619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35443,6 +35478,9 @@ MonoBehaviour:
   button: {fileID: 803218532}
   colorIfOn: {r: 1, g: 0, b: 0, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &803218532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38327,7 +38365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2549dc1069fd149a46a48d7f28f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToRotate: {fileID: 1313593452}
+  objectsToRotate: []
   rotateAxis: 2
   referenceAxis: 2
   inverted: 0
@@ -41405,6 +41443,9 @@ MonoBehaviour:
   button: {fileID: 938871400}
   colorIfOn: {r: 0.019607844, g: 0.8666667, b: 0.105882354, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!1 &939083770
 GameObject:
   m_ObjectHideFlags: 0
@@ -42332,6 +42373,9 @@ MonoBehaviour:
   button: {fileID: 956254918}
   colorIfOn: {r: 0.020469915, g: 0.8679245, b: 0.104863726, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &956254918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43103,7 +43147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2549dc1069fd149a46a48d7f28f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToRotate: {fileID: 1313593452}
+  objectsToRotate: []
   rotateAxis: 2
   referenceAxis: 2
   inverted: 0
@@ -44929,6 +44973,9 @@ MonoBehaviour:
   button: {fileID: 1022585003}
   colorIfOn: {r: 0.8938236, g: 0, b: 1, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &1022585003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62024,6 +62071,9 @@ MonoBehaviour:
   button: {fileID: 1424412070}
   colorIfOn: {r: 0.9914138, g: 1, b: 0.6933962, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &1424412070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63186,6 +63236,9 @@ MonoBehaviour:
   button: {fileID: 1462037619}
   colorIfOn: {r: 1, g: 0, b: 0.6367698, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &1462037619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67969,6 +68022,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555726591}
   m_CullTransparentMesh: 1
+--- !u!1 &1558560201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1558560202}
+  m_Layer: 0
+  m_Name: '[Task Manager]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1558560202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558560201}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.248204, y: 2.7247887, z: 3.369566}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1562189588
 GameObject:
   m_ObjectHideFlags: 0
@@ -68195,6 +68278,9 @@ MonoBehaviour:
   button: {fileID: 1566246421}
   colorIfOn: {r: 0.39316532, g: 0.8113208, b: 0, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &1566246421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71106,10 +71192,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rightDirectInteractor: {fileID: 352814143}
   rightRayInteractor: {fileID: 1467660432}
-  leftUIInteractor: {fileID: 0}
+  leftUIInteractor: {fileID: 365553366}
   leftDirectInteractor: {fileID: 1223683274}
   leftRayInteractor: {fileID: 889225535}
-  rightUIInteractor: {fileID: 0}
+  rightUIInteractor: {fileID: 1219277510}
 --- !u!1 &1629781205
 GameObject:
   m_ObjectHideFlags: 0
@@ -73952,7 +74038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2549dc1069fd149a46a48d7f28f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToRotate: {fileID: 1313593452}
+  objectsToRotate: []
   rotateAxis: 2
   referenceAxis: 2
   inverted: 0
@@ -74127,7 +74213,7 @@ Transform:
   - {fileID: 1704206241}
   - {fileID: 1683569398}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1704567121
 GameObject:
@@ -78771,6 +78857,7 @@ MonoBehaviour:
     m_Bits: 4096
   selector: {fileID: 745426151}
   drawBond: {fileID: 1889581717}
+  iconLocalScale: {x: 1, y: 1, z: 1}
 --- !u!1 &1806998041
 GameObject:
   m_ObjectHideFlags: 0
@@ -80615,11 +80702,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849805790}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1851044548 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 133139917638386575, guid: 962d610e85009cb43b57f42c77fedb0d, type: 3}
-  m_PrefabInstance: {fileID: 1641539710}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1854534020
 GameObject:
   m_ObjectHideFlags: 0
@@ -80868,6 +80950,9 @@ MonoBehaviour:
   button: {fileID: 1860115208}
   colorIfOn: {r: 0.54090035, g: 1, b: 0, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &1860115208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81430,6 +81515,9 @@ MonoBehaviour:
   button: {fileID: 1867360997}
   colorIfOn: {r: 0, g: 1, b: 0.2393508, a: 1}
   colorIfOff: {r: 1, g: 1, b: 1, a: 1}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &1867360997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81825,7 +81913,7 @@ Transform:
   - {fileID: 1889330829}
   - {fileID: 770597226}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1883181784
 GameObject:
@@ -83833,6 +83921,9 @@ MonoBehaviour:
   button: {fileID: 1927116127}
   colorIfOn: {r: 0.764151, g: 0.764151, b: 0.764151, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &1927116127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85296,7 +85387,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1963429774}
-  - component: {fileID: 1963429775}
   m_Layer: 0
   m_Name: Data Manager
   m_TagString: Untagged
@@ -85318,19 +85408,6 @@ Transform:
   m_Father: {fileID: 628232481}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1963429775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1963429773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15655d1e0865e9844bee0e0cf08fa8dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  materials: {fileID: 0}
 --- !u!1 &1964184750
 GameObject:
   m_ObjectHideFlags: 0
@@ -86030,7 +86107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2549dc1069fd149a46a48d7f28f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToRotate: {fileID: 1313593452}
+  objectsToRotate: []
   rotateAxis: 2
   referenceAxis: 2
   inverted: 0
@@ -88930,6 +89007,9 @@ MonoBehaviour:
   button: {fileID: 2025407881}
   colorIfOn: {r: 0, g: 0, b: 0, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &2025407881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89432,6 +89512,9 @@ MonoBehaviour:
   button: {fileID: 2032369139}
   colorIfOn: {r: 0.019607844, g: 0.8666667, b: 0.105882354, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!1 &2034199946
 GameObject:
   m_ObjectHideFlags: 0
@@ -90688,6 +90771,9 @@ MonoBehaviour:
   button: {fileID: 2064106302}
   colorIfOn: {r: 0.020469915, g: 0.8679245, b: 0.104863726, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &2064106302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91217,6 +91303,9 @@ MonoBehaviour:
   button: {fileID: 2066800630}
   colorIfOn: {r: 0.020469915, g: 0.8679245, b: 0.104863726, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!1 &2069810462
 GameObject:
   m_ObjectHideFlags: 0
@@ -94473,6 +94562,9 @@ MonoBehaviour:
   button: {fileID: 2143538204}
   colorIfOn: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.49803922}
   colorIfOff: {r: 1, g: 1, b: 1, a: 0.078431375}
+  tmesh: {fileID: 0}
+  onText: 
+  offText: 
 --- !u!114 &2143538204
 MonoBehaviour:
   m_ObjectHideFlags: 0

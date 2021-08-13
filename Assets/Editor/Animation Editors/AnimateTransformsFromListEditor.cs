@@ -31,7 +31,7 @@ public class AnimateTransformsFromListEditor : Editor
     {
         AnimationClip clip = new AnimationClip();
         string animName = transformsFromList.ObjectToAnimate.name;
-        string assetPath = "Assets/MyAnimations/" + animName;
+        string assetPath = "Assets/Animations/" + animName;
 
         clip.name = animName;
         transformsFromList.Anim.clip = clip;

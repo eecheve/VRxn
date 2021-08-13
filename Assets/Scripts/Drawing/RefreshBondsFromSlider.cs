@@ -29,6 +29,11 @@ public class RefreshBondsFromSlider : MonoBehaviour
         }
     }
 
+    public void RefreshBonds()
+    {
+        drawSystem.RefreshLineAngles();
+    }
+
     private void OnDisable()
     {
         slider.onValueChanged.RemoveListener(RefreshBonds);

@@ -21,6 +21,7 @@ public class SelectElementTutorial : MonoBehaviour
     private void OnEnable()
     {
         selector.OnElementSelected += CheckForElementSelected;
+        selector.OnPreviousElementSelected += CheckForElementSelected;
 
         arrow.enabled = true;
         arrow.transform.position = vertex.transform.position + positionOffset;

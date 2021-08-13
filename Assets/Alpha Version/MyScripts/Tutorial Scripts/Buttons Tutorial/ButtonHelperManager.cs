@@ -131,6 +131,10 @@ public class ButtonHelperManager : MonoSingleton<ButtonHelperManager>
             ToggleHelpers(HelpHelper, true);
 
             OnHelpActive?.Invoke();
+        }
+        else if (helpIndex == 7)
+        {
+            ToggleHelpers(false);
 
             helpIndex = 0;
             return;

@@ -23,9 +23,24 @@ public class CurrentSelected : MonoBehaviour
     {
         selectElement.OnElementSelected += UpdateCurrent;
         selectElement.OnElementDeselected += ResetImages;
+        selectElement.OnPreviousElementSelected += ResetCurrent;
 
         emptySprite = currentElement.sprite;
         emptyColor = currentElement.color;
+    }
+
+    private void ResetCurrent()
+    {
+        currentSelected = selectElement.CurrentSelected.GetComponent<Image>();
+        tmesh = selectElement.CurrentSelected.GetComponentInChildren<TextMeshProUGUI>();
+
+        currentElement.sprite = currentSelected.sprite;
+        currentElement.color = currentSelected.color;
+        currentTMesh.text = tmesh.text;
+
+        lastElement.sprite = emptySprite;
+        lastElement.color = emptyColor;
+        lastTMesh.text = "";
     }
 
     private void UpdateCurrent()
@@ -72,10 +87,10 @@ public class CurrentSelected : MonoBehaviour
     public void ResetImages()
     {
         currentElement.sprite = emptySprite;
-        lastElement.sprite = emptySprite;
+        currentElement.color = emptyColor;
         currentTMesh.text = "";
 
-        currentElement.color = emptyColor;
+        lastElement.sprite = emptySprite;
         lastElement.color = emptyColor;
         lastTMesh.text = "";
 

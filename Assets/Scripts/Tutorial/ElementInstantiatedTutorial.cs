@@ -1,14 +1,16 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
 [RequireComponent(typeof(ConditionTutorial))]
 public class ElementInstantiatedTutorial : MonoBehaviour
 {
+    [Header("Instantiated")]
     [SerializeField] private GameObject prefab = null;
     [SerializeField] private Vertex vertex = null;
+    
+    [Header("Highlighter")]
+    [SerializeField] private SpriteRenderer highlightArrow = null;
+    [SerializeField] private Vector3 arrowOffset = Vector3.zero;
 
     [Header("Optional")]
     [SerializeField] private TextMeshProUGUI tmesh = null;
@@ -37,7 +39,17 @@ public class ElementInstantiatedTutorial : MonoBehaviour
             trigVert.OnTrigVertOccupied += CheckForInstantiated;
         }
 
+        ManageArrow(true);
         vertex.GetComponent<SpriteRenderer>().enabled = true;
+    }
+
+    private void ManageArrow(bool state)
+    {
+        if (highlightArrow != null)
+        {
+            highlightArrow.transform.position = vertex.transform.position + arrowOffset;
+            highlightArrow.enabled = state;
+        }
     }
 
     private void CheckForInstantiated()
@@ -68,5 +80,6 @@ public class ElementInstantiatedTutorial : MonoBehaviour
         }
 
         vertex.GetComponent<SpriteRenderer>().enabled = false;
+        ManageArrow(false);
     }
 }

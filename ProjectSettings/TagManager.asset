@@ -14,6 +14,8 @@ TagManager:
   - HexagonalPrism
   - ControllerModel
   - Molecule
+  - DieneEnd
+  - Dienophile
   layers:
   - Default
   - TransparentFX

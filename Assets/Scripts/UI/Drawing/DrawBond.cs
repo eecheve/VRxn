@@ -142,13 +142,13 @@ public class DrawBond : MonoBehaviour
         }
     }
 
-    private void CreateLine(Transform origin, Transform end, Vector3 direction, float scale, string bondType)
+    private void CreateLine(Transform origin, Transform end, Vector3 direction, float offset, string bondType)
     {
         string oName = origin.name;
         string eName = end.name;
 
-        Vector3 o = origin.position + (direction * scale);
-        Vector3 e = end.position + (direction * scale);
+        Vector3 o = origin.position + (direction * offset);
+        Vector3 e = end.position + (direction * offset);
         Vector3 midPoint = (o + e) / 2;
 
         GameObject line = Instantiate(lineObject, midPoint, Quaternion.identity, origin);
@@ -158,7 +158,7 @@ public class DrawBond : MonoBehaviour
         GameObject newEnd = new GameObject();
 
         newOrigin.transform.parent = origin.parent;
-        newEnd.transform.parent = origin.parent;
+        newEnd.transform.parent = end.parent;
 
         newOrigin.transform.position = o;
         newEnd.transform.position = e;

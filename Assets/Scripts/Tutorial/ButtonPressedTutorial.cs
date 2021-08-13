@@ -8,6 +8,8 @@ using UnityEngine.UI;
 public class ButtonPressedTutorial : MonoBehaviour
 {
     [SerializeField] private Button button = null;
+    [SerializeField] private SpriteRenderer highlightArrow = null;
+    [SerializeField] private Vector3 arrowOffset = Vector3.zero;
     
     private ConditionTutorial tutorial;
     private Animator animator;
@@ -24,6 +26,17 @@ public class ButtonPressedTutorial : MonoBehaviour
         
         if(animator != null)
             animator.enabled = true;
+
+        ManageArrow(true);
+    }
+
+    private void ManageArrow(bool state)
+    {
+        if (highlightArrow != null)
+        {
+            highlightArrow.transform.position = button.transform.position + arrowOffset;
+            highlightArrow.enabled = state;
+        }
     }
 
     private void FulfillCondition()
@@ -38,5 +51,7 @@ public class ButtonPressedTutorial : MonoBehaviour
         
         if (animator != null)
             animator.enabled = false;
+
+        ManageArrow(false);
     }
 }

@@ -27,6 +27,7 @@ public class SelectElement : MonoBehaviour
     public delegate void ElementSelected();
     public event ElementSelected OnElementSelected;
     public event ElementSelected OnElementDeselected;
+    public event ElementSelected OnPreviousElementSelected;
 
     public GameObject CurrentSelected { get; private set; }
     public GameObject LastSelected { get; private set; }
@@ -69,13 +70,25 @@ public class SelectElement : MonoBehaviour
             {
                 if (hit.collider.gameObject != CurrentSelected && CurrentSelected.CompareTag("Whiteboard") == false)
                 {
-                    Debug.Log("SelectElement: reassigning current and last selected");
-                    HideHighlighters();
-                    LastSelected = CurrentSelected;
-                    MoveHighlighterToHit(lastHl, LastSelected.transform);
-                    CurrentSelected = hit.collider.gameObject;
-                    MoveHighlighterToHit(currentHl, hit);
-                    OnElementSelected?.Invoke();
+                    if (hit.collider.gameObject == LastSelected)
+                    {
+                        Debug.Log("SelectElement: Reverting to only selecting one");
+                        HideHighlighters();
+                        LastSelected = null;
+                        CurrentSelected = hit.collider.gameObject;
+                        MoveHighlighterToHit(currentHl, hit);
+                        OnPreviousElementSelected?.Invoke();
+                    }
+                    else
+                    {
+                        Debug.Log("SelectElement: reassigning current and last selected");
+                        HideHighlighters();
+                        LastSelected = CurrentSelected;
+                        MoveHighlighterToHit(lastHl, LastSelected.transform);
+                        CurrentSelected = hit.collider.gameObject;
+                        MoveHighlighterToHit(currentHl, hit);
+                        OnElementSelected?.Invoke();
+                    }
                 }
                 else
                 {

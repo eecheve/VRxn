@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.XR;
 
 public class QuestControllerAnimation : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class QuestControllerAnimation : MonoBehaviour
 
         SetAnimatorFloat("thumbstick_horizontal", obj.ReadValue<Vector2>().x);
         SetAnimatorFloat("thumbstick_vertical", obj.ReadValue<Vector2>().y);
-
+        //m_animator.Play()
     }
 
     private void AnimateSecondaryButton(InputAction.CallbackContext obj)
@@ -54,6 +55,10 @@ public class QuestControllerAnimation : MonoBehaviour
 
     private void AnimateTrigger(InputAction.CallbackContext obj)
     {
+        //if (obj.ReadValue<float>() > 0)
+        //{
+        //    Debug.Log(name + "Trying to animate trigger with " + obj.ReadValue<float>());
+        //}
         Debug.Log(name + " Animating trigger button");
         try
         {

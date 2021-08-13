@@ -16,9 +16,6 @@ public class LookAround : MonoBehaviour
     [SerializeField] private GameObject[] objectsToDestroy = null;
     [SerializeField] private LayerMask aldeadyLookedLayer = 0;
 
-    [Header("UI Components")]
-    [SerializeField] private AudioSource welcomeScreenAudio = null;
-
     private ConditionTutorial tutorial;
 
     private void OnEnable()
@@ -61,31 +58,9 @@ public class LookAround : MonoBehaviour
 
                 hit.collider.gameObject.layer = aldeadyLookedLayer;
 
-                welcomeScreenAudio.Play();
                 Debug.Log("LookAround: one of the objects was observed");
                 tutorial.FulfillCondition();
             }
-            
-            
-            /*if (!hit.collider.gameObject.CompareTag("ControllerModel"))
-            {
-                MeshRenderer mesh = hit.collider.gameObject.GetComponent<MeshRenderer>();
-                if (mesh != null)
-                {
-                    Debug.Log("LookAround: object has a mesh and is not a controller");
-                    mesh.material.color = Color.gray;
-                }
-
-                FloatingRing ring = hit.collider.gameObject.GetComponent<FloatingRing>();
-                if (ring != null)
-                    ring.Observed();
-            }
-
-            hit.collider.gameObject.layer = aldeadyLookedLayer;
-
-            welcomeScreenAudio.Play();
-            Debug.Log("LookAround: one of the objects was observed");
-            tutorial.FulfillCondition();*/
         }
     }
 
