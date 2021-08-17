@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(LineRenderer))]
+[RequireComponent(typeof(BoxCollider))]
+[RequireComponent(typeof(Rigidbody))]
 public class NextTeleportZonePointer : MonoBehaviour
 {
     [Tooltip("Player Transform")]
@@ -27,11 +29,21 @@ public class NextTeleportZonePointer : MonoBehaviour
     [SerializeField] private GameObject arrow = null;
 
     private LineRenderer lineRenderer;
+    private BoxCollider box;
+    private Rigidbody rb;
+    
     private GameObject arrowEnd;
     private GameObject arrow2;
 
     private void Awake()
     {
+        box = GetComponent<BoxCollider>();
+        box.isTrigger = true;
+        
+        rb = GetComponent<Rigidbody>();
+        rb.constraints = RigidbodyConstraints.FreezeAll;
+        rb.useGravity = false;
+        
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.positionCount = 2;
         lineRenderer.enabled = false;
@@ -76,6 +88,7 @@ public class NextTeleportZonePointer : MonoBehaviour
 
     private void OnDisable()
     {
+        box.enabled = false;
         lineRenderer.enabled = false;
         arrowEnd.gameObject.SetActive(false);
         arrow2.gameObject.SetActive(false);

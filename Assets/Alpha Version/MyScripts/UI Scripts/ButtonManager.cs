@@ -59,6 +59,13 @@ public class ButtonManager : MonoBehaviour
         propertyOff = true;
     }
 
+    public void CallButton()
+    {
+        button.targetGraphic.color = colorIfOn;
+        actionIfOn?.Invoke();
+        propertyOff = false;
+    }
+
     private void OnDisable()
     {
         button.onClick.RemoveListener(ManageButton);

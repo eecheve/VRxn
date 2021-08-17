@@ -16,6 +16,9 @@ TagManager:
   - Molecule
   - DieneEnd
   - Dienophile
+  - HexFace
+  - RectFace
+  - Orbital
   layers:
   - Default
   - TransparentFX
@@ -33,8 +36,8 @@ TagManager:
   - Whiteboard Background
   - Tutorial Observable
   - Teleport Zone
-  - 
-  - 
+  - Snapable
+  - Snapable2
   - 
   - 
   - 

@@ -24,7 +24,7 @@ public class AnimateLegacyFromSlider : MonoBehaviour
     public void AnimateOnSliderValue(float value)
     {
         Debug.Log(" AnimateOnSliderValue: animation name: " + anim.clip.name);
-        
+
         anim.Play();
         anim[anim.clip.name].speed = 0; //so it doesn't move by itself
 
@@ -32,15 +32,16 @@ public class AnimateLegacyFromSlider : MonoBehaviour
         Debug.Log("AnimateOnSliderValue: is playing state is: " + anim.isPlaying.ToString());
 
         anim[anim.clip.name].normalizedTime = value;
+        
         if (value == 0)
         {
             Debug.Log("AnimateOnSliderValue should stop animation");
             anim.Stop();
         }
-        else
-        {
-            anim.Play();
-        }
+        //else
+        //{
+        //    anim.Play();
+        //}
     }
 
     private void OnDisable()

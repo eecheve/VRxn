@@ -7,6 +7,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(ConditionTutorial))]
 public class DragSliderTutorial : MonoBehaviour
 {
+    [SerializeField] [Range(0, 1)] private float threshold = 0;
     [SerializeField] private Slider slider = null;
     [SerializeField] private Transform handle = null;
     [SerializeField] private SpriteRenderer arrow = null;
@@ -29,7 +30,7 @@ public class DragSliderTutorial : MonoBehaviour
 
     private void CheckForSliderDragged(float value)
     {
-        if (value > 0)
+        if (value > threshold)
         {
             arrow.enabled = false;
             this.enabled = false;

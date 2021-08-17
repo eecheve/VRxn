@@ -66,7 +66,7 @@ public class GrabMoleculeTutorial : MonoBehaviour
         GameManager.OnLeftFirstGrab -= LeftMoleculeGrabbed;
         GameManager.OnRightFirstGrab -= RightMoleculeGrabbed;
 
-        GameManager.OnLeftHasSwapped += LeftMoleculeGrabbed;
-        GameManager.OnRightHasSwapped += RightMoleculeGrabbed;
+        GameManager.OnLeftHasSwapped -= LeftMoleculeGrabbed;
+        GameManager.OnRightHasSwapped -= RightMoleculeGrabbed;
     }
 }

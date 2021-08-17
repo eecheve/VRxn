@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -23,7 +20,9 @@ public class ProgressBarUpdater : MonoBehaviour
         barMaterial = progressBar.material;
         textIncrement = 100f / tutorialCount;
         percentage = 0;
-        tmesh.text = percentage.ToString() + "%";
+
+        if (tmesh != null)
+            tmesh.text = percentage.ToString() + "%";
     }
 
     private void OnEnable()
@@ -37,7 +36,9 @@ public class ProgressBarUpdater : MonoBehaviour
 
         percentage += textIncrement;
         int round = (int)percentage;
-        tmesh.text = round.ToString() + "%";
+
+        if (tmesh != null)
+            tmesh.text = round.ToString() + "%";
     }
 
     private void UpdateShaderFill()
