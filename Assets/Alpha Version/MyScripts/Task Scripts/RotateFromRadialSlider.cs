@@ -32,18 +32,21 @@ public class RotateFromRadialSlider : MonoBehaviour
         if(rotationAxis == CartesianAxis.x)
         {
             Vector3 newVector = new Vector3(value * 360f, 0, 0);
-            toRotate.localEulerAngles = newVector + euler;
+            //toRotate.localEulerAngles = newVector + euler;
+            toRotate.localEulerAngles = newVector;
         }
         else if(rotationAxis == CartesianAxis.y)
         {
-            Debug.Log("RotateFronRadialSlider_RotateOnChange: value is " + value.ToString());
+            //Debug.Log("RotateFronRadialSlider_RotateOnChange: value is " + value.ToString());
             Vector3 newVector = new Vector3(0, value * 360f, 0);
-            toRotate.localEulerAngles = newVector + euler;
+            //toRotate.localEulerAngles = newVector + euler;
+            toRotate.localEulerAngles = newVector;
         }
         else
         {
             Vector3 newVector = new Vector3(0, 0, value * 360f);
-            toRotate.localEulerAngles = newVector + euler;
+            //toRotate.localEulerAngles = newVector + euler;
+            toRotate.localEulerAngles = newVector;
         }
     }
 
