@@ -9,6 +9,7 @@ public class MultipleChoiceCondition : MonoBehaviour
 {
     [SerializeField] private Button correct = null;
     [SerializeField] private Button[] distractors = null;
+    [SerializeField] private bool continueIfIncorrect = false;
 
     private ConditionTutorial condition;
     private UpdateTextAfterCondition updateText;
@@ -32,6 +33,13 @@ public class MultipleChoiceCondition : MonoBehaviour
     {
         if(updateText != null)
             updateText.UpdateText(false);
+
+        if (continueIfIncorrect == true)
+        {
+            condition.FulfillCondition();
+            this.enabled = false;
+        }
+            
     }
 
     private void FulfillCondition()
@@ -40,6 +48,7 @@ public class MultipleChoiceCondition : MonoBehaviour
             updateText.UpdateText(true);
 
         condition.FulfillCondition();
+        this.enabled = false;
     }
 
     private void OnDisable()

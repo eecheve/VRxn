@@ -12,6 +12,7 @@ public class UpdateTextAfterCondition : MonoBehaviour
     
     public void UpdateText(bool state)
     {
+        Debug.Log("UpdateMesh in " + name + " called");
         tmesh.color = textColor;
 
         if (state == true)

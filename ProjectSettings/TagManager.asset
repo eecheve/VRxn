@@ -19,6 +19,10 @@ TagManager:
   - HexFace
   - RectFace
   - Orbital
+  - Grab1
+  - Grab2
+  - Grab3
+  - Grab4
   layers:
   - Default
   - TransparentFX
@@ -38,7 +42,7 @@ TagManager:
   - Teleport Zone
   - Snapable
   - Snapable2
-  - 
+  - Ignore Distance Grab
   - 
   - 
   - 

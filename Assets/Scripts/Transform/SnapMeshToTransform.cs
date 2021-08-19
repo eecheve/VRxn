@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SnapMeshToTransform : MonoBehaviour
 {
+    [SerializeField] private bool parentToTarget = true;
     [SerializeField] private Transform target = null;
 
     public Transform Object { get; set; } = null;
@@ -13,7 +14,7 @@ public class SnapMeshToTransform : MonoBehaviour
         if (Object != null && target != null)
         {
             Debug.Log("SnapMeshToTransform: should call the function");
-            StartCoroutine(SmoothMovement(3.0f));
+            StartCoroutine(SmoothMovement(2.0f));
         }
     }
 
@@ -35,6 +36,7 @@ public class SnapMeshToTransform : MonoBehaviour
             yield return null;
         }
 
-        Object.parent = target;
+        if(parentToTarget == true)
+            Object.parent = target;
     }
 }

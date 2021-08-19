@@ -22,6 +22,8 @@ public class GrabObjectWithTag : MonoBehaviour
 
     private void OnEnable()
     {
+        Debug.Log(name + "Grab enabled");
+        
         GameManager.OnLeftFirstGrab += LeftObjectGrabbed;
         GameManager.OnRightFirstGrab += RightObjectGrabbed;
 
@@ -43,6 +45,7 @@ public class GrabObjectWithTag : MonoBehaviour
 
     private void ObjectGrabbed(Transform grabbed)
     {
+        Debug.Log("GrabObjectWithTag: grabbing " + grabbed.name);
         if (grabbed.CompareTag(m_tag))
         {
             if (snapMesh != null)
@@ -65,6 +68,7 @@ public class GrabObjectWithTag : MonoBehaviour
 
     private void FulfillCondition()
     {
+        Debug.Log(name + "fulfilling condition");
         tutorial.FulfillCondition();
         this.enabled = false;
     }
