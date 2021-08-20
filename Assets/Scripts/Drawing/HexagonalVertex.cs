@@ -11,7 +11,13 @@ public class HexagonalVertex : Vertex
         if(other.gameObject.CompareTag(m_tag) && IsOccupied == false)
         {
             Debug.Log("HexagonalVertex: vertex has been occupied");
+            //GetComponent<SpriteRenderer>().enabled = false;
+            //Icon.Vertex.GetComponent<BoxCollider>().enabled = false;
             Icon = other.gameObject.GetComponent<Icon2D>();
+            Icon.Vertex = this;
+            Icon.VertexManager = vertexManager;
+            IsOccupied = true;
+
             OnHexVertOccupied?.Invoke();
         }
     }

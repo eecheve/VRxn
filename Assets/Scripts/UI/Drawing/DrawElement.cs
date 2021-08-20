@@ -109,8 +109,12 @@ public class DrawElement : MonoBehaviour
                     drawBond.SearchAndDestroy(child);
                     SearchAndDestroy(child);
                 }
+                SearchAndDestroy(element);
             }
-            SearchAndDestroy(element);
+            else
+            {
+                SearchAndDestroy(element);
+            }
         }
     }
 

@@ -41,6 +41,7 @@ public class ElementInstantiatedTutorial : MonoBehaviour
 
         ManageArrow(true);
         vertex.GetComponent<SpriteRenderer>().enabled = true;
+        vertex.GetComponent<BoxCollider>().enabled = true;
     }
 
     private void ManageArrow(bool state)
@@ -80,6 +81,7 @@ public class ElementInstantiatedTutorial : MonoBehaviour
         }
 
         vertex.GetComponent<SpriteRenderer>().enabled = false;
+        //vertex.GetComponent<BoxCollider>().enabled = false;
         ManageArrow(false);
     }
 }

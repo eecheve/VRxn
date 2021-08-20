@@ -9,6 +9,7 @@ public class DrawBond : MonoBehaviour
     [SerializeField] private SelectElement selector = null;
     [SerializeField] private GameObject lineObject = null;
     [SerializeField] private Button button = null;
+    [SerializeField] private Material dashBondMaterial = null;
 
     private List<GameObject> bondList = new List<GameObject>();
 
@@ -44,6 +45,8 @@ public class DrawBond : MonoBehaviour
             var double2 = bondList.Where(obj => obj.name.Contains(obj2.name + "=" + obj1.name)).FirstOrDefault();
             var triple1 = bondList.Where(obj => obj.name.Contains(obj1.name + "#" + obj2.name)).FirstOrDefault();
             var triple2 = bondList.Where(obj => obj.name.Contains(obj2.name + "#" + obj1.name)).FirstOrDefault();
+            var dash1 = bondList.Where(obj => obj.name.Contains(obj1.name + "_" + obj2.name)).FirstOrDefault();
+            var dash2 = bondList.Where(obj => obj.name.Contains(obj2.name + "_" + obj1.name)).FirstOrDefault();
 
             if (single1 != null || single2 != null)
             {
@@ -85,7 +88,13 @@ public class DrawBond : MonoBehaviour
                 SearchAndDestroy(triple5);
                 SearchAndDestroy(triple6);
 
-                CreateLine(obj1.transform, obj2.transform, "-");
+                CreateLine(obj1.transform, obj2.transform, "_", dashBondMaterial); //<---- should be a dashed line
+            }
+            else if (dash1 != null || dash2 != null)
+            {
+                Debug.Log("DrawBond: there was a dashed bond here");
+                SearchAndDestroy(dash1);
+                SearchAndDestroy(dash2);
             }
             else
             {
@@ -140,6 +149,33 @@ public class DrawBond : MonoBehaviour
         {
             line.GetComponent<LineHolder>().BondType = Enumerators.BondType.TripleBond;
         }
+    }
+
+    private void CreateLine(Transform transform1, Transform transform2, string bondType, Material bondMaterial)
+    {
+        string oName = transform1.name;
+        string eName = transform2.name;
+
+        Vector3 origin = transform1.position;
+        Vector3 end = transform2.position;
+        Vector3 midPoint = (origin + end) / 2;
+
+        GameObject line = Instantiate(lineObject, midPoint, Quaternion.identity, transform1);
+        line.name = oName + bondType + eName;
+        line.GetComponent<LineHolder>().SetLinePoints(transform1, transform2);
+
+        LineRenderer lineRend = line.GetComponent<LineRenderer>();
+        SetLineGradient(lineRend);
+
+        lineRend.material = bondMaterial;
+        lineRend.textureMode = LineTextureMode.RepeatPerSegment;
+        lineRend.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+
+        lineRend.SetPosition(0, origin);
+        lineRend.SetPosition(1, end);
+
+        bondList.Add(line);
+        line.GetComponent<LineHolder>().BondType = Enumerators.BondType.SingleBond;
     }
 
     private void CreateLine(Transform origin, Transform end, Vector3 direction, float offset, string bondType)

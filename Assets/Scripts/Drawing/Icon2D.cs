@@ -18,6 +18,8 @@ public class Icon2D : MonoBehaviour
         {
             Debug.Log(name + "Icon2D: removing references to destroyed object");
             Vertex.IsOccupied = false;
+            Vertex.GetComponent<SpriteRenderer>().enabled = true;
+            Vertex.GetComponent<BoxCollider>().enabled = true;
             VertexManager.OccupiedVertices.Remove(Vertex);
             Vertex.Icon = null;
         }
