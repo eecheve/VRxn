@@ -20,6 +20,13 @@ public class DrawBond : MonoBehaviour
     private GameObject obj1;
     private GameObject obj2;
 
+    public delegate void BondDrawn(Transform vertex1, Transform vertex2);
+    public event BondDrawn OnSingleBondDrawn;
+    public event BondDrawn OnDoubleBondDrawn;
+    public event BondDrawn OnTripleBondDrawn;
+    public event BondDrawn OnTrantientBondDrawn;
+    public event BondDrawn OnBondErased;
+
     private void OnEnable()
     {
         button.onClick.AddListener(DrawTheBond);
@@ -56,6 +63,8 @@ public class DrawBond : MonoBehaviour
 
                 CreateLine(obj1.transform, obj2.transform, dir, 0.03f, "=");
                 CreateLine(obj1.transform, obj2.transform, dir, -0.03f, "=");
+
+                OnDoubleBondDrawn?.Invoke(obj1.transform, obj2.transform);
             }
             else if (double1 != null || double2 != null)
             {
@@ -71,6 +80,8 @@ public class DrawBond : MonoBehaviour
                 CreateLine(obj1.transform, obj2.transform, dir, 0.05f, "#");
                 CreateLine(obj1.transform, obj2.transform, "#");
                 CreateLine(obj1.transform, obj2.transform, dir, -0.05f, "#");
+
+                OnTripleBondDrawn?.Invoke(obj1.transform, obj2.transform);
             }
             else if (triple1 != null || triple2 != null)
             {
@@ -89,17 +100,23 @@ public class DrawBond : MonoBehaviour
                 SearchAndDestroy(triple6);
 
                 CreateLine(obj1.transform, obj2.transform, "_", dashBondMaterial); //<---- should be a dashed line
+
+                OnTrantientBondDrawn?.Invoke(obj1.transform, obj2.transform);
             }
             else if (dash1 != null || dash2 != null)
             {
                 Debug.Log("DrawBond: there was a dashed bond here");
                 SearchAndDestroy(dash1);
                 SearchAndDestroy(dash2);
+
+                OnBondErased?.Invoke(obj1.transform, obj2.transform);
             }
             else
             {
                 Debug.Log("DrawBond: There were no bonds between the elements");
                 CreateLine(obj1.transform, obj2.transform, "-");
+
+                OnSingleBondDrawn?.Invoke(obj1.transform, obj2.transform);
             }
         }
         else

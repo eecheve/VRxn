@@ -23,6 +23,11 @@ TagManager:
   - Grab2
   - Grab3
   - Grab4
+  - Bond3D
+  - Element3D
+  - DoubleBond3D
+  - TripleBond3D
+  - TrantientBond3D
   layers:
   - Default
   - TransparentFX

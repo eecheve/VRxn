@@ -14,6 +14,7 @@ public abstract class Vertex : MonoBehaviour
     public Color InitialColor { get; private set; }
 
     public delegate void VertexOccupied();
+    public delegate void WhichVertexOccupied(string name);
 
     protected FixedJoint fj;
 

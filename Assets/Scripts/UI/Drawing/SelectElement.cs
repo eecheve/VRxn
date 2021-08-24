@@ -124,7 +124,7 @@ public class SelectElement : MonoBehaviour
         if (highlighter != null)
         {
             highlighter.GetComponent<SpriteRenderer>().enabled = true;
-            highlighter.transform.position = hit.point + (hit.transform.forward * -0.075f);
+            highlighter.transform.position = hit.point + (hit.transform.forward * -0.05f);
         }
     }
 
@@ -133,7 +133,7 @@ public class SelectElement : MonoBehaviour
         if (highlighter != null)
         {
             highlighter.GetComponent<SpriteRenderer>().enabled = true;
-            highlighter.transform.position = t.position + (t.forward * -0.075f);
+            highlighter.transform.position = t.position + (t.forward * -0.05f);
         }
     }
 

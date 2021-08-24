@@ -9,6 +9,11 @@ public class ShutDownAnimation : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        ShutDown();
+    }
+
+    public void ShutDown()
+    {
         animator.speed = 0;
     }
 }

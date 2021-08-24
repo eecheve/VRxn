@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -59,22 +60,28 @@ public class CurrentSelected : MonoBehaviour
 
             currentElement.sprite = currentSelected.sprite;
             currentElement.color = currentSelected.color;
-            currentTMesh.text = tmesh.text;
+
+            string label = Regex.Match(tmesh.text, @"\d+").Value;
+            currentTMesh.text = tmesh.text + label;
         }
         else
         {
-            Debug.Log("CurrentSelected: all the other times time is called");
+            Debug.Log("CurrentSelected: all the other times is called");
 
             lastElement.sprite = currentSelected.sprite;
             lastElement.color = currentSelected.color;
-            lastTMesh.text = tmesh.text;
+
+            string lastLabel = Regex.Match(tmesh.text, @"\d+").Value;
+            lastTMesh.text = tmesh.text + lastLabel;
 
             currentSelected = selectElement.CurrentSelected.GetComponent<Image>();
             tmesh = selectElement.CurrentSelected.GetComponentInChildren<TextMeshProUGUI>();
 
             currentElement.sprite = currentSelected.sprite;
             currentElement.color = currentSelected.color;
-            currentTMesh.text = tmesh.text;
+
+            string currentLabel = Regex.Match(tmesh.text, @"\d+").Value;
+            currentTMesh.text = tmesh.text + currentLabel;
         }
     }
 

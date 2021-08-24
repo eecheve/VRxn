@@ -5,6 +5,7 @@ using UnityEngine;
 public class HexagonalVertex : Vertex
 {
     public event VertexOccupied OnHexVertOccupied;
+    public event WhichVertexOccupied OnWichVertOccupied;
     
     private void OnTriggerEnter(Collider other)
     {
@@ -19,6 +20,7 @@ public class HexagonalVertex : Vertex
             IsOccupied = true;
 
             OnHexVertOccupied?.Invoke();
+            OnWichVertOccupied?.Invoke(name);
         }
     }
 

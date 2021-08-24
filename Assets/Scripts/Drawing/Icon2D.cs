@@ -7,6 +7,9 @@ public class Icon2D : MonoBehaviour
     public VertexManager VertexManager { get; set; } = null;
     public Vertex Vertex { get; set; } = null;
 
+    public delegate void DeletedAsset(Vertex vertex);
+    public static event DeletedAsset OnElementDeleted;
+
     public void ChangeTag()
     {
         gameObject.tag = "DryInk";
@@ -22,6 +25,8 @@ public class Icon2D : MonoBehaviour
             Vertex.GetComponent<BoxCollider>().enabled = true;
             VertexManager.OccupiedVertices.Remove(Vertex);
             Vertex.Icon = null;
+
+            OnElementDeleted?.Invoke(Vertex);
         }
     }
 }
