@@ -19,7 +19,7 @@ public class DrawBond3Animation : MonoBehaviour
     }
 
     [Header("UI Attributes")]
-    [SerializeField] Slider slider = null;
+    [SerializeField] Slider[] sliders = null;
 
     [Header("Reference Frame Attributes")]
     [SerializeField] private DrawBond3 drawBond = null;
@@ -107,7 +107,10 @@ public class DrawBond3Animation : MonoBehaviour
 
     private void OnEnable()
     {
-        slider.onValueChanged.AddListener(AnimateBonds);
+        foreach (var slider in sliders)
+        {
+            slider.onValueChanged.AddListener(AnimateBonds);
+        }
     }
 
     private void AnimateBonds(float value)
@@ -175,6 +178,9 @@ public class DrawBond3Animation : MonoBehaviour
 
     private void OnDisable()
     {
-        slider.onValueChanged.RemoveListener(AnimateBonds);
+        foreach (var slider in sliders)
+        {
+            slider.onValueChanged.RemoveListener(AnimateBonds);
+        }
     }
 }
