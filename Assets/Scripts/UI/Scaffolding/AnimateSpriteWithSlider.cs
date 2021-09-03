@@ -22,8 +22,8 @@ public class AnimateSpriteWithSlider : MonoBehaviour
     {
         animator.Play(clip.name, -1, value);
         
-        if (value > 0.98f)
-            return;
+        //if (value > 0.98f)
+        //    return;
     }
 
     private void OnDisable()

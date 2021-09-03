@@ -21,29 +21,17 @@ public class GameManager : MonoSingleton<GameManager>
     [SerializeField] private XRRayInteractor rightUIController = null;
     [SerializeField] private XRRayInteractor leftUIController = null;
 
-    public delegate void RightFirstGrab();
-    public static event RightFirstGrab OnRightFirstGrab;
+    public delegate void ObjectGrabbed();
+    public static event ObjectGrabbed OnRightFirstGrab;
+    public static event ObjectGrabbed OnLeftFirstGrab;
+    public static event ObjectGrabbed OnTwoHandParentGrab;
+    public static event ObjectGrabbed OnRightHasSwapped;
+    public static event ObjectGrabbed OnLeftHasSwapped;
 
-    public delegate void LeftFirstGrab();
-    public static event LeftFirstGrab OnLeftFirstGrab;
-
-    public delegate void TwoHandParentGrab();
-    public static event TwoHandParentGrab OnTwoHandParentGrab;
-
-    public delegate void OneParentRelease();
-    public static event OneParentRelease OnOneParentRelease;
-
-    public delegate void RightHasSwapped();
-    public static event RightHasSwapped OnRightHasSwapped;
-
-    public delegate void LeftHasSwapped();
-    public static event LeftHasSwapped OnLeftHasSwapped;
-
-    public delegate void LeftHasDropped();
-    public static event LeftHasDropped OnLeftHasDropped;
-
-    public delegate void RightHasDropped();
-    public static event RightHasDropped OnRightHasDropped;
+    public delegate void ObjectReleased();
+    public static event ObjectReleased OnOneParentRelease;
+    public static event ObjectReleased OnLeftHasDropped;
+    public static event ObjectReleased OnRightHasDropped;
 
     public List<Transform> LeftGrabbedChildren { get; private set; } //<--refer to this object only when SameParentGrab is true
     public Transform RightGrabbed { get; private set; }
@@ -181,14 +169,16 @@ public class GameManager : MonoSingleton<GameManager>
 
     private void Update()
     {
-        ManageSameParentGrab();
+        ManageTwoHandGrab();
     }
 
-    private void ManageSameParentGrab()
+    private void ManageTwoHandGrab()
     {
         if (LeftGrabbed != null && RightGrabbed != null)
         {
-            CheckIfTwoObjectsAreEqual(LeftGrabbedParent, RightGrabbedParent);
+            SameParentGrab = CheckIfTwoObjectsAreEqual(LeftGrabbedParent, RightGrabbedParent);
+            if (SameParentGrab == true)
+                OnTwoHandParentGrab?.Invoke();
         }
         else
         { 
@@ -198,15 +188,12 @@ public class GameManager : MonoSingleton<GameManager>
         }
     }
 
-    private void CheckIfTwoObjectsAreEqual(Transform obj1, Transform obj2)
+    private bool CheckIfTwoObjectsAreEqual(Transform obj1, Transform obj2)
     {
         if (obj1 == obj2 && obj1.name.Equals(obj2.name))
-        {
-            SameParentGrab = true;
-            OnTwoHandParentGrab?.Invoke();
-        }
+            return true;
         else
-            SameParentGrab = false;
+            return false;
     }
     
     private void CheckIfObjectsHaveSameParent(Transform obj1, Transform obj2)

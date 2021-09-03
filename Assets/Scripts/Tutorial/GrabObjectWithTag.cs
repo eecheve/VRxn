@@ -1,21 +1,15 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
 
-[RequireComponent(typeof(ConditionTutorial))]
-public class GrabObjectWithTag : MonoBehaviour
+public class GrabObjectWithTag : Condition
 {
     [SerializeField] private string m_tag = "";
     
-    private ConditionTutorial tutorial;
     private SnapMeshToTransform snapMesh;
     private UpdateTextAfterCondition updateText;
 
-    private void Awake()
+    protected override void Awake()
     {
-        tutorial = GetComponent<ConditionTutorial>();
+        base.Awake();
         snapMesh = GetComponent<SnapMeshToTransform>();
         updateText = GetComponent<UpdateTextAfterCondition>();
     }
@@ -66,11 +60,10 @@ public class GrabObjectWithTag : MonoBehaviour
         }
     }
 
-    private void FulfillCondition()
+    protected override void FulfillCondition()
     {
-        Debug.Log(name + "fulfilling condition");
-        tutorial.FulfillCondition();
-        this.enabled = false;
+        base.FulfillCondition();
+        Debug.Log($"Fulfilling condition in {name}");
     }
 
     private void OnDisable()

@@ -1,23 +1,12 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(ConditionTutorial))]
-public class DragRadialSliderTutorial : MonoBehaviour
+public class DragRadialSliderTutorial : Condition
 {
     [SerializeField] [Range(0, 1)] private float threshold = 0;
     [SerializeField] private RadialFill radialSlider = null;
     [SerializeField] private Transform handle = null;
     [SerializeField] private SpriteRenderer arrow = null;
     [SerializeField] private Vector3 positionOffset = Vector3.zero;
-
-    private ConditionTutorial tutorial;
-
-    private void Awake()
-    {
-        tutorial = GetComponent<ConditionTutorial>();
-    }
 
     private void OnEnable()
     {
@@ -38,7 +27,7 @@ public class DragRadialSliderTutorial : MonoBehaviour
 
     private void OnDisable()
     {
-        tutorial.FulfillCondition();
+        condition.FulfillCondition();
         radialSlider.OnValueChange -= CheckForSliderDragged;
     }
 }

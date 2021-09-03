@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286009d635a3ce442a4e150086990e9a, type: 3}
+  m_Name: Question (10)
+  m_EditorClassIdentifier: 
+  goal: 0
+  title: Question
+  index: 10
+  description: Choose the molecule that corresponds to the product obtained from
+    the transition state shown below.
+  prompt: {fileID: 21300000, guid: f79a798003b0e46449eb8261a342f811, type: 3}
+  options:
+  - feedback: 
+    sprite: {fileID: 21300000, guid: f8afa0d663b26664f8820dacb403b4ba, type: 3}
+    isCorrect: 1
+  - feedback: 
+    sprite: {fileID: 21300000, guid: 05f2618c37775174cb2a1df3cd7a5a0a, type: 3}
+    isCorrect: 0
+  - feedback: 
+    sprite: {fileID: 21300000, guid: 1f8c1a14dc2ef2d45935187713cc506a, type: 3}
+    isCorrect: 0
+  - feedback: 
+    sprite: {fileID: 21300000, guid: da7b2e1fdc6ec464abb3e848950c5734, type: 3}
+    isCorrect: 0

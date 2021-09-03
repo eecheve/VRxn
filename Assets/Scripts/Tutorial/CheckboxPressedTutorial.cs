@@ -1,19 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(ConditionTutorial))]
-public class CheckboxPressedTutorial : MonoBehaviour
+public class CheckboxPressedTutorial : Condition
 {
     [SerializeField] private Toggle checkbox = null;
     [SerializeField] private SpriteRenderer highlightArrow = null;
     [SerializeField] private Vector3 arrowOffset = Vector3.zero;
-
-    private ConditionTutorial tutorial;
-
-    private void Awake()
-    {
-        tutorial = GetComponent<ConditionTutorial>();
-    }
 
     private void OnEnable()
     {
@@ -32,7 +24,7 @@ public class CheckboxPressedTutorial : MonoBehaviour
 
     private void FulfillCondition(bool value)
     {
-        tutorial.FulfillCondition();
+        condition.FulfillCondition();
         this.enabled = false;
     }
 

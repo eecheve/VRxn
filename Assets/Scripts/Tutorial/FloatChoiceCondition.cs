@@ -1,11 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(ConditionTutorial))]
-public class FloatChoiceCondition : MonoBehaviour
+public class FloatChoiceCondition : Condition
 {
     [SerializeField] private RadialFill radialSlider = null;
     [SerializeField] [Range(0, 360)] private float targetAngle = 0;
@@ -15,12 +11,11 @@ public class FloatChoiceCondition : MonoBehaviour
     private float targetMax;
     private float angle;
 
-    private ConditionTutorial tutorial;
     private UpdateTextAfterCondition updateText;
 
-    private void Awake()
+    protected override void Awake()
     {
-        tutorial = GetComponent<ConditionTutorial>();
+        base.Awake();
         updateText = GetComponent<UpdateTextAfterCondition>();
         
         targetMin = targetAngle - 15f;
@@ -36,7 +31,6 @@ public class FloatChoiceCondition : MonoBehaviour
     private void ListenForValueChange(float value)
     {
         angle = value * 360f;
-        //Debug.Log("FloatChoiceCondition angle is " + angle.ToString("0.00"));
     }
 
     private void CheckForTargetAngle()
@@ -50,7 +44,7 @@ public class FloatChoiceCondition : MonoBehaviour
             if (updateText != null)
                 updateText.UpdateText(true);
 
-            tutorial.FulfillCondition();
+            condition.FulfillCondition();
             this.enabled = false;
         }
         else

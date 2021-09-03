@@ -1,8 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-[RequireComponent(typeof(ConditionTutorial))]
-public class ElementInstantiatedTutorial : MonoBehaviour
+public class ElementInstantiatedTutorial : Condition
 {
     [Header("Instantiated")]
     [SerializeField] private GameObject prefab = null;
@@ -17,14 +16,8 @@ public class ElementInstantiatedTutorial : MonoBehaviour
     [SerializeField] [TextArea] private string correctText = "";
     [SerializeField] [TextArea] private string incorrectText = "";
 
-    private ConditionTutorial tutorial;
     private HexagonalVertex hexVert;
     private TrigonalVertex trigVert;
-
-    private void Awake()
-    {
-        tutorial = GetComponent<ConditionTutorial>();
-    }
 
     private void OnEnable()
     {
@@ -58,7 +51,7 @@ public class ElementInstantiatedTutorial : MonoBehaviour
         if (vertex.Icon.name.Contains(prefab.name))
         {
             tmesh.text = correctText;
-            tutorial.FulfillCondition();
+            condition.FulfillCondition();
             this.enabled = false;
         }
         else
@@ -81,7 +74,6 @@ public class ElementInstantiatedTutorial : MonoBehaviour
         }
 
         vertex.GetComponent<SpriteRenderer>().enabled = false;
-        //vertex.GetComponent<BoxCollider>().enabled = false;
         ManageArrow(false);
     }
 }

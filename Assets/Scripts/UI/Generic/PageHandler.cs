@@ -6,40 +6,48 @@ public class PageHandler : MonoBehaviour
 {
     [SerializeField] private List<Page> pages = null;
 
-    private int index = 0;
+    private int m_index = 0;
+
+    public delegate void LastPageArrived();
+    public event LastPageArrived OnLastPageArrived;
 
     public void PageUp()
     {
-        if (index > 0)
+        if (m_index > 0)
         {
             PagesOff();
-            index--;
-            pages[index].gameObject.SetActive(true);
+            m_index--;
+            pages[m_index].gameObject.SetActive(true);
         }
     }
 
     public void PageDown()
     {
-        if (index < pages.Count -1)
+        if (m_index < pages.Count -1)
         {
             PagesOff();
-            index++;
-            pages[index].gameObject.SetActive(true);
+            m_index++;
+            pages[m_index].gameObject.SetActive(true);
+            Debug.Log($"Setting the page because index is {m_index}");
+            if(m_index == pages.Count)
+            {
+                OnLastPageArrived?.Invoke();
+            }
         }
     }
 
     public void GoToNextOrFirst()
     {
-        if (index < pages.Count - 1)
+        if (m_index < pages.Count - 1)
         {
             PagesOff();
-            index++;
-            pages[index].gameObject.SetActive(true);
+            m_index++;
+            pages[m_index].gameObject.SetActive(true);
         }
         else
         {
             PagesOff();
-            index = 0;
+            m_index = 0;
             pages[0].gameObject.SetActive(true);
         }
     }
@@ -49,7 +57,13 @@ public class PageHandler : MonoBehaviour
         if (pages.Count > 0 && index < pages.Count)//-1)
         {
             PagesOff();
+            m_index = index;
             pages[index].gameObject.SetActive(true);
+
+            if (m_index == pages.Count)
+            {
+                OnLastPageArrived?.Invoke();
+            }
         }
     }
 

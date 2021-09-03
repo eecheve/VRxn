@@ -1,22 +1,17 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(ConditionTutorial))]
-public class ButtonPressedTutorial : MonoBehaviour
+public class ButtonPressedTutorial : Condition
 {
     [SerializeField] private Button button = null;
     [SerializeField] private SpriteRenderer highlightArrow = null;
     [SerializeField] private Vector3 arrowOffset = Vector3.zero;
     
-    private ConditionTutorial tutorial;
     private Animator animator;
 
-    private void Awake()
+    protected override void Awake()
     {
-        tutorial = GetComponent<ConditionTutorial>();
+        base.Awake();
         animator = button.gameObject.GetComponent<Animator>();
     }
 
@@ -37,12 +32,6 @@ public class ButtonPressedTutorial : MonoBehaviour
             highlightArrow.transform.position = button.transform.position + arrowOffset;
             highlightArrow.enabled = state;
         }
-    }
-
-    private void FulfillCondition()
-    {
-        tutorial.FulfillCondition();
-        this.enabled = false;
     }
 
     private void OnDisable()

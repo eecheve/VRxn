@@ -5,18 +5,17 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(ConditionTutorial))]
-public class MultipleChoiceCondition : MonoBehaviour
+public class MultipleChoiceCondition : Condition
 {
     [SerializeField] private Button correct = null;
     [SerializeField] private Button[] distractors = null;
     [SerializeField] private bool continueIfIncorrect = false;
 
-    private ConditionTutorial condition;
     private UpdateTextAfterCondition updateText;
 
-    private void Awake()
+    protected override void Awake()
     {
-        condition = GetComponent<ConditionTutorial>();
+        base.Awake();
         updateText = GetComponent<UpdateTextAfterCondition>();
     }
 
@@ -42,7 +41,7 @@ public class MultipleChoiceCondition : MonoBehaviour
             
     }
 
-    private void FulfillCondition()
+    protected override void FulfillCondition()
     {
         if (updateText != null)
             updateText.UpdateText(true);

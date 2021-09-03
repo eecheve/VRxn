@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
 
-public class Timer : MonoBehaviour
+public class Timer : Condition
 {
     [SerializeField] private float counter = 10.0f;
     [SerializeField] private TextMeshProUGUI tMesh;
@@ -43,6 +43,9 @@ public class Timer : MonoBehaviour
             {
                 remainingTime = 0;
                 isRunning = false;
+                condition.FulfillCondition();
+                OnTimeRanOut?.Invoke();
+                TimeRanOut?.Invoke();
                 this.enabled = false;
             }
         }
@@ -69,9 +72,9 @@ public class Timer : MonoBehaviour
             tMesh.text = seconds.ToString();
     }
 
-    private void OnDisable()
-    {
-        OnTimeRanOut?.Invoke();
-        TimeRanOut?.Invoke();
-    }
+    //private void OnDisable()
+    //{
+    //    OnTimeRanOut?.Invoke();
+    //    TimeRanOut?.Invoke();
+    //}
 }

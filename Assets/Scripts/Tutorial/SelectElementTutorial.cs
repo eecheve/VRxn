@@ -1,23 +1,12 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(ConditionTutorial))]
-public class SelectElementTutorial : MonoBehaviour
+public class SelectElementTutorial : Condition
 {
     [SerializeField] private SpriteRenderer arrow = null;
     [SerializeField] private Vector3 positionOffset = Vector3.zero;
     [SerializeField] private Vertex vertex = null;
     [SerializeField] private SelectElement selector = null;
     
-    private ConditionTutorial tutorial;
-
-    private void Awake()
-    {
-        tutorial = GetComponent<ConditionTutorial>();
-    }
-
     private void OnEnable()
     {
         selector.OnElementSelected += CheckForElementSelected;
@@ -45,6 +34,6 @@ public class SelectElementTutorial : MonoBehaviour
         selector.OnElementSelected -= CheckForElementSelected;
         arrow.enabled = false;
         
-        tutorial.FulfillCondition();
+        condition.FulfillCondition();
     }
 }

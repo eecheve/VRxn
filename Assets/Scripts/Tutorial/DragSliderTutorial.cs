@@ -1,11 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(ConditionTutorial))]
-public class DragSliderTutorial : MonoBehaviour
+public class DragSliderTutorial : Condition
 {
     [SerializeField] [Range(0, 1)] private float threshold = 0;
     [SerializeField] private Slider slider = null;
@@ -13,13 +9,6 @@ public class DragSliderTutorial : MonoBehaviour
     [SerializeField] private SpriteRenderer arrow = null;
     [SerializeField] private Vector3 positionOffset = Vector3.zero;
     
-    private ConditionTutorial tutorial;
-
-    private void Awake()
-    {
-        tutorial = GetComponent<ConditionTutorial>();
-    }
-
     private void OnEnable()
     {
         slider.onValueChanged.AddListener(CheckForSliderDragged);
@@ -39,7 +28,7 @@ public class DragSliderTutorial : MonoBehaviour
 
     private void OnDisable()
     {
-        tutorial.FulfillCondition();
+        condition.FulfillCondition();
         slider.onValueChanged.RemoveListener(CheckForSliderDragged);
     }
 }

@@ -3,20 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(ConditionTutorial))]
-public class ReleaseObjectWithTag : MonoBehaviour
+public class ReleaseObjectWithTag : Condition
 {
     [SerializeField] private string m_tag = "";
 
-    private ConditionTutorial tutorial;
     private UpdateTextAfterCondition updateText;
 
     private Transform leftGrabbed;
     private Transform rightGrabbed;
 
-    private void Awake()
+    protected override void Awake()
     {
-        tutorial = GetComponent<ConditionTutorial>();
+        base.Awake();
         updateText = GetComponent<UpdateTextAfterCondition>();
     }
 
@@ -69,12 +67,6 @@ public class ReleaseObjectWithTag : MonoBehaviour
             if (updateText != null)
                 updateText.UpdateText(false);
         }
-    }
-
-    private void FulfillCondition()
-    {
-        tutorial.FulfillCondition();
-        this.enabled = false;
     }
 
     private void OnDisable()
