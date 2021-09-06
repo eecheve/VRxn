@@ -20,7 +20,7 @@ MonoBehaviour:
   stage2: {fileID: 21300000, guid: 0c334f2fd690fcf41b2d3e51fa3032f9, type: 3}
   stage3: {fileID: 21300000, guid: 2da8ce91bc9e8324980aed3bf47a0361, type: 3}
   stage4: {fileID: 21300000, guid: 338cfe0ae8798f5429eb7881bbf148b7, type: 3}
-  task1: {fileID: 0}
-  task2: {fileID: 0}
-  task3: {fileID: 0}
+  task1: {fileID: 21300000, guid: dc7332a7f22a79f43974d5ad82b9d9ab, type: 3}
+  task2: {fileID: 21300000, guid: 12796c5c38b48b346b62ec405cbe6409, type: 3}
+  task3: {fileID: 21300000, guid: 2826bf2d844c23a49ab57baecf95dc24, type: 3}
   stage1ToStage2: {fileID: 7382942227256626560, guid: 105d9a3e01cb8e04db7065d385abeb9e, type: 3}

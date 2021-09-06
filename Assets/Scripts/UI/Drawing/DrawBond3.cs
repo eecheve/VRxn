@@ -85,11 +85,11 @@ public class DrawBond3 : MonoBehaviour
         SearchAndDestroy(single1);
 
         GameObject bond1 = InstantiateBondBetweenPoints(origin, end);
-        bond1.transform.position += (bond1.transform.forward * 0.04f);
+        bond1.transform.position += (bond1.transform.forward * 0.03f);
         bond1.name = label1 + "=" + label2 + "1";
 
         GameObject bond2 = InstantiateBondBetweenPoints(origin, end);
-        bond2.transform.position += (bond2.transform.forward * -0.04f);
+        bond2.transform.position += (bond2.transform.forward * -0.03f);
         bond2.name = label1 + "=" + label2 + "2";
 
         BondList.Add(bond1);
@@ -121,11 +121,11 @@ public class DrawBond3 : MonoBehaviour
         bond1.name = label1 + "#" + label2 + "1";
 
         GameObject bond2 = InstantiateBondBetweenPoints(origin, end);
-        bond2.transform.position += (bond2.transform.forward * 0.06f);
+        bond2.transform.position += (bond2.transform.forward * 0.05f);
         bond2.name = label1 + "#" + label2 + "2";
 
         GameObject bond3 = InstantiateBondBetweenPoints(origin, end);
-        bond3.transform.position += (bond3.transform.forward * -0.06f);
+        bond3.transform.position += (bond3.transform.forward * -0.05f);
         bond3.name = label1 + "#" + label2 + "3";
 
         BondList.Add(bond1);
@@ -194,7 +194,7 @@ public class DrawBond3 : MonoBehaviour
         bond.transform.up = n3;
         float widthX = bond.transform.localScale.x;
         float widthZ = bond.transform.localScale.z;
-        bond.transform.localScale = new Vector3(widthX, d*2.35f, widthZ); //the 2.35 value is due to the prefab's dimensions.
+        bond.transform.localScale = new Vector3(widthX, d * 4.0f, widthZ); //the 2.35 value is due to the prefab's dimensions.
         
         return bond;
     }
@@ -214,7 +214,7 @@ public class DrawBond3 : MonoBehaviour
         //instantiate object
         GameObject bond = Instantiate(bondObject, midPoint, Quaternion.identity, origin);
         bond.transform.up = n3;
-        bond.transform.localScale = new Vector3(scale, d*2.35f, scale); //the 2.35 value is due to the prefab's dimensions.
+        bond.transform.localScale = new Vector3(scale, d * 4.0f, scale); //the 2.35 value is due to the prefab's dimensions.
 
         return bond;
     }

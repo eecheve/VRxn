@@ -5,14 +5,10 @@ using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 
 [RequireComponent(typeof(XRInteractorLineVisual))]
-[RequireComponent(typeof(MoveAndRotate2D))]
 public class ColorRayLine : MonoBehaviour
 {
     [SerializeField] private LayerMask drawLayerMask = 0;
     [SerializeField] private LayerMask grabLayerMask = 0;
-
-    //public bool CanDraw { get; private set; } = false;
-    //public bool CanGrab { get; private set; } = false;
 
     private XRInteractorLineVisual lineVisual;
     private Gradient defaultGradient;
@@ -25,13 +21,9 @@ public class ColorRayLine : MonoBehaviour
     private GradientColorKey[] grabColorKeys;
     private GradientAlphaKey[] grabAlphaKeys;
 
-    private MoveAndRotate2D moveRotate;
-
     private void Awake()
     {
         lineVisual = GetComponent<XRInteractorLineVisual>();
-        moveRotate = GetComponent<MoveAndRotate2D>();
-
         defaultGradient = lineVisual.validColorGradient;
 
         drawingGradient = new Gradient();
@@ -54,45 +46,16 @@ public class ColorRayLine : MonoBehaviour
     private void RaycastLogic()
     {
         Ray ray = new Ray(transform.position, transform.forward);
-        //RaycastHit hit;
 
-        if (moveRotate.GrabIconEnabled == false)
+        if (Physics.Raycast(ray, 100f, drawLayerMask))
         {
-            if (Physics.Raycast(ray, 100f, drawLayerMask))
-            {
-                //Debug.Log("ColorRayLine: drawing is enabled");
-
-                if (lineVisual.validColorGradient != drawingGradient)
-                {
-                    //Debug.Log("ColorRayLine: changing the valid color gradient");
-                    lineVisual.validColorGradient = drawingGradient;
-                }
-            }
-
-            //if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, out hit, 100f, grabLayerMask))
-            if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, 100f, grabLayerMask))
-            {
-                //Debug.Log("ColorRayLine: reverting back to original line renderer");
-                
-                if (lineVisual.validColorGradient != defaultGradient)
-                    lineVisual.validColorGradient = defaultGradient;
-            }
+            if (lineVisual.validColorGradient != drawingGradient)
+                lineVisual.validColorGradient = drawingGradient;
         }
         else
         {
-            //if (Physics.Raycast(ray, out hit, 100f, grabLayerMask))//<-- two different types of Physics.Raycast
-            if (Physics.Raycast(ray, 100f, grabLayerMask))
-            {
-                if (lineVisual.validColorGradient != grabbingGradient)
-                    lineVisual.validColorGradient = grabbingGradient;
-            }
-
-            //if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, out hit, 100f, grabLayerMask))
-            else if (!Physics.Raycast(ray, 100f, drawLayerMask) && !Physics.Raycast(ray, 100f, grabLayerMask))
-            {
-                if (lineVisual.validColorGradient != defaultGradient)
-                    lineVisual.validColorGradient = defaultGradient;
-            }
+            if (lineVisual.validColorGradient != defaultGradient)
+                lineVisual.validColorGradient = defaultGradient;
         }
     }
    
@@ -120,10 +83,6 @@ public class ColorRayLine : MonoBehaviour
         if (ColorUtility.TryParseHtmlString(colorName, out Color color))
         {
             SetGradientColor(drawingGradient, drawColorKeys, drawAlphaKeys, color);
-        }
-        else
-        {
-            //Debug.LogError("ColorRayLine_ChangeLineColor(): invalid color name");
         }
     }
 

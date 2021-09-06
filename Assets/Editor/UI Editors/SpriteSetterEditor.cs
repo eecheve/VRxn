@@ -19,5 +19,20 @@ public class SpriteSetterEditor : Editor
             SpriteSetter setter = (SpriteSetter)target;
             setter.SetTransitionStatePlacement();
         }
+        else if(GUILayout.Button("Set Substituent Types"))
+        {
+            SpriteSetter setter = (SpriteSetter)target;
+            setter.SetSubstituentTypes();
+        }
+        else if(GUILayout.Button("Set Orientation Task"))
+        {
+            SpriteSetter setter = (SpriteSetter)target;
+            setter.SetRotationTask();
+        }
+        else if(GUILayout.Button("Set Model Stages"))
+        {
+            SpriteSetter setter = (SpriteSetter)target;
+            setter.SetModelStages();
+        }
     }
 }
