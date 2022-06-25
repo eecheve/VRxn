@@ -19,5 +19,10 @@ public class ConditionTutorial : Tutorial
     public void FulfillCondition()
     {
         fulfillCondition = true;
-    }   
+    }
+    
+    public void ResetCondition()
+    {
+        fulfillCondition = false;
+    }
 }

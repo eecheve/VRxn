@@ -12400,6 +12400,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6454425045118764060, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     - target: {fileID: 405650388, guid: ad5887bf1dd46fc409f839e22a64e1bc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 405650388, guid: ad5887bf1dd46fc409f839e22a64e1bc, type: 3}
       propertyPath: thumbstick
       value: 
       objectReference: {fileID: 8624065222238836542, guid: c348712bda248c246b8c49b3db54643f, type: 3}

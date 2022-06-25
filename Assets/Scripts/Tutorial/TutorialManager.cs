@@ -78,6 +78,11 @@ public class TutorialManager : MonoBehaviour
         if(index < tutorials.Count)
             CurrentTutorial = GetTutorialByOrder(index);
     }
+
+    public void SetTutorialByForce(Tutorial tutorial)
+    {
+        CurrentTutorial = tutorial;
+    }
     
     public Tutorial GetTutorialByOrder(int order)
     {
