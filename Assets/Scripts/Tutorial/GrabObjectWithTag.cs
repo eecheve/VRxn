@@ -16,7 +16,7 @@ public class GrabObjectWithTag : Condition
 
     private void OnEnable()
     {
-        Debug.Log(name + "Grab enabled");
+        Debug.Log($"Enabling grab condition in {name}");
         
         GameManager.OnLeftFirstGrab += LeftObjectGrabbed;
         GameManager.OnRightFirstGrab += RightObjectGrabbed;
@@ -62,12 +62,14 @@ public class GrabObjectWithTag : Condition
 
     protected override void FulfillCondition()
     {
-        base.FulfillCondition();
         Debug.Log($"Fulfilling condition in {name}");
+        base.FulfillCondition();
     }
 
     private void OnDisable()
     {
+        Debug.Log($"Disabling grab in {name}");
+        
         GameManager.OnLeftFirstGrab -= LeftObjectGrabbed;
         GameManager.OnRightFirstGrab -= RightObjectGrabbed;
 

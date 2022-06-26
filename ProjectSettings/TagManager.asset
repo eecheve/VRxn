@@ -28,6 +28,7 @@ TagManager:
   - DoubleBond3D
   - TripleBond3D
   - TrantientBond3D
+  - CurrentExample
   layers:
   - Default
   - TransparentFX

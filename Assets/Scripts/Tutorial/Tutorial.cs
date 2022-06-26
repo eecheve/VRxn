@@ -8,11 +8,23 @@ public abstract class Tutorial : MonoBehaviour
 
     public int Order { get { return order; } set { order = value; } }
     public delegate void TutorialCompleted();
-    
+
+    protected bool fulfillCondition = false;
+
     public virtual void CheckIfHappening() { }
 
     public void SetOrder(int value)
     {
         order = value;
+    }
+
+    public void FulfillCondition()
+    {
+        fulfillCondition = true;
+    }
+
+    public void ResetCondition()
+    {
+        fulfillCondition = false;
     }
 }

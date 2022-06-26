@@ -17,8 +17,9 @@ public class ButtonPressedTutorial : Condition
 
     private void OnEnable()
     {
+        Debug.Log("ButtonPressedTutorial: condition " + name + "enabled");
         button.onClick.AddListener(FulfillCondition);
-        
+                
         if(animator != null)
             animator.enabled = true;
 
@@ -36,6 +37,7 @@ public class ButtonPressedTutorial : Condition
 
     private void OnDisable()
     {
+        Debug.Log("ButtonPressedTutorial: condition " + name + "disabled");
         button.onClick.RemoveListener(FulfillCondition);
         
         if (animator != null)

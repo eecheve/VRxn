@@ -20,7 +20,7 @@ public class ConditionTutorialEvents : MonoBehaviour
     private void ConditionCompleted()
     {
         ConditionEvents?.Invoke();
-        this.enabled = false;
+        //this.enabled = false;
     }
 
     private void OnDisable()

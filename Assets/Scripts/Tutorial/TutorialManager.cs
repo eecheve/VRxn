@@ -94,4 +94,19 @@ public class TutorialManager : MonoBehaviour
 
         return null;
     }
+
+    public void ResetConditions()
+    {
+        foreach (var tutorial in Tutorials)
+        {
+            Debug.Log("TutorialManager: reseting tutotial " + tutorial.name);
+            tutorial.ResetCondition();
+            //ConditionTutorialEvents conditionEvents = tutorial.GetComponent<ConditionTutorialEvents>();
+            //if(conditionEvents != null)
+            //{
+            //    Debug.Log("Tutorial Manager: enabling condition event in " + conditionEvents.name);
+            //    conditionEvents.enabled = true;
+            //}
+        }
+    }
 }

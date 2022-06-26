@@ -19,6 +19,7 @@ public class Timer : Condition
 
     private void OnEnable()
     {
+        Debug.Log("Timer: timer is enabled");
         isRunning = true;
         remainingTime = counter;
     }

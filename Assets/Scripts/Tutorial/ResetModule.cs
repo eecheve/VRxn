@@ -23,7 +23,7 @@ public class ResetModule : MonoBehaviour
             button.onClick.AddListener(ModuleReset);
     }
 
-    private void ModuleReset()
+    public void ModuleReset()
     {
         if (tutorial != null)
             tutorial.ResetCondition();
@@ -31,6 +31,7 @@ public class ResetModule : MonoBehaviour
         if (condition != null)
             condition.enabled = false;
 
+        tutorialManager.ResetConditions();
         tutorialManager.SetTutorialByForce(tutorial);
     }
 

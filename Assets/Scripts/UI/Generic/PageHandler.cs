@@ -67,11 +67,20 @@ public class PageHandler : MonoBehaviour
         }
     }
 
-    private void PagesOff()
+    public void PagesOff()
     {
         foreach (var page in pages)
         {
             page.gameObject.SetActive(false);
         }
+    }
+
+    public void ResetPages()
+    {
+        foreach (var page in pages)
+        {
+            page.gameObject.SetActive(false);
+        }
+        m_index = 0;
     }
 }

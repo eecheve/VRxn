@@ -1,9 +1,7 @@
 using UnityEngine;
 
 public class ConditionTutorial : Tutorial
-{
-    private bool fulfillCondition = false;
-    
+{  
     public event TutorialCompleted OnConditionSetCompleted;
 
     public override void CheckIfHappening()
@@ -14,15 +12,5 @@ public class ConditionTutorial : Tutorial
             OnConditionSetCompleted?.Invoke();
             Debug.Log("ConditionTutorial: condition set completed");
         }
-    }
-
-    public void FulfillCondition()
-    {
-        fulfillCondition = true;
-    }
-    
-    public void ResetCondition()
-    {
-        fulfillCondition = false;
     }
 }
