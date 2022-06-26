@@ -308,3 +308,123 @@ System memory in use after: 114.2 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4073.
 Total: 7.224900 ms (FindLiveObjects: 0.893700 ms CreateObjectMapping: 0.410700 ms MarkObjects: 5.888200 ms  DeleteObjects: 0.029700 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 12164.430278 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA002/2D/02-stage4_labels.png
+  artifactKey: Guid(945b9ca76ff14a44ea8a2cd6583a60eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA002/2D/02-stage4_labels.png using Guid(945b9ca76ff14a44ea8a2cd6583a60eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bdc3cddba4b0cbdfb99df570e81c46') in 0.192133 seconds
+  Import took 0.237428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.136977 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA002/2D/02-stage4_labels.png
+  artifactKey: Guid(945b9ca76ff14a44ea8a2cd6583a60eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA002/2D/02-stage4_labels.png using Guid(945b9ca76ff14a44ea8a2cd6583a60eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4820d5b862819d6dbc134d78d1f4214') in 0.048005 seconds
+  Import took 0.055822 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4077.
+Total: 12.462600 ms (FindLiveObjects: 0.666700 ms CreateObjectMapping: 0.268800 ms MarkObjects: 11.495400 ms  DeleteObjects: 0.029400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1574.821086 seconds.
+  path: Assets/Scripts/Tutorial/ChangeTextAfterCondition.cs
+  artifactKey: Guid(b9299c9226e86b04ca95ee158dea2283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tutorial/ChangeTextAfterCondition.cs using Guid(b9299c9226e86b04ca95ee158dea2283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b187cd28b4c69bce4d3621a9bb2f87') in 0.025337 seconds
+  Import took 0.041468 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\eecheve\Documents\UnityProjects\VRxn Repo\VRxn\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\eecheve\Documents\UnityProjects\VRxn Repo\VRxn\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.648 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.8 MB.
+System memory in use after: 179.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4082.
+Total: 3.840400 ms (FindLiveObjects: 0.421300 ms CreateObjectMapping: 0.242900 ms MarkObjects: 3.151900 ms  DeleteObjects: 0.022900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003994 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\eecheve\Documents\UnityProjects\VRxn Repo\VRxn\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\eecheve\Documents\UnityProjects\VRxn Repo\VRxn\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.587 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.8 MB.
+System memory in use after: 179.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4086.
+Total: 3.367600 ms (FindLiveObjects: 0.432300 ms CreateObjectMapping: 0.231800 ms MarkObjects: 2.682100 ms  DeleteObjects: 0.020000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.24 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4086.
+Total: 5.062800 ms (FindLiveObjects: 0.668100 ms CreateObjectMapping: 0.339500 ms MarkObjects: 4.033600 ms  DeleteObjects: 0.019900 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.49 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4086.
+Total: 7.953400 ms (FindLiveObjects: 0.665600 ms CreateObjectMapping: 0.774900 ms MarkObjects: 6.482700 ms  DeleteObjects: 0.027600 ms)
+
