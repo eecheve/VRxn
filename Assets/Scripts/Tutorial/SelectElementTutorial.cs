@@ -23,7 +23,7 @@ public class SelectElementTutorial : Condition
         {
             if (selector.CurrentSelected.name.Contains(icon.name))
             {
-                Debug.Log("SelectElementTutorial: element in vertex has been selected");
+                Debug.Log($"SelectElementTutorial: element {icon.name} has been selected");
                 this.enabled = false;
             }
         }
