@@ -428,3 +428,27 @@ System memory in use after: 114.3 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4086.
 Total: 7.953400 ms (FindLiveObjects: 0.665600 ms CreateObjectMapping: 0.774900 ms MarkObjects: 6.482700 ms  DeleteObjects: 0.027600 ms)
 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4086.
+Total: 6.292600 ms (FindLiveObjects: 0.476800 ms CreateObjectMapping: 0.246300 ms MarkObjects: 5.541000 ms  DeleteObjects: 0.026100 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4086.
+Total: 6.166600 ms (FindLiveObjects: 0.863900 ms CreateObjectMapping: 0.486000 ms MarkObjects: 4.770800 ms  DeleteObjects: 0.043200 ms)
+
