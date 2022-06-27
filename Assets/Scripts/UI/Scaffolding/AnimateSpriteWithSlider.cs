@@ -20,10 +20,11 @@ public class AnimateSpriteWithSlider : MonoBehaviour
 
     private void AnimateSprite(float value)
     {
-        animator.Play(clip.name, -1, value);
-        
-        //if (value > 0.98f)
-        //    return;
+        if (value < 0.98f)
+        {
+            Debug.Log($"AnimateSpriteWithSlider in {name} is animating {clip.name}");
+            animator.Play(clip.name, -1, value);
+        }
     }
 
     private void OnDisable()
