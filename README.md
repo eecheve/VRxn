@@ -1,7 +1,7 @@
 # VRxn
 
-VRxn is a Virtual Reality Learning Environment built for the Meta Quest using Unity's XR Interaction toolkit. 
-The design and development of VRxn were informed by a set of interconnected pedagogical frameworks. 
+<p>VRxn is a Virtual Reality Learning Environment built for the Meta Quest using Unity's XR Interaction toolkit.<br> 
+The design and development of VRxn were informed by a set of interconnected pedagogical frameworks. <br></p>
 
 ## PREREQUISITES:
 - Download and install [SideQuest](https://sidequestvr.com/).
@@ -31,8 +31,8 @@ You may obtain a copy of the License at
 
     http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+<p>Unless required by applicable law or agreed to in writing, software<br>
+distributed under the License is distributed on an "AS IS" BASIS,<br>
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
+See the License for the specific language governing permissions and<br>
+limitations under the License.</p>
