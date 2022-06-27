@@ -25,9 +25,9 @@ The design and development of VRxn were informed by a set of interconnected peda
 
 ### Copyright 2022 Emmanuel Echeverri
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+<p>Licensed under the Apache License, Version 2.0 (the "License");<br>
+you may not use this file except in compliance with the License.<br>
+You may obtain a copy of the License at</p>
 
     http://www.apache.org/licenses/LICENSE-2.0
 
