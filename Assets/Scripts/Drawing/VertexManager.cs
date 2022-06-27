@@ -20,20 +20,6 @@ public abstract class VertexManager : MonoBehaviour
         ///<summary>
         ///Clears all vertices from icons and bonds. Turns off the highlighters sprite renderers as well
         /// </summary>
-        //Debug.Log($"VertexManager: listening for the ClearAllVertices method");
-        //Debug.Log($"VertexManager: Number of vertices occupied is {OccupiedVertices.Count}");
-        //for (int i = 0; i < OccupiedVertices.Count; i++)
-        //{
-        //    Debug.Log($"VertexManager: looping inside {OccupiedVertices[i].name}");
-        //    foreach (Transform child in OccupiedVertices[i].transform)
-        //    {
-        //        Debug.Log($"VertexManager: checking for children: {child.name}");
-        //        Destroy(child);
-        //    }
-
-        //    SpriteRenderer highlighter = GetComponent<SpriteRenderer>();
-        //    highlighter.enabled = false;
-        //}
         foreach (var vertex in Vertices)
         {
             Debug.Log($"VertexManager, currently at {vertex.name}");

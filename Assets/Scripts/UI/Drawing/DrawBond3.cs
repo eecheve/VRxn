@@ -256,6 +256,21 @@ public class DrawBond3 : MonoBehaviour
         }
     }
 
+    public void Clear3DVertices()
+    {
+        foreach (var vertex in vertices3D)
+        {
+            if (vertex.childCount > 0)
+            {
+                foreach (Transform child in vertex)
+                {
+                    Destroy(child.gameObject);
+                }
+            }
+        }
+        BondList.Clear();
+    }
+
     private void OnDisable()
     {
         drawBond.OnBondErased -= DeleteBonds;
