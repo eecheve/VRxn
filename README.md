@@ -4,13 +4,14 @@ VRxn is a Virtual Reality Learning Environment built for the Meta Quest using Un
 The design and development of VRxn were informed by a set of interconnected pedagogical frameworks. 
 
 ## PREREQUISITES:
-- Download and install [SideQuest](https://sidequestvr.com/)
+- Download and install [SideQuest](https://sidequestvr.com/).
 - Enable [Developer Mode](https://developer.oculus.com/documentation/native/android/mobile-device-setup/) in your Meta Quest or Meta Quest 2.  
 
-## SETUP:
-- 
+## SETUP WITHOUT UNITY:
+- Download the VRxn package.
+- Locate the '''VRxn_2022.1.apk''' package in the '''VRxn/Builds''' folder.
 
-## MODULES:
+## BUILD AND RUN FROM UNITY:
 -  
 
 ## RUNNING THE PROGRAM:
