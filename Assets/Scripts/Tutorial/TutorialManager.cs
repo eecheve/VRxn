@@ -99,7 +99,7 @@ public class TutorialManager : MonoBehaviour
     {
         foreach (var tutorial in Tutorials)
         {
-            Debug.Log("TutorialManager: reseting tutotial " + tutorial.name);
+            //Debug.Log("TutorialManager: reseting tutotial " + tutorial.name);
             tutorial.ResetCondition();
             //ConditionTutorialEvents conditionEvents = tutorial.GetComponent<ConditionTutorialEvents>();
             //if(conditionEvents != null)

@@ -283,6 +283,14 @@ public class DrawBond : MonoBehaviour
         }
     }
 
+    public void ClearBonds()
+    {
+        foreach (var bond in bondList)
+        {
+            SearchAndDestroy(bond);
+        }
+    }
+
     private void OnDisable()
     {
         button.onClick.RemoveListener(DrawTheBond);
