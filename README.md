@@ -9,7 +9,7 @@ The design and development of VRxn were informed by a set of interconnected peda
 
 ## SETUP WITHOUT UNITY:
 - Download the VRxn package.
-- Locate the '''VRxn_2022.1.apk''' package in the /VRxn/Builds folder.
+- Locate the '''VRxn_2022.1.apk''' package in the [/VRxn/Builds](/Builds) folder.
 
 ## BUILD AND RUN FROM UNITY:
 -  
