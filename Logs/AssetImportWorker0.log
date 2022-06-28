@@ -170,3 +170,208 @@ System memory in use after: 105.2 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4135.
 Total: 39.593300 ms (FindLiveObjects: 0.531800 ms CreateObjectMapping: 0.225500 ms MarkObjects: 38.808100 ms  DeleteObjects: 0.026000 ms)
 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.70 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.0 MB.
+System memory in use after: 105.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4135.
+Total: 6.935200 ms (FindLiveObjects: 1.236300 ms CreateObjectMapping: 0.472400 ms MarkObjects: 5.199100 ms  DeleteObjects: 0.025700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 591.886865 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D
+  artifactKey: Guid(9ab6c1dc918f43f4b94b42c19e840ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D using Guid(9ab6c1dc918f43f4b94b42c19e840ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50adbf0a9fe00d07708ff0d51fed1fe8') in 0.008959 seconds
+  Import took 0.017903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.655294 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-Product.png
+  artifactKey: Guid(dc69daf1d0003c447b5ee272bb57823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-Product.png using Guid(dc69daf1d0003c447b5ee272bb57823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9779645739b4b351836ee973bbf49ee9') in 0.099511 seconds
+  Import took 0.107708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.954617 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-UsualRepresentation.png
+  artifactKey: Guid(79453932f5279154e9609b438f5d7c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-UsualRepresentation.png using Guid(79453932f5279154e9609b438f5d7c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a3e383c6a996589fa38e5d279adeca') in 0.022377 seconds
+  Import took 0.031065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 397.645992 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-UsualRepresentation_mos.png
+  artifactKey: Guid(069606ebe08f2d045840e8f80a6315a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-UsualRepresentation_mos.png using Guid(069606ebe08f2d045840e8f80a6315a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607b89648050951cffc64dc33ec08d31') in 0.034731 seconds
+  Import took 0.050281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.148395 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-Product_mos.png
+  artifactKey: Guid(aa3ca48cfa4f06748922f8ca998c3ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-Product_mos.png using Guid(aa3ca48cfa4f06748922f8ca998c3ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b971ee7fdf23ed19c89463f80c5f77') in 0.031446 seconds
+  Import took 0.045245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.302326 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-Product_mos.png
+  artifactKey: Guid(aa3ca48cfa4f06748922f8ca998c3ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-Product_mos.png using Guid(aa3ca48cfa4f06748922f8ca998c3ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f962ae942a7863b5d7e5fb676c30b27') in 0.024373 seconds
+  Import took 0.032566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 293.418612 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-stage-1 1.png
+  artifactKey: Guid(8ec9e0f27ceaf4a4eabef3bade6bdee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-stage-1 1.png using Guid(8ec9e0f27ceaf4a4eabef3bade6bdee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5610837873586b7e7b40449965f650') in 0.028644 seconds
+  Import took 0.041082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.794505 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-stage-2 1.png
+  artifactKey: Guid(ebdf7c6ed769aca47b0a35e5390565e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-stage-2 1.png using Guid(ebdf7c6ed769aca47b0a35e5390565e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e248d7fb0856c51a542a0c502f12f167') in 0.020706 seconds
+  Import took 0.028459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.462424 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-stage-1.png
+  artifactKey: Guid(d07bd4113f316124980c172fbdb6bc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-stage-1.png using Guid(d07bd4113f316124980c172fbdb6bc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8248614bb0b033fabc943231193384') in 0.029070 seconds
+  Import took 0.042953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.375405 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-stage-1.png
+  artifactKey: Guid(d07bd4113f316124980c172fbdb6bc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-stage-1.png using Guid(d07bd4113f316124980c172fbdb6bc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa081f40de6fbc8e00982c7c2556445b') in 0.024546 seconds
+  Import took 0.033856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3713.801974 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/cyclopentadiene-ethene-spritesheet.png
+  artifactKey: Guid(4a813acb9e97d104798abae24b0feca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/cyclopentadiene-ethene-spritesheet.png using Guid(4a813acb9e97d104798abae24b0feca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0ee9c0bfc7704da6f87f206e43898a') in 0.348110 seconds
+  Import took 0.363906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.723902 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-spritesheet.png
+  artifactKey: Guid(7bc755a8c738c6f46a0d73a950c80594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-spritesheet.png using Guid(7bc755a8c738c6f46a0d73a950c80594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7a5c9cdc70808ea0b61265a88b4448') in 0.655273 seconds
+  Import took 0.663741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.525678 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-spritesheet.png
+  artifactKey: Guid(7bc755a8c738c6f46a0d73a950c80594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-spritesheet.png using Guid(7bc755a8c738c6f46a0d73a950c80594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a09a381cc74487a9b80cf7bdc840135') in 0.655144 seconds
+  Import took 0.666369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.570317 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-spritesheet.png
+  artifactKey: Guid(7bc755a8c738c6f46a0d73a950c80594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-spritesheet.png using Guid(7bc755a8c738c6f46a0d73a950c80594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33fb56f4e7b4a9a9f3ad9d26787155d') in 0.664378 seconds
+  Import took 0.674682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 565.918059 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation.anim
+  artifactKey: Guid(c85a21c1a13c9244ab86883cdabd0377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation.anim using Guid(c85a21c1a13c9244ab86883cdabd0377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccc13c5ecdff469ff96befaa0cc3d72') in 0.013614 seconds
+  Import took 0.021642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001147 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation.anim
+  artifactKey: Guid(c85a21c1a13c9244ab86883cdabd0377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation.anim using Guid(c85a21c1a13c9244ab86883cdabd0377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccc13c5ecdff469ff96befaa0cc3d72') in 0.004952 seconds
+  Import took 0.012589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.438007 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-long.anim
+  artifactKey: Guid(c85a21c1a13c9244ab86883cdabd0377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-long.anim using Guid(c85a21c1a13c9244ab86883cdabd0377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eee135db602d5adf772624079862e5c') in 0.014176 seconds
+  Import took 0.031416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.630796 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-spritesheet_0.controller
+  artifactKey: Guid(90277c2952ae50841b77ddcb437251de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-spritesheet_0.controller using Guid(90277c2952ae50841b77ddcb437251de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c107854b08e49a87d919b34dfe1bde') in 0.023692 seconds
+  Import took 0.032963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.201396 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-long.controller
+  artifactKey: Guid(90277c2952ae50841b77ddcb437251de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-long.controller using Guid(90277c2952ae50841b77ddcb437251de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26a7183487553602b36bbdffad6371d') in 0.005371 seconds
+  Import took 0.014708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.552107 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-long 1.anim
+  artifactKey: Guid(e316d1ec18e6c6643a6215b19a7b3302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-long 1.anim using Guid(e316d1ec18e6c6643a6215b19a7b3302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2414f7945c3a51ea1ac79bf27d0ac336') in 0.014359 seconds
+  Import took 0.024973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.425208 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-short.anim
+  artifactKey: Guid(e316d1ec18e6c6643a6215b19a7b3302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-short.anim using Guid(e316d1ec18e6c6643a6215b19a7b3302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f830d488eb0d48f7ffd3ec801a12eb47') in 0.011180 seconds
+  Import took 0.025049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.186569 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-short.controller
+  artifactKey: Guid(9df5273d30afed44bbb23ad409bed1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-short.controller using Guid(9df5273d30afed44bbb23ad409bed1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717dc65375ae7be05621eb60d1b829aa') in 0.004222 seconds
+  Import took 0.013518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008932 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-short.controller
+  artifactKey: Guid(9df5273d30afed44bbb23ad409bed1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-short.controller using Guid(9df5273d30afed44bbb23ad409bed1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717dc65375ae7be05621eb60d1b829aa') in 0.005101 seconds
+  Import took 0.018202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.724581 seconds.
+  path: Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-short.controller
+  artifactKey: Guid(9df5273d30afed44bbb23ad409bed1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alpha Version/MyImports/CA Models/CA005/2D/05-reaction-animation-short.controller using Guid(9df5273d30afed44bbb23ad409bed1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d7a767c4e1a5e9af6fdefda92f6e6f') in 0.012937 seconds
+  Import took 0.115659 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

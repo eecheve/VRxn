@@ -1,0 +1,984 @@
+fileFormatVersion: 2
+guid: 7bc755a8c738c6f46a0d73a950c80594
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5293977251744021990
+    second: 05-reaction-spritesheet_0
+  - first:
+      213: 5857757612255229840
+    second: 05-reaction-spritesheet_1
+  - first:
+      213: 1696880510287897207
+    second: 05-reaction-spritesheet_2
+  - first:
+      213: -63226730073238315
+    second: 05-reaction-spritesheet_3
+  - first:
+      213: -1349628399989541520
+    second: 05-reaction-spritesheet_4
+  - first:
+      213: -8361097735037105578
+    second: 05-reaction-spritesheet_5
+  - first:
+      213: -3077237180033956950
+    second: 05-reaction-spritesheet_6
+  - first:
+      213: 5738935037300395157
+    second: 05-reaction-spritesheet_7
+  - first:
+      213: 8971880325301643500
+    second: 05-reaction-spritesheet_8
+  - first:
+      213: 5739378572285139
+    second: 05-reaction-spritesheet_9
+  - first:
+      213: 1382513351249924948
+    second: 05-reaction-spritesheet_10
+  - first:
+      213: 3195557732988382328
+    second: 05-reaction-spritesheet_11
+  - first:
+      213: -4329101163486368915
+    second: 05-reaction-spritesheet_12
+  - first:
+      213: -6027159380407289551
+    second: 05-reaction-spritesheet_13
+  - first:
+      213: 4333800799327625445
+    second: 05-reaction-spritesheet_14
+  - first:
+      213: -9086748744249701046
+    second: 05-reaction-spritesheet_15
+  - first:
+      213: -4969488686730553026
+    second: 05-reaction-spritesheet_16
+  - first:
+      213: 4820448814879905804
+    second: 05-reaction-spritesheet_17
+  - first:
+      213: -2642968230649913172
+    second: 05-reaction-spritesheet_18
+  - first:
+      213: 8184479052353707723
+    second: 05-reaction-spritesheet_19
+  - first:
+      213: -9176353304708185110
+    second: 05-reaction-spritesheet_20
+  - first:
+      213: -1775449259553144096
+    second: 05-reaction-spritesheet_21
+  - first:
+      213: 347264437478979694
+    second: 05-reaction-spritesheet_22
+  - first:
+      213: 5411868268975155346
+    second: 05-reaction-spritesheet_23
+  - first:
+      213: -826837589983001628
+    second: 05-reaction-spritesheet_24
+  - first:
+      213: -260565410651459281
+    second: 05-reaction-spritesheet_25
+  - first:
+      213: 2264920195912533831
+    second: 05-reaction-spritesheet_26
+  - first:
+      213: 6295962948410849143
+    second: 05-reaction-spritesheet_27
+  - first:
+      213: 6185894582945204804
+    second: 05-reaction-spritesheet_28
+  - first:
+      213: -4493186621694413063
+    second: 05-reaction-spritesheet_29
+  - first:
+      213: -1453016308410573614
+    second: 05-reaction-spritesheet_30
+  - first:
+      213: 358744049797331151
+    second: 05-reaction-spritesheet_31
+  - first:
+      213: 551417409761271164
+    second: 05-reaction-spritesheet_32
+  - first:
+      213: -3511547482200129751
+    second: 05-reaction-spritesheet_33
+  - first:
+      213: 4921687412503922030
+    second: 05-reaction-spritesheet_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2922
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed7333034cf77940800000000000000
+      internalID: 5293977251744021990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2922
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09730da338fea4150800000000000000
+      internalID: 5857757612255229840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 2922
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7726ef965d78c8710800000000000000
+      internalID: 1696880510287897207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 2922
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4dcadbf9f5f1ff0800000000000000
+      internalID: -63226730073238315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 2922
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07538dfee18254de0800000000000000
+      internalID: -1349628399989541520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2435
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a4ac2b8e967fb80800000000000000
+      internalID: -8361097735037105578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2435
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa38372b6157b45d0800000000000000
+      internalID: -3077237180033956950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 2435
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c455f920bc4af40800000000000000
+      internalID: 5738935037300395157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 2435
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8abecee95828c70800000000000000
+      internalID: 8971880325301643500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 2435
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d458053fe3641000800000000000000
+      internalID: 5739378572285139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1948
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4539c7e619caf2310800000000000000
+      internalID: 1382513351249924948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1948
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c660ec3d6e85c20800000000000000
+      internalID: 3195557732988382328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1948
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b2aa9ad61fbe3c0800000000000000
+      internalID: -4329101163486368915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 1948
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139f82e0a7a3b5ca0800000000000000
+      internalID: -6027159380407289551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1948
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e02a339dd0c42c30800000000000000
+      internalID: 4333800799327625445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1461
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d05c7292265e180800000000000000
+      internalID: -9086748744249701046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1461
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e395a107e54d80bb0800000000000000
+      internalID: -4969488686730553026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1461
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c089ed448aca5e240800000000000000
+      internalID: 4820448814879905804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 1461
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca02873b56a425bd0800000000000000
+      internalID: -2642968230649913172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1461
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce1b2bb55c159170800000000000000
+      internalID: 8184479052353707723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 974
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3036ba94b07a080800000000000000
+      internalID: -9176353304708185110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 974
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2ca9f1e465c57e0800000000000000
+      internalID: -1775449259553144096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 974
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e687f0f7a2bb1d400800000000000000
+      internalID: 347264437478979694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 974
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298e87f6481da1b40800000000000000
+      internalID: 5411868268975155346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 974
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e38f1ab79b7684f0800000000000000
+      internalID: -826837589983001628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 487
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21bd59b329426cf0800000000000000
+      internalID: -260565410651459281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 487
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74789f90bec9e6f10800000000000000
+      internalID: 2264920195912533831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 487
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777bc03b1f0cf5750800000000000000
+      internalID: 6295962948410849143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 487
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a46725956b8d550800000000000000
+      internalID: 6185894582945204804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 487
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6fd50d29ef4a1c0800000000000000
+      internalID: -4493186621694413063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc965cad59d5dbe0800000000000000
+      internalID: -1453016308410573614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 0
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8747500d38af400800000000000000
+      internalID: 358744049797331151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 0
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d59cf663707a700800000000000000
+      internalID: 551417409761271164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 0
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f3b8f7b2a744fc0800000000000000
+      internalID: -3511547482200129751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-reaction-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 0
+        width: 479.8
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65cecd10a85d4440800000000000000
+      internalID: 4921687412503922030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ffbbdf9ee9a7e094680209ac05eed4b3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
