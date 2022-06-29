@@ -101,12 +101,6 @@ TextureImporter:
   - first:
       213: 551417409761271164
     second: 05-reaction-spritesheet_32
-  - first:
-      213: -3511547482200129751
-    second: 05-reaction-spritesheet_33
-  - first:
-      213: 4921687412503922030
-    second: 05-reaction-spritesheet_34
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -924,52 +918,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: 05-reaction-spritesheet_33
-      rect:
-        serializedVersion: 2
-        x: 1437
-        y: 0
-        width: 479.8
-        height: 487
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92f3b8f7b2a744fc0800000000000000
-      internalID: -3511547482200129751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 05-reaction-spritesheet_34
-      rect:
-        serializedVersion: 2
-        x: 1916
-        y: 0
-        width: 479.8
-        height: 487
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e65cecd10a85d4440800000000000000
-      internalID: 4921687412503922030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ffbbdf9ee9a7e094680209ac05eed4b3
+    spriteID: 4abeb052283f69d4da3a1061fb671847
     internalID: 0
     vertices: []
     indices: 
