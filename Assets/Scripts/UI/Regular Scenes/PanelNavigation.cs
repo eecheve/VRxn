@@ -19,6 +19,10 @@ public class PanelNavigation : MonoBehaviour
     private void Awake()
     {
         menuCanvas = GetComponent<Canvas>();
+    }
+
+    private void OnEnable() //<---- 8/6/2022 methods inside OnEnable were inside Awake. I haven't tested this change yet. If there is a bug in the UI, it might come from here.
+    {
         PopulateButtonLists();
         SetupOnClickEvents();
     }
