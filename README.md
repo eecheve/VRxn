@@ -11,7 +11,7 @@ The design and development of VRxn were informed by a set of interconnected peda
 - Download the VRxn package.
 - Locate the [VRxn_2022.1.2.apk](https://github.com/eecheve/VRxn/releases/tag/v.2022.1.1) and download it.
 - Follow [this instructions](https://uploadvr.com/sideloading-quest-how-to/) to SideLoad the VRxn_2022.1.apk to your Meta Quest.
-- In your Quest, find VRxn within [Unknown souces](https://www.youtube.com/watch?v=zxyaxOu1fDU).
+- In your Quest, find VRxn within [Unknown sources](https://www.youtube.com/watch?v=zxyaxOu1fDU).
 
 ## BUILD AND RUN FROM UNITY DEVELOPERS:
 -  Download the VRxn package.
@@ -21,7 +21,7 @@ The design and development of VRxn were informed by a set of interconnected peda
 
 ## PUBLICATIONS
 - Pedagogical foundations: J. Chem. Educ. 2023 (Submitted August 2023)
-- Students' strategies and challenges: [J. Chem. Educ. 2023, 100(7), 2483-2494 (https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00398)]
+- Students' strategies and challenges: [J. Chem. Educ. 2023, 100(7), 2483-2494](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00398)
 
 ### Copyright 2022 Emmanuel Echeverri
 
