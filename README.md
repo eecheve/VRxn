@@ -20,8 +20,8 @@ The design and development of VRxn were informed by a set of interconnected peda
 -  Build and run the scene you are interested in.
 
 ## PUBLICATIONS
-- Pedagogical foundations: Chem. Educ. Res. Pract. 2022 (Submitted June 2022)
-- Students' strategies and challenges: J. Chem. Educ. 2022 (Submitted April 2022) 
+- Pedagogical foundations: J. Chem. Educ. 2023 (Submitted August 2023)
+- Students' strategies and challenges: [J. Chem. Educ. 2023, 100(7), 2483-2494 (https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00398)]
 
 ### Copyright 2022 Emmanuel Echeverri
 
