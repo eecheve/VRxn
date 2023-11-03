@@ -8,7 +8,6 @@ The design and development of VRxn were informed by a set of interconnected peda
 - Enable [Developer Mode](https://developer.oculus.com/documentation/native/android/mobile-device-setup/) in your Meta Quest or Meta Quest 2.  
 
 ## DIRECTLY INSTALLING TO META QUEST:
-- Download the VRxn package.
 - Locate the [VRxn_2022.1.2.apk](https://github.com/eecheve/VRxn/releases/tag/v.2022.1.1) and download it.
 - Follow [this instructions](https://uploadvr.com/sideloading-quest-how-to/) to SideLoad the VRxn_2022.1.apk to your Meta Quest.
 - In your Quest, find VRxn within [Unknown sources](https://www.youtube.com/watch?v=zxyaxOu1fDU).
